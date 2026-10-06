@@ -1,0 +1,49 @@
+name: Daily AI News Digest
+
+on:
+  schedule:
+    # 毎朝 日本時間 7:00 (UTC 22:00) に自動実行
+    - cron: '0 22 * * *'
+  # GitHub画面のボタンから手動でいつでも実行可能
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリの取得
+        uses: actions/checkout@v4
+
+      - name: Python環境のセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: 依存ライブラリのインストール
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: ニュース取得とGemini要約の実行
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python main.py
+
+      - name: 生成ファイルの保存（Gitコミット & プッシュ）
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update daily news digest [skip ci]" && git push)
+
+      - name: GitHub Pages へ自動デプロイ（Webサイト公開）
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./data

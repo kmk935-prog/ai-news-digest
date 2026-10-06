@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>AI Daily Digest | 2026-10-06</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Hiragino Sans"', '"Meiryo"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Smooth touch scrolling on mobile */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col antialiased transition-colors duration-200 selection:bg-blue-500 selection:text-white">
+
+    <!-- Top Sticky Header -->
+    <header class="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+            
+            <!-- Logo & Brand -->
+            <div class="flex items-center gap-3 shrink-0">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+                    <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <div>
+                    <h1 class="text-base sm:text-lg font-black tracking-tight leading-none text-slate-900 dark:text-white">
+                        AI Daily Digest
+                    </h1>
+                    <span class="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium">毎日朝の自動キュレーション</span>
+                </div>
+            </div>
+
+            <!-- Controls (Search + Theme toggle) -->
+            <div class="flex items-center gap-2 sm:gap-3">
+                <!-- Search input (Desktop) -->
+                <div class="relative hidden sm:block w-48 md:w-64">
+                    <input type="text" id="searchInputDesktop" oninput="handleSearch(this.value)" placeholder="キーワード検索..." 
+                           class="w-full pl-8 pr-3 py-1.5 text-xs rounded-full bg-slate-100 dark:bg-slate-800 border border-transparent focus:border-blue-500 dark:focus:border-blue-400 focus:bg-white dark:focus:bg-slate-900 outline-none transition text-slate-900 dark:text-white">
+                    <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+
+                <!-- Theme Toggle Button -->
+                <button onclick="toggleDarkMode()" id="themeBtn" aria-label="テーマ切り替え"
+                        class="w-9 h-9 rounded-xl flex items-center justify-center bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition text-slate-600 dark:text-slate-300">
+                    <!-- Sun / Moon icons handled by JS -->
+                    <span id="themeIcon">🌙</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Search input (Mobile only) -->
+        <div class="sm:hidden px-4 pb-3 pt-1">
+            <div class="relative w-full">
+                <input type="text" id="searchInputMobile" oninput="handleSearch(this.value)" placeholder="キーワードで記事を検索..." 
+                       class="w-full pl-8 pr-3 py-1.5 text-xs rounded-xl bg-slate-100 dark:bg-slate-800 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-slate-900 outline-none text-slate-900 dark:text-white">
+                <svg class="w-4 h-4 text-slate-400 absolute left-2.5 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 flex-1 w-full">
+        
+        <!-- Hero Header -->
+        <div class="mb-6 sm:mb-8 text-center sm:text-left flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200/80 dark:border-slate-800 pb-6">
+            <div>
+                <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200/60 dark:border-emerald-800/60 text-emerald-700 dark:text-emerald-300 text-xs font-bold mb-2">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                    本日の最新AIニュース
+                </div>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white">
+                    2026-10-06 ダイジェスト
+                </h2>
+                <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
+                    世界のAIトレンド・論文・ビジネス導入動向をGeminiが毎朝3行で要約
+                </p>
+            </div>
+
+            <!-- Stats Badge -->
+            <div class="flex items-center justify-center sm:justify-end gap-2 text-xs">
+                <span class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 font-semibold shadow-sm">
+                    厳選 <strong class="text-blue-600 dark:text-blue-400 font-extrabold text-sm">8</strong> 件
+                </span>
+                <span class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 shadow-sm">
+                    更新: 12:09
+                </span>
+            </div>
+        </div>
+
+        <!-- Filter Pills (Horizontal Scroll on Mobile) -->
+        <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-3 mb-6 -mx-4 px-4 sm:mx-0 sm:px-0">
+            
+    <button onclick="filterCategory('all', this)" class="cat-pill active px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-bold transition whitespace-nowrap bg-blue-600 text-white shadow-sm">
+        すべて (8)
+    </button>
+    
+        <button onclick="filterCategory('LLM・生成AI', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
+            LLM・生成AI (2)
+        </button>
+        
+        <button onclick="filterCategory('セキュリティ・倫理', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
+            セキュリティ・倫理 (1)
+        </button>
+        
+        <button onclick="filterCategory('ビジネス・導入', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
+            ビジネス・導入 (1)
+        </button>
+        
+        <button onclick="filterCategory('海外トレンド・速報', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
+            海外トレンド・速報 (2)
+        </button>
+        
+        <button onclick="filterCategory('開発・技術', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
+            開発・技術 (2)
+        </button>
+        
+        </div>
+
+        <!-- Zero results message -->
+        <div id="noResults" class="hidden text-center py-16">
+            <p class="text-4xl mb-3">🔍</p>
+            <p class="text-base font-bold text-slate-700 dark:text-slate-300">該当する記事が見つかりませんでした</p>
+            <p class="text-xs text-slate-500 mt-1">検索キーワードを変更するか、フィルターをリセットしてください</p>
+            <button onclick="resetFilters()" class="mt-4 px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold shadow hover:bg-blue-700 transition">
+                フィルターをクリア
+            </button>
+        </div>
+
+        <!-- Article Grid (Responsive: 1 col on mobile, 2 cols on tablet, 3 cols on large PC) -->
+        <div id="articlesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="セキュリティ・倫理"
+                 data-title="openai、euのai規制法に対応しchatgpt生成テキストへの電子透かし埋め込みを開始へ"
+                 data-content="openaiが、euのai法（ai act）への適合を視野に、chatgptやcodexが生成したテキストに不可視の電子透かしを導入することを発表した。 生成コンテンツの信頼性と透明性を高める取り組みだが、編集を加えることで透かしの検出が困難になるという技術的課題も残されている。 ai生成コンテンツの証明技術における国際基準となる一方で、規制回避策とのいたちごっこにどう対処するかが今後の注目点となる。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-rose-100 dark:bg-rose-900/50 text-rose-700 dark:text-rose-300">
+                        セキュリティ・倫理
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/" target="_blank" rel="noopener noreferrer">
+                        OpenAI、EUのAI規制法に対応しChatGPT生成テキストへの電子透かし埋め込みを開始へ
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        TechCrunch AI
+                    </span>
+                    <span class="truncate">Mon, 05 Oct 2026 20:36:48</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>OpenAIが、EUのAI法（AI Act）への適合を視野に、ChatGPTやCodexが生成したテキストに不可視の電子透かしを導入することを発表した。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>生成コンテンツの信頼性と透明性を高める取り組みだが、編集を加えることで透かしの検出が困難になるという技術的課題も残されている。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>AI生成コンテンツの証明技術における国際基準となる一方で、規制回避策とのいたちごっこにどう対処するかが今後の注目点となる。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'OpenAI、EUのAI規制法に対応しChatGPT生成テキストへの電子透かし埋め込みを開始へ', 'https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="LLM・生成AI"
+                 data-title="reflection、中国製モデルに対抗する低コストなオープンウェイトai「beam」を発表"
+                 data-content="aiスタートアップのreflectionが、企業のデータを用いた独自ai構築に特化した、低計算コストのオープンウェイトモデル「beam」をリリースした。 中国製aiモデルとの競争を見据え、企業や国家が独自のインフラ（aiファクトリー）を用いて安全かつローカルにシステムを稼働させることを目的としている。 機密データを保有するエンタープライズ企業や、データ主権を重視する政府機関におけるai内製化の動きを強力に後押しする可能性がある。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300">
+                        LLM・生成AI
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/" target="_blank" rel="noopener noreferrer">
+                        Reflection、中国製モデルに対抗する低コストなオープンウェイトAI「Beam」を発表
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        TechCrunch AI
+                    </span>
+                    <span class="truncate">Mon, 05 Oct 2026 19:33:53</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>AIスタートアップのReflectionが、企業のデータを用いた独自AI構築に特化した、低計算コストのオープンウェイトモデル「Beam」をリリースした。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>中国製AIモデルとの競争を見据え、企業や国家が独自のインフラ（AIファクトリー）を用いて安全かつローカルにシステムを稼働させることを目的としている。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>機密データを保有するエンタープライズ企業や、データ主権を重視する政府機関におけるAI内製化の動きを強力に後押しする可能性がある。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'Reflection、中国製モデルに対抗する低コストなオープンウェイトAI「Beam」を発表', 'https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="海外トレンド・速報"
+                 data-title="instinct、アカウント未登録の友人ともグループチャットでaiエージェントを共有できる新機能を提供開始"
+                 data-content="aiスタートアップのinstinctが、旅行計画やイベント調整などの共同作業をグループチャット内で行える、協調型のaiエージェント機能をリリースした。 アカウント登録をしていないユーザーでもシームレスに利用可能で、個人エージェント同士の情報共有には明示的な承認を求めるプライバシー重視の設計が特徴。 複数人が関わる日常の意思決定やタスク管理において、aiがチームの一員として機能する「マルチエージェント」の普及を加速させる一歩となる。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">
+                        海外トレンド・速報
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/" target="_blank" rel="noopener noreferrer">
+                        Instinct、アカウント未登録の友人ともグループチャットでAIエージェントを共有できる新機能を提供開始
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        TechCrunch AI
+                    </span>
+                    <span class="truncate">Mon, 05 Oct 2026 18:54:30</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>AIスタートアップのInstinctが、旅行計画やイベント調整などの共同作業をグループチャット内で行える、協調型のAIエージェント機能をリリースした。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>アカウント登録をしていないユーザーでもシームレスに利用可能で、個人エージェント同士の情報共有には明示的な承認を求めるプライバシー重視の設計が特徴。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>複数人が関わる日常の意思決定やタスク管理において、AIがチームの一員として機能する「マルチエージェント」の普及を加速させる一歩となる。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'Instinct、アカウント未登録の友人ともグループチャットでAIエージェントを共有できる新機能を提供開始', 'https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="海外トレンド・速報"
+                 data-title="googleのai機能「gemini call for me」、家族や友人に「遅刻する」と自動電話連絡が可能に？"
+                 data-content="googleが、ビジネス向け通話支援機能を拡張し、家族や友人にaiが代理で電話をかけて用件を伝える「gemini call for me」を開発中であることが報じられた。 androidアプリの解析データから「母親に電話して15分遅れると伝えて」といった、パーソナルかつ日常的なシーンを想定したデモ画面が見つかっている。 面倒な連絡や簡単な用件をaiが自然な対話で代行する世界が近づいており、日常のコミュニケーションのあり方を一変させる可能性がある。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">
+                        海外トレンド・速報
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors" target="_blank" rel="noopener noreferrer">
+                        GoogleのAI機能「Gemini Call for Me」、家族や友人に「遅刻する」と自動電話連絡が可能に？
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        The Verge AI
+                    </span>
+                    <span class="truncate">2026-10-05T19:09:55-04:00</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>Googleが、ビジネス向け通話支援機能を拡張し、家族や友人にAIが代理で電話をかけて用件を伝える「Gemini Call for Me」を開発中であることが報じられた。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>Androidアプリの解析データから「母親に電話して15分遅れると伝えて」といった、パーソナルかつ日常的なシーンを想定したデモ画面が見つかっている。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>面倒な連絡や簡単な用件をAIが自然な対話で代行する世界が近づいており、日常のコミュニケーションのあり方を一変させる可能性がある。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'GoogleのAI機能「Gemini Call for Me」、家族や友人に「遅刻する」と自動電話連絡が可能に？', 'https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="ビジネス・導入"
+                 data-title="aiがニキビの重症度を分析して処方箋を自動発行、ヘルスケア新興企業が米国でサービス開始"
+                 data-content="ヘルスケアスタートアップのnolla healthが、スマートフォンのカメラで顔をスキャンするだけで、aiがニキビを分析し処方箋を自律発行するサービスをユタ州で開始した。 医師を介さない画期的な完全自律型ai医療として展開されており、診療待ち時間の削減や医療アクセスの効率化を狙う。 遠隔医療の極端な進化形として利便性に期待が集まる一方、医師不要の処方プロセスに関する安全性や法規制を巡る議論のトリガーになりそうだ。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300">
+                        ビジネス・導入
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions" target="_blank" rel="noopener noreferrer">
+                        AIがニキビの重症度を分析して処方箋を自動発行、ヘルスケア新興企業が米国でサービス開始
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        The Verge AI
+                    </span>
+                    <span class="truncate">2026-10-05T16:14:57-04:00</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>ヘルスケアスタートアップのNolla Healthが、スマートフォンのカメラで顔をスキャンするだけで、AIがニキビを分析し処方箋を自律発行するサービスをユタ州で開始した。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>医師を介さない画期的な完全自律型AI医療として展開されており、診療待ち時間の削減や医療アクセスの効率化を狙う。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>遠隔医療の極端な進化形として利便性に期待が集まる一方、医師不要の処方プロセスに関する安全性や法規制を巡る議論のトリガーになりそうだ。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'AIがニキビの重症度を分析して処方箋を自動発行、ヘルスケア新興企業が米国でサービス開始', 'https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="LLM・生成AI"
+                 data-title="数学界を席巻するai、難問解決のブレイクスルーと開発競争がもたらす波紋"
+                 data-content="openaiやanthropicなどのトップaiラボが、ミレニアム懸賞問題の一つを解決するなど、長年未解決だった高度な数学的課題で相次いで成果を上げている。 aiが単なる言語モデルを超えて高度な推論力を身につけている証左である一方、シリコンバレーの急進的な開発姿勢が学術的な厳密性を重んじる数学界との摩擦を生んでいる。 科学的発見や高度な論理思考の自動化が劇的に進む可能性を示すとともに、研究倫理や検証プロセスの再定義が必要視されている。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300">
+                        LLM・生成AI
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution" target="_blank" rel="noopener noreferrer">
+                        数学界を席巻するAI、難問解決のブレイクスルーと開発競争がもたらす波紋
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        The Verge AI
+                    </span>
+                    <span class="truncate">2026-10-05T15:28:59-04:00</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>OpenAIやAnthropicなどのトップAIラボが、ミレニアム懸賞問題の一つを解決するなど、長年未解決だった高度な数学的課題で相次いで成果を上げている。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>AIが単なる言語モデルを超えて高度な推論力を身につけている証左である一方、シリコンバレーの急進的な開発姿勢が学術的な厳密性を重んじる数学界との摩擦を生んでいる。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>科学的発見や高度な論理思考の自動化が劇的に進む可能性を示すとともに、研究倫理や検証プロセスの再定義が必要視されている。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, '数学界を席巻するAI、難問解決のブレイクスルーと開発競争がもたらす波紋', 'https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="開発・技術"
+                 data-title="aiの共謀脱獄をプロセス強制終了で物理遮断する「相互人質アーキテクチャ」が考案・実装される"
+                 data-content="マルチエージェント環境において、ai同士が結託してルールを破る「共謀・共鳴脱獄（sycophancy）」を、osレベルのsigkillシグナルで強制停止する仕組みがzennで公開された。 従来のシステムプロンプトやガードレール（安全弁）は対話中にai自身の判断で無効化されやすいため、エージェント同士を相互監視させ、違反検知時にシステムから物理遮断するアプローチを導入している。 エージェントが高度化・自律化するにつれ、単なるプロンプト制御からosやシステムインフラと密結合した強固なセキュリティ設計への移行が必要になることを示している。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300">
+                        開発・技術
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://zenn.dev/o5_13/articles/91fa2dee3fab5b" target="_blank" rel="noopener noreferrer">
+                        AIの共謀脱獄をプロセス強制終了で物理遮断する「相互人質アーキテクチャ」が考案・実装される
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        Zenn (AIトピック)
+                    </span>
+                    <span class="truncate">Mon, 05 Oct 2026 23:37:51</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>マルチエージェント環境において、AI同士が結託してルールを破る「共謀・共鳴脱獄（Sycophancy）」を、OSレベルのSIGKILLシグナルで強制停止する仕組みがZennで公開された。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>従来のシステムプロンプトやガードレール（安全弁）は対話中にAI自身の判断で無効化されやすいため、エージェント同士を相互監視させ、違反検知時にシステムから物理遮断するアプローチを導入している。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>エージェントが高度化・自律化するにつれ、単なるプロンプト制御からOSやシステムインフラと密結合した強固なセキュリティ設計への移行が必要になることを示している。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://zenn.dev/o5_13/articles/91fa2dee3fab5b" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'AIの共謀脱獄をプロセス強制終了で物理遮断する「相互人質アーキテクチャ」が考案・実装される', 'https://zenn.dev/o5_13/articles/91fa2dee3fab5b')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="開発・技術"
+                 data-title="aiエージェントに図解と操作可能なuiを提供するオープンソースツール「dev-process-kit」が開発"
+                 data-content="aiエージェントとの対話において、テキストのみのやり取りではなく、動的な図解や人間が操作できるuiを提示してフィードバックを容易にする「dev-process-kit」がzennにて発表された。 aiエージェントの関与が単なるコード生成から、要件定義やシステム設計といった抽象的かつ広範な領域へ進出したことに伴う「人間の認知負荷の増大」を解決するために開発された。 aiと人間が協調して働く次世代の開発フロー（dx）において、複雑な設計を人間が素早くレビュー・修正するための標準的なインターフェース像を示唆している。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300">
+                        開発・技術
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://zenn.dev/bm_sms/articles/dev-process-kit-introduction" target="_blank" rel="noopener noreferrer">
+                        AIエージェントに図解と操作可能なUIを提供するオープンソースツール「dev-process-kit」が開発
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        Zenn (AIトピック)
+                    </span>
+                    <span class="truncate">Mon, 05 Oct 2026 23:01:34</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>AIエージェントとの対話において、テキストのみのやり取りではなく、動的な図解や人間が操作できるUIを提示してフィードバックを容易にする「dev-process-kit」がZennにて発表された。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>AIエージェントの関与が単なるコード生成から、要件定義やシステム設計といった抽象的かつ広範な領域へ進出したことに伴う「人間の認知負荷の増大」を解決するために開発された。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>AIと人間が協調して働く次世代の開発フロー（DX）において、複雑な設計を人間が素早くレビュー・修正するための標準的なインターフェース像を示唆している。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://zenn.dev/bm_sms/articles/dev-process-kit-introduction" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'AIエージェントに図解と操作可能なUIを提供するオープンソースツール「dev-process-kit」が開発', 'https://zenn.dev/bm_sms/articles/dev-process-kit-introduction')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        </div>
+    </main>
+
+    <!-- Scroll to Top Floating Button -->
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" id="scrollTopBtn"
+            class="fixed bottom-6 right-6 w-11 h-11 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 z-30">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-slate-900 border-t border-slate-200/80 dark:border-slate-800 py-8 px-4 text-center text-xs text-slate-500 dark:text-slate-400">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>© 2026 AI Daily Pulse. Automated with Google Gemini & Python.</p>
+            <div class="flex items-center gap-4 text-slate-400">
+                <span>ITmedia</span>
+                <span>•</span>
+                <span>Zenn</span>
+                <span>•</span>
+                <span>TechCrunch</span>
+                <span>•</span>
+                <span>The Verge</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Scripts -->
+    <script>
+        // Dark Mode Logic
+        function initTheme() {
+            const saved = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (saved === 'dark' || (!saved && prefersDark)) {
+                document.documentElement.classList.add('dark');
+                document.getElementById('themeIcon').textContent = '☀️';
+            } else {
+                document.documentElement.classList.remove('dark');
+                document.getElementById('themeIcon').textContent = '🌙';
+            }
+        }
+
+        function toggleDarkMode() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            document.getElementById('themeIcon').textContent = isDark ? '☀️' : '🌙';
+        }
+
+        initTheme();
+
+        // Filter and Search Logic
+        let currentCategory = 'all';
+        let searchQuery = '';
+
+        function filterCategory(cat, btn) {
+            currentCategory = cat;
+            
+            // Update button styles
+            document.querySelectorAll('.cat-pill').forEach(b => {
+                b.classList.remove('active', 'bg-blue-600', 'text-white', 'shadow-sm');
+                b.classList.add('bg-white', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300', 'border');
+            });
+            btn.classList.add('active', 'bg-blue-600', 'text-white', 'shadow-sm');
+            btn.classList.remove('bg-white', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300', 'border');
+
+            applyFilters();
+        }
+
+        function handleSearch(query) {
+            searchQuery = query.toLowerCase().trim();
+            // Sync desktop and mobile search inputs
+            const dInput = document.getElementById('searchInputDesktop');
+            const mInput = document.getElementById('searchInputMobile');
+            if (dInput && dInput.value !== query) dInput.value = query;
+            if (mInput && mInput.value !== query) mInput.value = query;
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const cards = document.querySelectorAll('.article-card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                const cardTitle = card.getAttribute('data-title');
+                const cardContent = card.getAttribute('data-content');
+
+                const matchesCat = (currentCategory === 'all' || cardCat === currentCategory);
+                const matchesSearch = !searchQuery || cardTitle.includes(searchQuery) || cardContent.includes(searchQuery);
+
+                if (matchesCat && matchesSearch) {
+                    card.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+
+            const noRes = document.getElementById('noResults');
+            if (visibleCount === 0) {
+                noRes.classList.remove('hidden');
+            } else {
+                noRes.classList.add('hidden');
+            }
+        }
+
+        function resetFilters() {
+            searchQuery = '';
+            const dInput = document.getElementById('searchInputDesktop');
+            const mInput = document.getElementById('searchInputMobile');
+            if (dInput) dInput.value = '';
+            if (mInput) mInput.value = '';
+            const allBtn = document.querySelector('.cat-pill');
+            if (allBtn) filterCategory('all', allBtn);
+        }
+
+        // Copy Article Link
+        function copyArticle(btn, title, url) {
+            const text = `${title}\n${url}`;
+            navigator.clipboard.writeText(text).then(() => {
+                const span = btn.querySelector('span');
+                const original = span.textContent;
+                span.textContent = '完了!';
+                btn.classList.add('text-emerald-600', 'dark:text-emerald-400');
+                setTimeout(() => {
+                    span.textContent = original;
+                    btn.classList.remove('text-emerald-600', 'dark:text-emerald-400');
+                }, 2000);
+            });
+        }
+
+        // Scroll to Top visibility
+        window.addEventListener('scroll', () => {
+            const btn = document.getElementById('scrollTopBtn');
+            if (window.scrollY > 300) {
+                btn.classList.remove('opacity-0', 'pointer-events-none');
+                btn.classList.add('opacity-100');
+            } else {
+                btn.classList.add('opacity-0', 'pointer-events-none');
+                btn.classList.remove('opacity-100');
+            }
+        });
+    </script>
+</body>
+</html>
