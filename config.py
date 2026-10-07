@@ -59,9 +59,32 @@ RSS_FEEDS = [
         "max_items": 3
     },
     {
+        "name": "日経クロステック (AI)",
+        "category": "ビジネス・導入",
+        "url": "https://news.google.com/rss/search?q=site:xtech.nikkei.com+(AI+OR+%E7%94%9F%E6%88%90AI)&hl=ja&gl=JP&ceid=JP:ja",
+        "enabled": True,
+        "max_items": 3
+    },
+    {
         "name": "PR TIMES (生成AIプレスリリース)",
         "category": "ビジネス・導入",
         "url": "https://news.google.com/rss/search?q=%E7%94%9F%E6%88%90AI+site:prtimes.jp&hl=ja&gl=JP&ceid=JP:ja",
+        "enabled": True,
+        "max_items": 3
+    },
+
+    # --- 🖥️ 国内テックメディア・ツール・新機能 ---
+    {
+        "name": "GIGAZINE (AI)",
+        "category": "国内テック・話題",
+        "url": "https://news.google.com/rss/search?q=site:gigazine.net+(AI+OR+%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD+OR+%E7%94%9F%E6%88%90AI)&hl=ja&gl=JP&ceid=JP:ja",
+        "enabled": True,
+        "max_items": 3
+    },
+    {
+        "name": "PC Watch / 窓の杜 (AI)",
+        "category": "国内テック・話題",
+        "url": "https://news.google.com/rss/search?q=(site:forest.watch.impress.co.jp+OR+site:pc.watch.impress.co.jp)+(AI+OR+%E7%94%9F%E6%88%90AI)&hl=ja&gl=JP&ceid=JP:ja",
         "enabled": True,
         "max_items": 3
     },
@@ -77,7 +100,7 @@ RSS_FEEDS = [
 ]
 
 # ダイジェストに含める合計最大記事数（重要記事に厳選）
-MAX_TOTAL_ITEMS_TO_SUMMARIZE = 8
+MAX_TOTAL_ITEMS_TO_SUMMARIZE = 10
 
 # 出力先ディレクトリ
 OUTPUT_DIR = "data"

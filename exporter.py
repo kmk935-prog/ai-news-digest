@@ -33,6 +33,11 @@ CATEGORY_COLORS = {
         "badge_bg": "bg-amber-100 dark:bg-amber-900/50",
         "badge_text": "text-amber-700 dark:text-amber-300",
         "border": "border-amber-200 dark:border-amber-800/50"
+    },
+    "国内テック・話題": {
+        "badge_bg": "bg-cyan-100 dark:bg-cyan-900/50",
+        "badge_text": "text-cyan-700 dark:text-cyan-300",
+        "border": "border-cyan-200 dark:border-cyan-800/50"
     }
 }
 
