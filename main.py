@@ -1,6 +1,9 @@
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+# 日本時間 (JST)
+JST = timezone(timedelta(hours=9))
 from config import OUTPUT_DIR, MAX_TOTAL_ITEMS_TO_SUMMARIZE
 from collector import fetch_articles
 from summarizer import summarize_articles
@@ -31,9 +34,9 @@ def run_pipeline():
     print("\n[ステップ 2/3] AIによる要約・カテゴリ分類を実行中...")
     summarized = summarize_articles(selected_articles)
 
-    # 3. エクスポート
+    # 3. エクスポート (日本時間基準)
     print("\n[ステップ 3/3] 各種フォーマットで出力中...")
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = datetime.now(JST).strftime("%Y-%m-%d")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     md_file = os.path.join(OUTPUT_DIR, f"digest_{today_str}.md")

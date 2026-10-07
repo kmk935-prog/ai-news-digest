@@ -1,7 +1,10 @@
 import os
 import json
 import html
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+# 日本時間 (JST)
+JST = timezone(timedelta(hours=9))
 
 CATEGORY_COLORS = {
     "海外トレンド・速報": {
@@ -76,7 +79,7 @@ def export_json(articles: list[dict], output_path: str, date_str: str) -> None:
     """Export summarized articles to JSON for web frontends."""
     data = {
         "date": date_str,
-        "updated_at": datetime.now().isoformat(),
+        "updated_at": datetime.now(JST).isoformat(),
         "total_count": len(articles),
         "articles": articles
     }
@@ -287,7 +290,7 @@ def export_html(articles: list[dict], output_path: str, date_str: str) -> None:
                     厳選 <strong class="text-blue-600 dark:text-blue-400 font-extrabold text-sm">{len(articles)}</strong> 件
                 </span>
                 <span class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 shadow-sm">
-                    更新: {datetime.now().strftime('%H:%M')}
+                    更新: {datetime.now(JST).strftime('%H:%M')} (JST)
                 </span>
             </div>
         </div>
