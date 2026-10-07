@@ -8,7 +8,6 @@ from config import OUTPUT_DIR, MAX_TOTAL_ITEMS_TO_SUMMARIZE
 from collector import fetch_articles
 from summarizer import summarize_articles
 from exporter import export_markdown, export_json, export_html
-from notifier_line import send_line_notification
 
 # Ensure UTF-8 output on Windows
 sys.stdout.reconfigure(encoding='utf-8')
@@ -47,9 +46,6 @@ def run_pipeline():
     export_markdown(summarized, md_file, today_str)
     export_json(summarized, json_file, today_str)
     export_html(summarized, html_file, today_str)
-
-    # 4. LINE通知 (設定されている場合)
-    send_line_notification(summarized, today_str)
 
     print("\n" + "=" * 60)
     print("🎉 処理が完了しました！")
