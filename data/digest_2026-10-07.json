@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "updated_at": "2026-10-07T02:15:52.100849",
+  "updated_at": "2026-10-07T11:26:35.178967+09:00",
   "total_count": 10,
   "articles": [
     {
@@ -10,13 +10,13 @@
       "source": "TechCrunch AI",
       "summary_raw": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.",
       "category": "海外トレンド・速報",
-      "title_ja": "【海外速報】Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "title_ja": "元Rampのエンジニアらが最初の製品を白紙に戻し、新プラットフォーム「Melius」で2000万ドルを調達",
       "points": [
-        "海外メディア「TechCrunch AI」が報じた最新トピック。",
-        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
-        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+        "元Rampのエンジニアが立ち上げたスタートアップが、マーケティング資産やキャンペーン生成を行う「Melius」の開発に向け約2000万ドルを調達した。",
+        "当初計画していた広告支出の最適化ツールを廃止し、生成AIを用いたクリエイティブ制作やマーケティング施策に直結するツール開発へシフトした。",
+        "広告最適化からクリエイティブ生成へのピボットはAIマーケティング分野の競争激化を象徴しており、実用的なマーケティングツールの今後の展開が注目される。"
       ],
-      "importance": 4
+      "importance": 3
     },
     {
       "title": "How AI decision models could change content moderation",
@@ -24,12 +24,12 @@
       "published": "Tue, 06 Oct 2026 20:35:20 +0000",
       "source": "TechCrunch AI",
       "summary_raw": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
-      "category": "海外トレンド・速報",
-      "title_ja": "【海外速報】How AI decision models could change content moderation",
+      "category": "LLM・生成AI",
+      "title_ja": "AI意思決定モデルがコンテンツモデレーションをどのように変えるか",
       "points": [
-        "海外メディア「TechCrunch AI」が報じた最新トピック。",
-        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
-        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+        "Musubi社が、リアルタイムのコンテンツモデレーションに特化した軽量な意思決定モデル「PolicyLM-1.7B」をオープンウェイトで公開した。",
+        "17億パラメータという軽量設計でありながら、高速かつ効率的に有害コンテンツのフィルタリングやポリシー適用の意思決定を行えるのが特徴である。",
+        "オンプレミスやローカル環境での低コストなモデレーションが可能になり、SNSやコミュニティサイトの安全性向上に大きく寄与すると期待される。"
       ],
       "importance": 4
     },
@@ -40,13 +40,13 @@
       "source": "TechCrunch AI",
       "summary_raw": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
       "category": "海外トレンド・速報",
-      "title_ja": "【海外速報】AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "title_ja": "AIコンピューティング新興のLambda、2027年のIPOに向けて40億ドルを調達へ",
       "points": [
-        "海外メディア「TechCrunch AI」が報じた最新トピック。",
-        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
-        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+        "NVIDIAが支援するAIクラウドインフラ企業のLambdaが、2027年の株式公開（IPO）を見据えて最大40億ドルの資金調達を進めている。",
+        "本調達により同社の評価額は145億ドルに達する見込みで、大手ファンドのCoatueやBlackstoneが主導しているとされる。",
+        "生成AIの爆発的普及に伴うGPU需要の高まりを背景に、クラウドインフラ市場での地位を強固にし、IPOに向けた成長加速が注目される。"
       ],
-      "importance": 4
+      "importance": 5
     },
     {
       "title": "OpenAI drops another batch of mathematical breakthroughs",
@@ -54,14 +54,14 @@
       "published": "2026-10-06T19:26:38-04:00",
       "source": "The Verge AI",
       "summary_raw": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and […]",
-      "category": "海外トレンド・速報",
-      "title_ja": "【海外速報】OpenAI drops another batch of mathematical breakthroughs",
+      "category": "LLM・生成AI",
+      "title_ja": "OpenAI、未発表モデルによる新たな数学的ブレイクスルーの論文群を大量公開",
       "points": [
-        "海外メディア「The Verge AI」が報じた最新トピック。",
-        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
-        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+        "OpenAIが、未発表のフロンティアモデルによって解かれた長年の数学的難問の解答を含む722件の論文原稿（372の業績ファミリー）を公開した。",
+        "高度な推論能力を持つAIモデルが数学界に大きな衝撃を与えた一方で、研究倫理や検証プロセスの課題についても議論を呼んでいる。",
+        "AIが純粋数学の研究や学術的発見のパートナーとして実用段階に入りつつあることを示しており、今後の科学・技術全般への応用が期待される。"
       ],
-      "importance": 4
+      "importance": 5
     },
     {
       "title": "We can’t just change the definition of ‘recording’",
@@ -69,12 +69,12 @@
       "published": "2026-10-06T12:29:44-04:00",
       "source": "The Verge AI",
       "summary_raw": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on or off, without much gray area. Microphones capture sound. Cameras […]",
-      "category": "海外トレンド・速報",
-      "title_ja": "【海外速報】We can’t just change the definition of ‘recording’",
+      "category": "セキュリティ・倫理",
+      "title_ja": "AIデバイスの台頭で「録音・録画」の定義が揺らぐ：境界線の曖昧化",
       "points": [
-        "海外メディア「The Verge AI」が報じた最新トピック。",
-        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
-        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+        "AI搭載ハードウェアの普及に伴い、テック企業がこれまでの「録音・録画」の概念を曖昧に再定義しようとしている。",
+        "従来はカメラやマイクが「オンかオフか」で録画状態を区別できたが、常時稼働でデータを処理するAI端末の登場により、プライバシーとの境界線が曖昧になっている。",
+        "デバイスが常に周囲の情報を監視・分析する時代において、個人のプライバシー保護や法的定義のアップデートが急務となっている。"
       ],
       "importance": 4
     },
@@ -85,56 +85,56 @@
       "source": "The Verge AI",
       "summary_raw": "Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a […]",
       "category": "海外トレンド・速報",
-      "title_ja": "【海外速報】Google is about to remove free access to Gemini Flash and Pro",
+      "title_ja": "Google、Gemini FlashとProの無料提供を終了へ：無料枠は「Flash Lite」に制限",
       "points": [
-        "海外メディア「The Verge AI」が報じた最新トピック。",
-        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
-        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+        "Googleが10月9日から、無料プランのGeminiユーザーに対し、利用モデルを「Gemini 1.5 Flash Lite」に制限することを決定した。",
+        "これまで無料枠でも選べた「Flash」や「Pro」の標準モデルを利用するには、月額4.99ドルの「Google AI Plus」への加入が必要となる。",
+        "無料ユーザーが利用できる機能が制限されることで、他社の無料生成AIサービスとの競争や有料サブスクリプションへの移行動向が注目される。"
       ],
       "importance": 4
     },
     {
-      "title": "MynaAgentを作った：マイナンバーカードの年齢証明からJPYC給付まで",
-      "url": "https://zenn.dev/bull/articles/mynaagent-zk-age-benefit",
-      "published": "Wed, 07 Oct 2026 00:18:43 GMT",
+      "title": "英 AISI がサイバー評価を相次ぎ公開、Anthropic が Claude 基盤を拡張｜週間ダイジェスト 9/28〜10/4",
+      "url": "https://zenn.dev/karuzip/articles/4c67a108cd6e42",
+      "published": "Tue, 06 Oct 2026 18:57:38 GMT",
       "source": "Zenn (AIトピック)",
-      "summary_raw": "ETHGlobal Tokyo 2026で、MynaWalletの中で動くAIエージェント、MynaAgentを作りました。「受け取れる給付を探して」と頼むと、給付の条件を調べ、本人の同意を得て申請を進めます。 デモで用意したのは、20歳以上を条件とする500 JPYCの給付です。利用者がiPhoneにカードをかざすと、iPhoneが年齢のゼロ知識証明を作ります。Polygon Amoy上のコントラクトがその証明を検証し、JPYCを給付します。Amoyはテストネットで、JPYCもテストトークンです。 私はZKによる年齢証明、コントラクト、verifierを担当しました。作品ページと公開コ...",
-      "category": "開発・技術",
-      "title_ja": "MynaAgentを作った：マイナンバーカードの年齢証明からJPYC給付まで",
+      "summary_raw": "9月28日から10月4日までを対象とします。今期は、英 AISI がフロンティアモデルのサイバー能力やサンドボックス脱出、データ汚染、説得力を相次いで評価し、防御側の指針も示しました。Anthropic は Claude Code の mods と Projects の刷新、Claude Marketplace、Salesforce 連携、1 億ドル規模の人材育成を発表し、基盤の拡張を進めました。OpenAI は GPT-6 Astra Ultrafast の API 提供を始め、豪政府サイトへの不正アクセスを謝罪しました。米連邦取引委員会は OpenAI や Anthropic への調...",
+      "category": "国内テック・話題",
+      "title_ja": "英AISIがサイバー評価を相次ぎ公開、AnthropicがClaude基盤を拡張｜週間ダイジェスト 9/28〜10/4",
       "points": [
-        "「MynaAgentを作った：マイナンバーカードの年齢証明からJPYC給付まで」に関する最新ニュース。",
-        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
-        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+        "英国のAI安全研究所（AISI）がフロンティアモデルのサイバー能力などの評価を公開したほか、Anthropicが機能の刷新や他社連携を発表した。",
+        "Anthropicが「Claude Code」やSalesforce連携で基盤を拡充する一方、OpenAIも新たな高速APIの提供を始めるなど、ベンダー各社の動きが活発化している。",
+        "各国政府が安全性評価を本格化する中で、開発各社が機能拡張とエコシステム形成をいかに進めていくかに注目が集まる。"
       ],
       "importance": 4
     },
     {
-      "title": "退職予兆AIに、あなたの本音は映らない。会社が本音を聞けない構造の話",
-      "url": "https://zenn.dev/shotakada/articles/honne-not-in-data",
-      "published": "Wed, 07 Oct 2026 00:00:07 GMT",
+      "title": "エンジニアの仕事は、作ることから境界を引くことに変わった",
+      "url": "https://zenn.dev/kanayagawa/articles/engineer-work-drawing-boundaries",
+      "published": "Tue, 06 Oct 2026 18:27:31 GMT",
       "source": "Zenn (AIトピック)",
-      "summary_raw": "勤怠の乱れや社内システムの利用状況から「辞めそうな社員」をAIが検知する。退職予兆AIと呼ばれる領域があり、HR系のイベントに行くと必ずと言っていいほど話題に出る。 私はセキュリティ人材専門の採用コンサルタントで、キャリア相談も受けている。つまり利害の外で働く人の本音を聞く側の人間だ。その立場からこの技術を見ると、働く側にとって大事な構造が1つ見えてくる。 あなたの本音はそもそも会社のデータに存在しない。 今回はこの話を書く。 会社はあなたの本音を記録できない まず考えてみてほしいのだが辞める時に会社へ本音を言うだろうか。退職面談で「上司と合わなかった」「評価に納得していない」と正面...",
+      "summary_raw": "今年に入ってから、仕事で書くコードの差分をほとんど読まなくなった。書くのはAIで、検証も別のAIにさせる。自社で使っているGitLabを4段階で版上げしたときも、手順の調査から実行までAIに指示し、停止時間は41分だった。私がしたのは、どこまでAIにやらせ、どこから人が確かめて進めるかを決めることである。 たとえば、秘密情報の登録のような決まりきった操作は、AIにコマンドを作らせるが実行はさせず、固定のスクリプトに渡す。社外へのメールは、文面はAIが作り、送るかどうかは人が決める。コードを書く代わりに、こういう線を引く作業が増えた。エンジニアとしての仕事は、作ることから境界を引くことに移...",
       "category": "開発・技術",
-      "title_ja": "退職予兆AIに、あなたの本音は映らない。会社が本音を聞けない構造の話",
+      "title_ja": "エンジニアの仕事は「作ること」から「境界を引くこと」へ：AI時代の開発プロセス",
       "points": [
-        "「退職予兆AIに、あなたの本音は映らない。会社が本音を聞けない構造の話」に関する最新ニュース。",
-        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
-        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+        "AIによるコード生成や自動検証の普及により、人間のエンジニアが書かれたコードの差分をほとんど読まない開発スタイルが現実のものとなっている。",
+        "GitLabのバージョンアップ作業をほぼAIに指示して実行させ、人間の役割は「どこまでAIに任せてどこから人間が検証するか」の境界線引きへ変化した。",
+        "今後のエンジニアには、単にコードを書く技術以上に、AIの動作スコープの制御や安全弁（ガードレール）の設計といったマネジメント能力が求められる。"
       ],
-      "importance": 4
+      "importance": 5
     },
     {
-      "title": "インシデント調査エージェントの品質を動かしたのはツールとプロンプトだった",
-      "url": "https://zenn.dev/ymotongpoo/articles/20261007-what-made-agents-better",
-      "published": "Wed, 07 Oct 2026 00:00:07 GMT",
+      "title": "言わない技術 第3回：不具合詳細を書かない技術",
+      "url": "https://zenn.dev/garplab/articles/c932bdf7dbc149",
+      "published": "Tue, 06 Oct 2026 18:25:26 GMT",
       "source": "Zenn (AIトピック)",
-      "summary_raw": "この記事で扱うこと 前編のオブザーバビリティのAIエージェントをどう評価するかでは、シナリオを仕様として別に置き、グレーダーが実際に何が起きたかを判定する形を追いました。最後に環境の忠実度が課題として残りました。シミュレーションが多すぎれば実際の失敗を見落とし、実環境の変動が多すぎればベンチマークがノイズだらけになるからです。 この記事では、Grafana Assistant Investigationsの開発チームが実インシデントを使った評価で何を改善したかを見ていきます。そこでは、モデルの差し替えよりも、ツールとその使用を導くプロンプトの変更のほうが品質改善への寄与が大きかったと...",
+      "summary_raw": "この記事は、連載「言わない技術」の第 3 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の一覧は序論にあります。 今回は、AI に不具合を伝えるときの話です。どの画面で、何をしたら、何が出たか。以前は毎回、私がそれを書いていました。いまは書いていません。動かして、コピーして、貼るだけです。私が書き写していた情報は、もともと画面が知っているものでした。 前作「AIの意見を聞かない技術」の第 6 回で、本番の不具合は踏んだ人から届くと書きまし...",
       "category": "開発・技術",
-      "title_ja": "インシデント調査エージェントの品質を動かしたのはツールとプロンプトだった",
+      "title_ja": "AIに不具合詳細を「書かない」技術：動作情報のコピペによる効率的なデバッグ",
       "points": [
-        "「インシデント調査エージェントの品質を動かしたのはツールとプロンプトだった」に関する最新ニュース。",
-        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
-        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+        "AIにプログラムの不具合（バグ）を伝える際、人間が詳細を文章で説明するのではなく、動作ログやエラー画面をそのままコピペして渡す手法が紹介された。",
+        "画面やシステム自身が持つ情報をそのままAIにインプットすることで、人間が情報を選別して書き起こす手間を省き、誤解なく迅速なデバッグを可能にする。",
+        "AIが文脈やエラーを高度に理解できるようになった現在、人間は媒介者として「生の情報」をそのまま渡す役割に特化するのが最も効率的である。"
       ],
       "importance": 4
     },
@@ -144,14 +144,14 @@
       "published": "2026-10-07T11:09:15+09:00",
       "source": "Qiita (AIタグ)",
       "summary_raw": "はじめに こんにちは、@snowqueen_tgです！ Navicatの新バージョン「Navicat 18」が、本日、日本市場で正式にリリースされました！ 「新しいバージョンで、何が変わったの？」 まず気になるのは、そこではないでしょうか。 Navicat 18では、自然...",
-      "category": "開発・技術",
-      "title_ja": "Navicat 18が日本で正式リリース！AIを活用した新機能をまとめて紹介",
+      "category": "ビジネス・導入",
+      "title_ja": "データベース管理ツール「Navicat 18」が日本で正式リリース：AI新機能を搭載",
       "points": [
-        "「Navicat 18が日本で正式リリース！AIを活用した新機能をまとめて紹介」に関する最新ニュース。",
-        "Qiita (AIタグ) より配信。記事本文よりトピックを抽出しています。",
-        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+        "人気のデータベース管理ツール「Navicat 18」が日本市場で正式にリリースされ、AIを活用した機能強化が施された。",
+        "自然言語によるクエリ生成やSQL文の自動解説など、AIがデータベースの操作や開発をアシストする機能が導入された。",
+        "開発者やデータアナリストの生産性が大幅に向上するほか、SQLに不慣れな初心者でもデータベースを直感的に扱える環境が整いつつある。"
       ],
-      "importance": 4
+      "importance": 3
     }
   ]
 }
