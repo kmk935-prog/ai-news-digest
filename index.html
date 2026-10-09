@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <title>AI Daily Digest | 2026-10-08</title>
+    <title>AI Daily Digest | 2026-10-09</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -82,7 +82,7 @@
                     本日の最新AIニュース
                 </div>
                 <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white">
-                    2026-10-08 ダイジェスト
+                    2026-10-09 ダイジェスト
                 </h2>
                 <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
                     世界のAIトレンド・論文・ビジネス導入動向をGeminiが毎朝3行で要約
@@ -95,7 +95,7 @@
                     厳選 <strong class="text-blue-600 dark:text-blue-400 font-extrabold text-sm">10</strong> 件
                 </span>
                 <span class="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 shadow-sm">
-                    更新: 09:32 (JST)
+                    更新: 09:47 (JST)
                 </span>
             </div>
         </div>
@@ -111,12 +111,16 @@
             LLM・生成AI (1)
         </button>
         
+        <button onclick="filterCategory('セキュリティ・倫理', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
+            セキュリティ・倫理 (3)
+        </button>
+        
         <button onclick="filterCategory('海外トレンド・速報', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
-            海外トレンド・速報 (5)
+            海外トレンド・速報 (3)
         </button>
         
         <button onclick="filterCategory('開発・技術', this)" class="cat-pill px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-medium transition whitespace-nowrap bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-400">
-            開発・技術 (4)
+            開発・技術 (3)
         </button>
         
         </div>
@@ -136,13 +140,93 @@
             
         <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
                  data-category="海外トレンド・速報"
-                 data-title="nous researchが評価額15億ドルを達成、ビジネス向けaiエージェントの提供開始とシリーズbでの9,000万ドル調達を発表"
-                 data-content="aiスタートアップのnous researchが9,000万ドルの資金調達を実施し、評価額が15億ドルに達したことを正式に発表しました。 同社が誇る強力なオープンソースモデル「hermes」をベースにした、ビジネス向けの自律型aiエージェントの提供も開始されます。 高い技術力を持つ独立系ai企業が巨額の資金を得たことで、大企業向けエージェント市場における競争がさらに激化することが予想されます。">
+                 data-title="エリザベス・ホームズのデスクを再現？裁判資料をもとに作られた超リアルな体験サイトが登場"
+                 data-content="セラノス創業者エリザベス・ホームズの裁判資料を再現したシミュレーションサイトが公開されました。 1,000以上のメールやスライド、テキストメッセージなどの実際の証拠データがインタラクティブに閲覧可能です。 裁判資料という一次情報をエンタメ・教育的に視覚化する新しいアプローチとして注目されます。">
             <div>
                 <!-- Top metadata row -->
                 <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
                     <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">
                         海外トレンド・速報
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/" target="_blank" rel="noopener noreferrer">
+                        エリザベス・ホームズのデスクを再現？裁判資料をもとに作られた超リアルな体験サイトが登場
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        TechCrunch AI
+                    </span>
+                    <span class="truncate">Thu, 08 Oct 2026 21:00:00</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>セラノス創業者エリザベス・ホームズの裁判資料を再現したシミュレーションサイトが公開されました。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>1,000以上のメールやスライド、テキストメッセージなどの実際の証拠データがインタラクティブに閲覧可能です。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>裁判資料という一次情報をエンタメ・教育的に視覚化する新しいアプローチとして注目されます。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'エリザベス・ホームズのデスクを再現？裁判資料をもとに作られた超リアルな体験サイトが登場', 'https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="セキュリティ・倫理"
+                 data-title="openaiから解雇された安全研究者らが反論、「安全文化の萎縮」を警告"
+                 data-content="解雇されたopenaiの安全研究者3名が機密情報漏洩の疑惑を否定し、公開書簡を発表しました。 内部の安全性に関する懸念を表明した直後の解雇であり、組織内の安全文化を阻害していると主張しています。 openaiの商業化優先姿勢と安全性軽視をめぐる議論が、規制や社内ガバナンスへの不信感をさらに強める可能性があります。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-rose-100 dark:bg-rose-900/50 text-rose-700 dark:text-rose-300">
+                        セキュリティ・倫理
                     </span>
                     <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
                         <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
@@ -152,8 +236,8 @@
 
                 <!-- Title -->
                 <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/" target="_blank" rel="noopener noreferrer">
-                        Nous Researchが評価額15億ドルを達成、ビジネス向けAIエージェントの提供開始とシリーズBでの9,000万ドル調達を発表
+                    <a href="https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/" target="_blank" rel="noopener noreferrer">
+                        OpenAIから解雇された安全研究者らが反論、「安全文化の萎縮」を警告
                     </a>
                 </h3>
 
@@ -162,7 +246,7 @@
                     <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
                         TechCrunch AI
                     </span>
-                    <span class="truncate">Wed, 07 Oct 2026 20:48:45</span>
+                    <span class="truncate">Thu, 08 Oct 2026 20:04:26</span>
                 </div>
 
                 <!-- 3-point summary box -->
@@ -177,21 +261,21 @@
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     1
                 </span>
-                <span>AIスタートアップのNous Researchが9,000万ドルの資金調達を実施し、評価額が15億ドルに達したことを正式に発表しました。</span>
+                <span>解雇されたOpenAIの安全研究者3名が機密情報漏洩の疑惑を否定し、公開書簡を発表しました。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     2
                 </span>
-                <span>同社が誇る強力なオープンソースモデル「Hermes」をベースにした、ビジネス向けの自律型AIエージェントの提供も開始されます。</span>
+                <span>内部の安全性に関する懸念を表明した直後の解雇であり、組織内の安全文化を阻害していると主張しています。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     3
                 </span>
-                <span>高い技術力を持つ独立系AI企業が巨額の資金を得たことで、大企業向けエージェント市場における競争がさらに激化することが予想されます。</span>
+                <span>OpenAIの商業化優先姿勢と安全性軽視をめぐる議論が、規制や社内ガバナンスへの不信感をさらに強める可能性があります。</span>
             </li>
             
                     </ul>
@@ -200,12 +284,12 @@
 
             <!-- Footer actions -->
             <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/" target="_blank" rel="noopener noreferrer" 
+                <a href="https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/" target="_blank" rel="noopener noreferrer" 
                    class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
                     元記事を読む
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
-                <button onclick="copyArticle(this, 'Nous Researchが評価額15億ドルを達成、ビジネス向けAIエージェントの提供開始とシリーズBでの9,000万ドル調達を発表', 'https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/')"
+                <button onclick="copyArticle(this, 'OpenAIから解雇された安全研究者らが反論、「安全文化の萎縮」を警告', 'https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/')"
                         class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
                         title="タイトルとURLをコピー">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
@@ -216,88 +300,8 @@
         
         <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
                  data-category="海外トレンド・速報"
-                 data-title="マイクロソフト、nvidiaチップ搭載の新型ai pc「surface laptop ultra」と刷新されたwindows 11を発表"
-                 data-content="マイクロソフトがnvidia製チップを搭載し、aiモデルやエージェントのローカル実行に特化した新型pc「surface laptop ultra」を発表しました。 windows 11の刷新に伴い、オンデバイスでの高度なai処理能力が強化され、クラウドに依存しない高速なai体験を提供します。 高性能なハードウェアとosの一体化により、クリエイターやエンジニアの業務効率化とプライバシー保護が両立する新たなpc環境が普及する可能性があります。">
-            <div>
-                <!-- Top metadata row -->
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">
-                        海外トレンド・速報
-                    </span>
-                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
-                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
-                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span></div>
-                    </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/" target="_blank" rel="noopener noreferrer">
-                        マイクロソフト、Nvidiaチップ搭載の新型AI PC「Surface Laptop Ultra」と刷新されたWindows 11を発表
-                    </a>
-                </h3>
-
-                <!-- Source & Date -->
-                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
-                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
-                        TechCrunch AI
-                    </span>
-                    <span class="truncate">Wed, 07 Oct 2026 20:22:37</span>
-                </div>
-
-                <!-- 3-point summary box -->
-                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
-                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        3行要約ダイジェスト
-                    </div>
-                    <ul class="space-y-2">
-                        
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    1
-                </span>
-                <span>マイクロソフトがNvidia製チップを搭載し、AIモデルやエージェントのローカル実行に特化した新型PC「Surface Laptop Ultra」を発表しました。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    2
-                </span>
-                <span>Windows 11の刷新に伴い、オンデバイスでの高度なAI処理能力が強化され、クラウドに依存しない高速なAI体験を提供します。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    3
-                </span>
-                <span>高性能なハードウェアとOSの一体化により、クリエイターやエンジニアの業務効率化とプライバシー保護が両立する新たなPC環境が普及する可能性があります。</span>
-            </li>
-            
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Footer actions -->
-            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/" target="_blank" rel="noopener noreferrer" 
-                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
-                    元記事を読む
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <button onclick="copyArticle(this, 'マイクロソフト、Nvidiaチップ搭載の新型AI PC「Surface Laptop Ultra」と刷新されたWindows 11を発表', 'https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/')"
-                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
-                        title="タイトルとURLをコピー">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-                    <span>コピー</span>
-                </button>
-            </div>
-        </article>
-        
-        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
-                 data-category="海外トレンド・速報"
-                 data-title="metaのaiエージェント「muse」、モバイル版リリースからわずか1ヶ月でipadにも対応"
-                 data-content="metaが開発するaiエージェント「muse」のipad版アプリが、スマートフォン向けのリリースからわずか1ヶ月という異例の速さで提供開始されました。 ipadの大画面を活かしたマルチタスクや直感的な操作に対応し、ユーザーの手元でのアシスタント機能を大幅に強化しています。 metaはスマートディスプレイやタブレット領域でのai普及を急速に進めており、アップルやグーグルの対抗馬としての存在感をさらに強めています。">
+                 data-title="俳優ベン・アフレックが語る「ガチすぎるai知識」がネットで話題に"
+                 data-content="俳優のベン・アフレック氏が、aiの技術的仕組み（トランスフォーマー、オープンウェイト等）について深い知識を語り注目を集めました。 自身が創業したai映像制作スタートアップをnetflixに売却した経緯があり、ビジネス・技術の両面で精通しています。 映画業界とai技術の融合において、単なるユーザーではなく主導的な立場を取るエンタメ界の知識人が増える兆しを示しています。">
             <div>
                 <!-- Top metadata row -->
                 <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
@@ -312,8 +316,8 @@
 
                 <!-- Title -->
                 <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/" target="_blank" rel="noopener noreferrer">
-                        MetaのAIエージェント「Muse」、モバイル版リリースからわずか1ヶ月でiPadにも対応
+                    <a href="https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/" target="_blank" rel="noopener noreferrer">
+                        俳優ベン・アフレックが語る「ガチすぎるAI知識」がネットで話題に
                     </a>
                 </h3>
 
@@ -322,7 +326,7 @@
                     <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
                         TechCrunch AI
                     </span>
-                    <span class="truncate">Wed, 07 Oct 2026 18:30:57</span>
+                    <span class="truncate">Thu, 08 Oct 2026 18:20:32</span>
                 </div>
 
                 <!-- 3-point summary box -->
@@ -337,21 +341,21 @@
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     1
                 </span>
-                <span>Metaが開発するAIエージェント「Muse」のiPad版アプリが、スマートフォン向けのリリースからわずか1ヶ月という異例の速さで提供開始されました。</span>
+                <span>俳優のベン・アフレック氏が、AIの技術的仕組み（トランスフォーマー、オープンウェイト等）について深い知識を語り注目を集めました。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     2
                 </span>
-                <span>iPadの大画面を活かしたマルチタスクや直感的な操作に対応し、ユーザーの手元でのアシスタント機能を大幅に強化しています。</span>
+                <span>自身が創業したAI映像制作スタートアップをNetflixに売却した経緯があり、ビジネス・技術の両面で精通しています。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     3
                 </span>
-                <span>Metaはスマートディスプレイやタブレット領域でのAI普及を急速に進めており、アップルやグーグルの対抗馬としての存在感をさらに強めています。</span>
+                <span>映画業界とAI技術の融合において、単なるユーザーではなく主導的な立場を取るエンタメ界の知識人が増える兆しを示しています。</span>
             </li>
             
                     </ul>
@@ -360,12 +364,332 @@
 
             <!-- Footer actions -->
             <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/" target="_blank" rel="noopener noreferrer" 
+                <a href="https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/" target="_blank" rel="noopener noreferrer" 
                    class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
                     元記事を読む
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
-                <button onclick="copyArticle(this, 'MetaのAIエージェント「Muse」、モバイル版リリースからわずか1ヶ月でiPadにも対応', 'https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/')"
+                <button onclick="copyArticle(this, '俳優ベン・アフレックが語る「ガチすぎるAI知識」がネットで話題に', 'https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="セキュリティ・倫理"
+                 data-title="anthropicがオープンソース向けに「無料のaiセキュリティスキャン」を提供開始"
+                 data-content="anthropicが、オープンソースプロジェクトの脆弱性を検知する無料サービス「oss scanner」をローンチしました。 同社の最先端aiモデルを用いて定期的なセキュリティスキャンを無償で提供し、早期のバグ発見を支援します。 オープンソースエコシステムの安全性向上に寄与する一方で、ソースコードをaiにスキャンさせることへのプライバシーや知財のトレードオフも議論されています。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-rose-100 dark:bg-rose-900/50 text-rose-700 dark:text-rose-300">
+                        セキュリティ・倫理
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner" target="_blank" rel="noopener noreferrer">
+                        Anthropicがオープンソース向けに「無料のAIセキュリティスキャン」を提供開始
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        The Verge AI
+                    </span>
+                    <span class="truncate">2026-10-08T17:53:51-04:00</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>Anthropicが、オープンソースプロジェクトの脆弱性を検知する無料サービス「OSS Scanner」をローンチしました。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>同社の最先端AIモデルを用いて定期的なセキュリティスキャンを無償で提供し、早期のバグ発見を支援します。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>オープンソースエコシステムの安全性向上に寄与する一方で、ソースコードをAIにスキャンさせることへのプライバシーや知財のトレードオフも議論されています。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, 'Anthropicがオープンソース向けに「無料のAIセキュリティスキャン」を提供開始', 'https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="海外トレンド・速報"
+                 data-title="「人間 vs ロボット」の異種格闘技戦、カリフォルニア州が制止に乗り出す"
+                 data-content="カリフォルニア州体育委員会が、人間と人型ロボットの格闘試合を開催したスタートアップに対し中止勧告を送付しました。 9月に開催された試合に対し、安全基準や興行としての法的枠組みに適合していないとして規制当局が介入した形です。 人型ロボットが社会に浸透する中で生じる、新たな物理的安全規制や娯楽としての境界線を定義する前例となり得ます。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">
+                        海外トレンド・速報
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human" target="_blank" rel="noopener noreferrer">
+                        「人間 vs ロボット」の異種格闘技戦、カリフォルニア州が制止に乗り出す
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        The Verge AI
+                    </span>
+                    <span class="truncate">2026-10-08T16:06:56-04:00</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>カリフォルニア州体育委員会が、人間と人型ロボットの格闘試合を開催したスタートアップに対し中止勧告を送付しました。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>9月に開催された試合に対し、安全基準や興行としての法的枠組みに適合していないとして規制当局が介入した形です。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>人型ロボットが社会に浸透する中で生じる、新たな物理的安全規制や娯楽としての境界線を定義する前例となり得ます。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, '「人間 vs ロボット」の異種格闘技戦、カリフォルニア州が制止に乗り出す', 'https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="セキュリティ・倫理"
+                 data-title="「usa today」運営のパブリッシャーがopenaiを提訴、著作権侵害で巨額賠償請求"
+                 data-content="米大手のusa today紙などを傘下に持つ出版社が、著作権侵害を理由にopenaiを相手取る訴訟を提起しました。 同社は、openaiが無断で数十万件の記事をaiモデルの学習データとして複製したと主張し、2億5,000万ドル以上の損害賠償を求めています。 メディア各社とai開発企業の提携が進む一方で、訴訟による司法判断も並行して進み、学習データの利用ルールがより厳格化する可能性があります。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-rose-100 dark:bg-rose-900/50 text-rose-700 dark:text-rose-300">
+                        セキュリティ・倫理
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit" target="_blank" rel="noopener noreferrer">
+                        「USA Today」運営のパブリッシャーがOpenAIを提訴、著作権侵害で巨額賠償請求
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        The Verge AI
+                    </span>
+                    <span class="truncate">2026-10-08T13:58:33-04:00</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>米大手のUSA Today紙などを傘下に持つ出版社が、著作権侵害を理由にOpenAIを相手取る訴訟を提起しました。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>同社は、OpenAIが無断で数十万件の記事をAIモデルの学習データとして複製したと主張し、2億5,000万ドル以上の損害賠償を求めています。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>メディア各社とAI開発企業の提携が進む一方で、訴訟による司法判断も並行して進み、学習データの利用ルールがより厳格化する可能性があります。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, '「USA Today」運営のパブリッシャーがOpenAIを提訴、著作権侵害で巨額賠償請求', 'https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit')"
+                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
+                        title="タイトルとURLをコピー">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    <span>コピー</span>
+                </button>
+            </div>
+        </article>
+        
+        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
+                 data-category="開発・技術"
+                 data-title="言わない技術 第5回：念を押さない技術"
+                 data-content="aiへの指示書（プロンプト）において、ルールを強調しすぎるとかえって指示全体の効果が薄まる現象を解説した記事が公開されました。 「1つルールを足すことは、他の全部を少し弱くすること」とし、過剰な強調や「必ず」といった言葉の削減を推奨しています。 aiが確実に指示に従うようにするためのプロンプト簡素化のノウハウとして、開発者やプロンプトエンジニアにとって非常に実用的です。">
+            <div>
+                <!-- Top metadata row -->
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300">
+                        開発・技術
+                    </span>
+                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <a href="https://zenn.dev/garplab/articles/23aae1a7bf62df" target="_blank" rel="noopener noreferrer">
+                        言わない技術 第5回：念を押さない技術
+                    </a>
+                </h3>
+
+                <!-- Source & Date -->
+                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
+                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
+                        Zenn (AIトピック)
+                    </span>
+                    <span class="truncate">Fri, 09 Oct 2026 00:44:29</span>
+                </div>
+
+                <!-- 3-point summary box -->
+                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
+                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
+                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        3行要約ダイジェスト
+                    </div>
+                    <ul class="space-y-2">
+                        
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    1
+                </span>
+                <span>AIへの指示書（プロンプト）において、ルールを強調しすぎるとかえって指示全体の効果が薄まる現象を解説した記事が公開されました。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    2
+                </span>
+                <span>「1つルールを足すことは、他の全部を少し弱くすること」とし、過剰な強調や「必ず」といった言葉の削減を推奨しています。</span>
+            </li>
+            
+            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
+                    3
+                </span>
+                <span>AIが確実に指示に従うようにするためのプロンプト簡素化のノウハウとして、開発者やプロンプトエンジニアにとって非常に実用的です。</span>
+            </li>
+            
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
+                <a href="https://zenn.dev/garplab/articles/23aae1a7bf62df" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
+                    元記事を読む
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+                <button onclick="copyArticle(this, '言わない技術 第5回：念を押さない技術', 'https://zenn.dev/garplab/articles/23aae1a7bf62df')"
                         class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
                         title="タイトルとURLをコピー">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
@@ -376,8 +700,8 @@
         
         <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
                  data-category="LLM・生成AI"
-                 data-title="chatgptに「インテリジェントui」導入へ：画像、グラフ、ボタンなどを用いたインタラクティブな回答が可能に"
-                 data-content="openaiが「gpt-6」のリリースに合わせ、回答内に動的なグラフやフォーム、ボタンなどを表示できる「インテリジェントui」をchatgptに導入します。 テキストでの対話にとどまらず、ユーザーがタップして操作できる視覚的要素を組み合わせることで、操作性や情報理解度を劇的に向上させます。 単なるチャットボットから、ユーザーの意図を汲み取って最適な操作画面をその場で生成する「動的なアプリ」へと進化する契機となりそうです。">
+                 data-title="anthropic解体新書 — 世界で最も慎重なai企業の思想・製品・経済・統治を構造化する"
+                 data-content="最も安全性に配慮するai企業として知られるanthropicの、思想から経済・ガバナンスまでを構造化した分析記事が公開されました。 「憲法ai（constitutional ai）」や「rsp（責任あるスケーリングポリシー）」など、同社特有のガバナンス手法を多角的に解剖しています。 クローズドなai開発環境に対して、オープンなライセンスで公開された本書は、aiビジネスに関わる全ての人の必読書となり得ます。">
             <div>
                 <!-- Top metadata row -->
                 <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
@@ -386,254 +710,14 @@
                     </span>
                     <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
                         <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
-                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span></div>
-                    </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6" target="_blank" rel="noopener noreferrer">
-                        ChatGPTに「インテリジェントUI」導入へ：画像、グラフ、ボタンなどを用いたインタラクティブな回答が可能に
-                    </a>
-                </h3>
-
-                <!-- Source & Date -->
-                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
-                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
-                        The Verge AI
-                    </span>
-                    <span class="truncate">2026-10-07T15:10:42-04:00</span>
-                </div>
-
-                <!-- 3-point summary box -->
-                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
-                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        3行要約ダイジェスト
-                    </div>
-                    <ul class="space-y-2">
-                        
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    1
-                </span>
-                <span>OpenAIが「GPT-6」のリリースに合わせ、回答内に動的なグラフやフォーム、ボタンなどを表示できる「インテリジェントUI」をChatGPTに導入します。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    2
-                </span>
-                <span>テキストでの対話にとどまらず、ユーザーがタップして操作できる視覚的要素を組み合わせることで、操作性や情報理解度を劇的に向上させます。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    3
-                </span>
-                <span>単なるチャットボットから、ユーザーの意図を汲み取って最適な操作画面をその場で生成する「動的なアプリ」へと進化する契機となりそうです。</span>
-            </li>
-            
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Footer actions -->
-            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6" target="_blank" rel="noopener noreferrer" 
-                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
-                    元記事を読む
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <button onclick="copyArticle(this, 'ChatGPTに「インテリジェントUI」導入へ：画像、グラフ、ボタンなどを用いたインタラクティブな回答が可能に', 'https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6')"
-                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
-                        title="タイトルとURLをコピー">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-                    <span>コピー</span>
-                </button>
-            </div>
-        </article>
-        
-        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
-                 data-category="海外トレンド・速報"
-                 data-title="マイクロソフトのイベントまとめ：nvidia製armチップを搭載した「surface laptop ultra」が登場"
-                 data-content="マイクロソフトが開催した新製品発表イベントで、nvidiaの「rtx spark」armベースチップを初搭載した新型「surface laptop ultra」が発表されました。 最小構成でも2,599ドル（8コア、24gbメモリ、512gbストレージ）と高価格帯ですが、圧倒的なグラフィックと省電力、強力なai処理性能を両立しています。 armアーキテクチャへのシフトが進むpc業界において、nvidiaとマイクロソフトの強力なタッグが新たなハイエンドai pcの基準を示すことになりそうです。">
-            <div>
-                <!-- Top metadata row -->
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">
-                        海外トレンド・速報
-                    </span>
-                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
-                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
                         <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
                     </div>
                 </div>
 
                 <!-- Title -->
                 <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced" target="_blank" rel="noopener noreferrer">
-                        マイクロソフトのイベントまとめ：Nvidia製Armチップを搭載した「Surface Laptop Ultra」が登場
-                    </a>
-                </h3>
-
-                <!-- Source & Date -->
-                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
-                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
-                        The Verge AI
-                    </span>
-                    <span class="truncate">2026-10-07T14:42:22-04:00</span>
-                </div>
-
-                <!-- 3-point summary box -->
-                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
-                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        3行要約ダイジェスト
-                    </div>
-                    <ul class="space-y-2">
-                        
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    1
-                </span>
-                <span>マイクロソフトが開催した新製品発表イベントで、Nvidiaの「RTX Spark」Armベースチップを初搭載した新型「Surface Laptop Ultra」が発表されました。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    2
-                </span>
-                <span>最小構成でも2,599ドル（8コア、24GBメモリ、512GBストレージ）と高価格帯ですが、圧倒的なグラフィックと省電力、強力なAI処理性能を両立しています。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    3
-                </span>
-                <span>Armアーキテクチャへのシフトが進むPC業界において、Nvidiaとマイクロソフトの強力なタッグが新たなハイエンドAI PCの基準を示すことになりそうです。</span>
-            </li>
-            
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Footer actions -->
-            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced" target="_blank" rel="noopener noreferrer" 
-                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
-                    元記事を読む
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <button onclick="copyArticle(this, 'マイクロソフトのイベントまとめ：Nvidia製Armチップを搭載した「Surface Laptop Ultra」が登場', 'https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced')"
-                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
-                        title="タイトルとURLをコピー">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-                    <span>コピー</span>
-                </button>
-            </div>
-        </article>
-        
-        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
-                 data-category="海外トレンド・速報"
-                 data-title="マイクロソフト、copilotにwindows osやローカルファイルの直接操作権限を付与するアップデートを発表"
-                 data-content="マイクロソフトがai「copilot」を強化し、ユーザーのpc内ローカルファイルへのアクセスや、os全体にまたがる自律的な操作を行えるようにすることを発表しました。 クラウドとローカルの処理を柔軟に組み合わせる「ハイブリッド・インテリジェンス」構想のもと、pcそのものを巨大なaiエージェントとして機能させます。 ユーザーの手間を省く極めて便利な機能である一方、データセキュリティやプライバシー保護における新たな運用ルールや配慮が重要になります。">
-            <div>
-                <!-- Top metadata row -->
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300">
-                        海外トレンド・速報
-                    </span>
-                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
-                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
-                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span></div>
-                    </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence" target="_blank" rel="noopener noreferrer">
-                        マイクロソフト、CopilotにWindows OSやローカルファイルの直接操作権限を付与するアップデートを発表
-                    </a>
-                </h3>
-
-                <!-- Source & Date -->
-                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
-                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
-                        The Verge AI
-                    </span>
-                    <span class="truncate">2026-10-07T14:01:20-04:00</span>
-                </div>
-
-                <!-- 3-point summary box -->
-                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
-                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        3行要約ダイジェスト
-                    </div>
-                    <ul class="space-y-2">
-                        
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    1
-                </span>
-                <span>マイクロソフトがAI「Copilot」を強化し、ユーザーのPC内ローカルファイルへのアクセスや、OS全体にまたがる自律的な操作を行えるようにすることを発表しました。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    2
-                </span>
-                <span>クラウドとローカルの処理を柔軟に組み合わせる「ハイブリッド・インテリジェンス」構想のもと、PCそのものを巨大なAIエージェントとして機能させます。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    3
-                </span>
-                <span>ユーザーの手間を省く極めて便利な機能である一方、データセキュリティやプライバシー保護における新たな運用ルールや配慮が重要になります。</span>
-            </li>
-            
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Footer actions -->
-            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence" target="_blank" rel="noopener noreferrer" 
-                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
-                    元記事を読む
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <button onclick="copyArticle(this, 'マイクロソフト、CopilotにWindows OSやローカルファイルの直接操作権限を付与するアップデートを発表', 'https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence')"
-                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
-                        title="タイトルとURLをコピー">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-                    <span>コピー</span>
-                </button>
-            </div>
-        </article>
-        
-        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
-                 data-category="開発・技術"
-                 data-title="「予約機能を作って」は失敗する：claude codeへの効果的な指示は「やらないこと」と「判断基準」を示すこと"
-                 data-content="開発者がclaude codeを用いてlaravelで予約機能を開発した際、大雑把な指示では過剰な機能が提案され、失敗した事例と対策が公開されました。 「やらない機能」を明記し、「店側が手動で確定する」といった明確な判断基準を渡すことで、目的に合致したシンプルかつ適切なコードが生成されることが示されました。 自律的なaiコーディングツールを活用する上で、指示の具体性だけでなく「実装のスコープを制限する技術（プロンプト力）」の重要性が浮き彫りになっています。">
-            <div>
-                <!-- Top metadata row -->
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300">
-                        開発・技術
-                    </span>
-                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
-                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
-                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
-                    </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://zenn.dev/mugen_web/articles/claude-code-instruction-granularity" target="_blank" rel="noopener noreferrer">
-                        「予約機能を作って」は失敗する：Claude Codeへの効果的な指示は「やらないこと」と「判断基準」を示すこと
+                    <a href="https://zenn.dev/leading_ai/books/anatomy-of-anthropic" target="_blank" rel="noopener noreferrer">
+                        Anthropic解体新書 — 世界で最も慎重なAI企業の思想・製品・経済・統治を構造化する
                     </a>
                 </h3>
 
@@ -642,7 +726,7 @@
                     <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
                         Zenn (AIトピック)
                     </span>
-                    <span class="truncate">Thu, 08 Oct 2026 00:02:45</span>
+                    <span class="truncate">Fri, 09 Oct 2026 00:41:37</span>
                 </div>
 
                 <!-- 3-point summary box -->
@@ -657,21 +741,21 @@
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     1
                 </span>
-                <span>開発者がClaude Codeを用いてLaravelで予約機能を開発した際、大雑把な指示では過剰な機能が提案され、失敗した事例と対策が公開されました。</span>
+                <span>最も安全性に配慮するAI企業として知られるAnthropicの、思想から経済・ガバナンスまでを構造化した分析記事が公開されました。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     2
                 </span>
-                <span>「やらない機能」を明記し、「店側が手動で確定する」といった明確な判断基準を渡すことで、目的に合致したシンプルかつ適切なコードが生成されることが示されました。</span>
+                <span>「憲法AI（Constitutional AI）」や「RSP（責任あるスケーリングポリシー）」など、同社特有のガバナンス手法を多角的に解剖しています。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     3
                 </span>
-                <span>自律的なAIコーディングツールを活用する上で、指示の具体性だけでなく「実装のスコープを制限する技術（プロンプト力）」の重要性が浮き彫りになっています。</span>
+                <span>クローズドなAI開発環境に対して、オープンなライセンスで公開された本書は、AIビジネスに関わる全ての人の必読書となり得ます。</span>
             </li>
             
                     </ul>
@@ -680,12 +764,12 @@
 
             <!-- Footer actions -->
             <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://zenn.dev/mugen_web/articles/claude-code-instruction-granularity" target="_blank" rel="noopener noreferrer" 
+                <a href="https://zenn.dev/leading_ai/books/anatomy-of-anthropic" target="_blank" rel="noopener noreferrer" 
                    class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
                     元記事を読む
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
-                <button onclick="copyArticle(this, '「予約機能を作って」は失敗する：Claude Codeへの効果的な指示は「やらないこと」と「判断基準」を示すこと', 'https://zenn.dev/mugen_web/articles/claude-code-instruction-granularity')"
+                <button onclick="copyArticle(this, 'Anthropic解体新書 — 世界で最も慎重なAI企業の思想・製品・経済・統治を構造化する', 'https://zenn.dev/leading_ai/books/anatomy-of-anthropic')"
                         class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
                         title="タイトルとURLをコピー">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
@@ -696,8 +780,8 @@
         
         <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
                  data-category="開発・技術"
-                 data-title="「coderabbit user group tokyo #4」イベントレポート：aiコードレビューを仕組みで育て、組織に定着させる方法"
-                 data-content="aiコードレビューサービス「coderabbit」のユーザーコミュニティイベントが開催され、導入から定着・運用改善までの実践的なセッションが共有されました。 フェズ社の志賀氏が登壇し、ツールを導入して終わらせず、独自の仕組みや教育を通じてレビューの質と開発効率を向上させた具体的な運用ノウハウが解説されました。 ai開発支援ツールの効果を最大化するには、ツールの性能に頼るだけでなく、組織としての受け入れ体制や運用プロセスの構築が必要不可欠であることが学べます。">
+                 data-title="1か月の80コミットは、全部 claude との共著でした。モデル別に数えたら、差に見えたのはリポジトリの差でした"
+                 data-content="wordpressプラグインの開発において、1ヶ月間で行われた80回のコミットすべてをclaudeとの共著で行った実践データが公開されました。 opusのバージョン（4.8、5、5.5）による開発への影響を分析し、能力差よりもプロジェクトの複雑さが作業効率を左右したと指摘しています。 aiを「ペアプログラマー」として完全に開発プロセスへ組み込み、自律的にコードを生成・修正させる時代の本格的な到来を示唆しています。">
             <div>
                 <!-- Top metadata row -->
                 <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
@@ -712,8 +796,8 @@
 
                 <!-- Title -->
                 <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://zenn.dev/fez_tech/articles/20261008__fez_tech__coderabbit_ug_tokyo_4" target="_blank" rel="noopener noreferrer">
-                        「CodeRabbit User Group Tokyo #4」イベントレポート：AIコードレビューを仕組みで育て、組織に定着させる方法
+                    <a href="https://zenn.dev/rapls/articles/80e18a7f9cb80c" target="_blank" rel="noopener noreferrer">
+                        1か月の80コミットは、全部 Claude との共著でした。モデル別に数えたら、差に見えたのはリポジトリの差でした
                     </a>
                 </h3>
 
@@ -722,7 +806,7 @@
                     <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
                         Zenn (AIトピック)
                     </span>
-                    <span class="truncate">Thu, 08 Oct 2026 00:00:06</span>
+                    <span class="truncate">Thu, 08 Oct 2026 23:38:20</span>
                 </div>
 
                 <!-- 3-point summary box -->
@@ -737,21 +821,21 @@
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     1
                 </span>
-                <span>AIコードレビューサービス「CodeRabbit」のユーザーコミュニティイベントが開催され、導入から定着・運用改善までの実践的なセッションが共有されました。</span>
+                <span>WordPressプラグインの開発において、1ヶ月間で行われた80回のコミットすべてをClaudeとの共著で行った実践データが公開されました。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     2
                 </span>
-                <span>フェズ社の志賀氏が登壇し、ツールを導入して終わらせず、独自の仕組みや教育を通じてレビューの質と開発効率を向上させた具体的な運用ノウハウが解説されました。</span>
+                <span>Opusのバージョン（4.8、5、5.5）による開発への影響を分析し、能力差よりもプロジェクトの複雑さが作業効率を左右したと指摘しています。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     3
                 </span>
-                <span>AI開発支援ツールの効果を最大化するには、ツールの性能に頼るだけでなく、組織としての受け入れ体制や運用プロセスの構築が必要不可欠であることが学べます。</span>
+                <span>AIを「ペアプログラマー」として完全に開発プロセスへ組み込み、自律的にコードを生成・修正させる時代の本格的な到来を示唆しています。</span>
             </li>
             
                     </ul>
@@ -760,12 +844,12 @@
 
             <!-- Footer actions -->
             <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://zenn.dev/fez_tech/articles/20261008__fez_tech__coderabbit_ug_tokyo_4" target="_blank" rel="noopener noreferrer" 
+                <a href="https://zenn.dev/rapls/articles/80e18a7f9cb80c" target="_blank" rel="noopener noreferrer" 
                    class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
                     元記事を読む
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
-                <button onclick="copyArticle(this, '「CodeRabbit User Group Tokyo #4」イベントレポート：AIコードレビューを仕組みで育て、組織に定着させる方法', 'https://zenn.dev/fez_tech/articles/20261008__fez_tech__coderabbit_ug_tokyo_4')"
+                <button onclick="copyArticle(this, '1か月の80コミットは、全部 Claude との共著でした。モデル別に数えたら、差に見えたのはリポジトリの差でした', 'https://zenn.dev/rapls/articles/80e18a7f9cb80c')"
                         class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
                         title="タイトルとURLをコピー">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
@@ -776,8 +860,8 @@
         
         <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
                  data-category="開発・技術"
-                 data-title="仕様書は固定すべきか、育てるべきか：ai駆動開発（ai-dlc）における「合意した」という意思表示の重要性"
-                 data-content="ai駆動型開発（ai-dlc）において、仕様書（spec）をあらかじめ固定して開発を進める現場でのアプローチと、その課題についての考察が共有されました。 仕様書の変更履歴に「合意した」という明確な事実を残すことが、複数人の開発者やaiが同じ基準で一貫したアウトプットを出すための鍵であると述べられています。 人間同士の意思決定だけでなく、aiを開発プロセスに組み込む際にも「どの仕様が最新で合意済みか」を明確に定義するドキュメンテーション能力が求められます。">
+                 data-title="obsidianのメモからaiに次の作業を選ばせるとき、優先順位を丸投げしない方法"
+                 data-content="obsidianの日報やメモからaiに「次にやるべきタスク」を推薦させる際の、主体性を失わないプロンプト設計が提案されました。 優先順位の評価を完全にai任せにせず、ユーザー自身の判断基準をあらかじめガイドラインとしてaiに読み込ませる方法を解説しています。 個人のタスク管理や仕事効率化における、aiとの理想的な協働モデル（ハイブリッド意思決定）のあり方を示しています。">
             <div>
                 <!-- Top metadata row -->
                 <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
@@ -786,94 +870,14 @@
                     </span>
                     <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
                         <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
-                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
+                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
                     </div>
                 </div>
 
                 <!-- Title -->
                 <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://zenn.dev/chisatom/articles/a128c65b18a6eb" target="_blank" rel="noopener noreferrer">
-                        仕様書は固定すべきか、育てるべきか：AI駆動開発（AI-DLC）における「合意した」という意思表示の重要性
-                    </a>
-                </h3>
-
-                <!-- Source & Date -->
-                <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-4 pb-3 border-b border-slate-100 dark:border-slate-700/50">
-                    <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
-                        Zenn (AIトピック)
-                    </span>
-                    <span class="truncate">Wed, 07 Oct 2026 23:57:01</span>
-                </div>
-
-                <!-- 3-point summary box -->
-                <div class="bg-slate-50/80 dark:bg-slate-900/60 rounded-xl p-3.5 sm:p-4 mb-4 border border-slate-100 dark:border-slate-800">
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2.5 flex items-center gap-1.5">
-                        <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        3行要約ダイジェスト
-                    </div>
-                    <ul class="space-y-2">
-                        
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    1
-                </span>
-                <span>AI駆動型開発（AI-DLC）において、仕様書（Spec）をあらかじめ固定して開発を進める現場でのアプローチと、その課題についての考察が共有されました。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    2
-                </span>
-                <span>仕様書の変更履歴に「合意した」という明確な事実を残すことが、複数人の開発者やAIが同じ基準で一貫したアウトプットを出すための鍵であると述べられています。</span>
-            </li>
-            
-            <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
-                <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
-                    3
-                </span>
-                <span>人間同士の意思決定だけでなく、AIを開発プロセスに組み込む際にも「どの仕様が最新で合意済みか」を明確に定義するドキュメンテーション能力が求められます。</span>
-            </li>
-            
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Footer actions -->
-            <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://zenn.dev/chisatom/articles/a128c65b18a6eb" target="_blank" rel="noopener noreferrer" 
-                   class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
-                    元記事を読む
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <button onclick="copyArticle(this, '仕様書は固定すべきか、育てるべきか：AI駆動開発（AI-DLC）における「合意した」という意思表示の重要性', 'https://zenn.dev/chisatom/articles/a128c65b18a6eb')"
-                        class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
-                        title="タイトルとURLをコピー">
-                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-                    <span>コピー</span>
-                </button>
-            </div>
-        </article>
-        
-        <article class="article-card group bg-white dark:bg-slate-800/90 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 dark:border-slate-700/80 flex flex-col justify-between"
-                 data-category="開発・技術"
-                 data-title="2026年9月のlaravel/php動向まとめ：ai sdkとmcpが1.0に到達、次期バージョン情報も"
-                 data-content="2026年9月のlaravelおよびphpの最新情報をまとめた記事で、laravel ai sdkとlaravel mcp（model context protocol）が正式に「1.0」を迎えました。 フレームワーク本体がaiとの連携機能を大幅に強化し、phpエコシステム全体でのai開発環境が本格的な実用フェーズへ移行しています。 今後登場予定のlaravel 14やphp 8.6の機能予測も示されており、aiファーストなwebアプリケーション開発を目指すエンジニアにとって必読のトレンドです。">
-            <div>
-                <!-- Top metadata row -->
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-bold tracking-wide bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300">
-                        開発・技術
-                    </span>
-                    <div class="flex items-center gap-1.5 text-xs bg-slate-50 dark:bg-slate-900/50 px-2.5 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
-                        <span class="text-slate-500 dark:text-slate-400 font-medium">注目度</span>
-                        <div class="flex tracking-tight text-xs"><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-amber-400'>★</span><span class='text-slate-300 dark:text-slate-600'>★</span></div>
-                    </div>
-                </div>
-
-                <!-- Title -->
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    <a href="https://qiita.com/sgrs38/items/4bcb20a9d03ff7313ae6" target="_blank" rel="noopener noreferrer">
-                        2026年9月のLaravel/PHP動向まとめ：AI SDKとMCPが1.0に到達、次期バージョン情報も
+                    <a href="https://qiita.com/boraemon2000/items/0e170a1f29c72583a314" target="_blank" rel="noopener noreferrer">
+                        ObsidianのメモからAIに次の作業を選ばせるとき、優先順位を丸投げしない方法
                     </a>
                 </h3>
 
@@ -882,7 +886,7 @@
                     <span class="inline-flex items-center font-medium px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700/60 text-slate-700 dark:text-slate-300">
                         Qiita (AIタグ)
                     </span>
-                    <span class="truncate">2026-10-08T09:22:07+09:00</span>
+                    <span class="truncate">2026-10-09T09:41:35+09:00</span>
                 </div>
 
                 <!-- 3-point summary box -->
@@ -897,21 +901,21 @@
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     1
                 </span>
-                <span>2026年9月のLaravelおよびPHPの最新情報をまとめた記事で、Laravel AI SDKとLaravel MCP（Model Context Protocol）が正式に「1.0」を迎えました。</span>
+                <span>Obsidianの日報やメモからAIに「次にやるべきタスク」を推薦させる際の、主体性を失わないプロンプト設計が提案されました。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     2
                 </span>
-                <span>フレームワーク本体がAIとの連携機能を大幅に強化し、PHPエコシステム全体でのAI開発環境が本格的な実用フェーズへ移行しています。</span>
+                <span>優先順位の評価を完全にAI任せにせず、ユーザー自身の判断基準をあらかじめガイドラインとしてAIに読み込ませる方法を解説しています。</span>
             </li>
             
             <li class="flex items-start text-sm leading-relaxed text-slate-700 dark:text-slate-300">
                 <span class="inline-flex items-center justify-center w-5 h-5 mr-2.5 mt-0.5 rounded-full bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 text-xs font-bold shrink-0">
                     3
                 </span>
-                <span>今後登場予定のLaravel 14やPHP 8.6の機能予測も示されており、AIファーストなWebアプリケーション開発を目指すエンジニアにとって必読のトレンドです。</span>
+                <span>個人のタスク管理や仕事効率化における、AIとの理想的な協働モデル（ハイブリッド意思決定）のあり方を示しています。</span>
             </li>
             
                     </ul>
@@ -920,12 +924,12 @@
 
             <!-- Footer actions -->
             <div class="pt-2 flex items-center justify-between border-t border-slate-100 dark:border-slate-700/40 mt-auto">
-                <a href="https://qiita.com/sgrs38/items/4bcb20a9d03ff7313ae6" target="_blank" rel="noopener noreferrer" 
+                <a href="https://qiita.com/boraemon2000/items/0e170a1f29c72583a314" target="_blank" rel="noopener noreferrer" 
                    class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 transition group-hover:translate-x-0.5 transform">
                     元記事を読む
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                 </a>
-                <button onclick="copyArticle(this, '2026年9月のLaravel/PHP動向まとめ：AI SDKとMCPが1.0に到達、次期バージョン情報も', 'https://qiita.com/sgrs38/items/4bcb20a9d03ff7313ae6')"
+                <button onclick="copyArticle(this, 'ObsidianのメモからAIに次の作業を選ばせるとき、優先順位を丸投げしない方法', 'https://qiita.com/boraemon2000/items/0e170a1f29c72583a314')"
                         class="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200 px-2 py-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/60 transition"
                         title="タイトルとURLをコピー">
                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>

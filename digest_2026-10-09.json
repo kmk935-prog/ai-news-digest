@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-09",
+  "updated_at": "2026-10-09T09:47:22.635897+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
+      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "published": "Thu, 08 Oct 2026 21:00:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
+      "category": "海外トレンド・速報",
+      "title_ja": "エリザベス・ホームズのデスクを再現？裁判資料をもとに作られた超リアルな体験サイトが登場",
+      "points": [
+        "セラノス創業者エリザベス・ホームズの裁判資料を再現したシミュレーションサイトが公開されました。",
+        "1,000以上のメールやスライド、テキストメッセージなどの実際の証拠データがインタラクティブに閲覧可能です。",
+        "裁判資料という一次情報をエンタメ・教育的に視覚化する新しいアプローチとして注目されます。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "published": "Thu, 08 Oct 2026 20:04:26 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "OpenAIから解雇された安全研究者らが反論、「安全文化の萎縮」を警告",
+      "points": [
+        "解雇されたOpenAIの安全研究者3名が機密情報漏洩の疑惑を否定し、公開書簡を発表しました。",
+        "内部の安全性に関する懸念を表明した直後の解雇であり、組織内の安全文化を阻害していると主張しています。",
+        "OpenAIの商業化優先姿勢と安全性軽視をめぐる議論が、規制や社内ガバナンスへの不信感をさらに強める可能性があります。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+      "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+      "published": "Thu, 08 Oct 2026 18:20:32 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
+      "category": "海外トレンド・速報",
+      "title_ja": "俳優ベン・アフレックが語る「ガチすぎるAI知識」がネットで話題に",
+      "points": [
+        "俳優のベン・アフレック氏が、AIの技術的仕組み（トランスフォーマー、オープンウェイト等）について深い知識を語り注目を集めました。",
+        "自身が創業したAI映像制作スタートアップをNetflixに売却した経緯があり、ビジネス・技術の両面で精通しています。",
+        "映画業界とAI技術の融合において、単なるユーザーではなく主導的な立場を取るエンタメ界の知識人が増える兆しを示しています。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "published": "2026-10-08T17:53:51-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Anthropicがオープンソース向けに「無料のAIセキュリティスキャン」を提供開始",
+      "points": [
+        "Anthropicが、オープンソースプロジェクトの脆弱性を検知する無料サービス「OSS Scanner」をローンチしました。",
+        "同社の最先端AIモデルを用いて定期的なセキュリティスキャンを無償で提供し、早期のバグ発見を支援します。",
+        "オープンソースエコシステムの安全性向上に寄与する一方で、ソースコードをAIにスキャンさせることへのプライバシーや知財のトレードオフも議論されています。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "California is trying to shut down robot vs. human cage matches",
+      "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+      "published": "2026-10-08T16:06:56-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "「人間 vs ロボット」の異種格闘技戦、カリフォルニア州が制止に乗り出す",
+      "points": [
+        "カリフォルニア州体育委員会が、人間と人型ロボットの格闘試合を開催したスタートアップに対し中止勧告を送付しました。",
+        "9月に開催された試合に対し、安全基準や興行としての法的枠組みに適合していないとして規制当局が介入した形です。",
+        "人型ロボットが社会に浸透する中で生じる、新たな物理的安全規制や娯楽としての境界線を定義する前例となり得ます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "USA Today becomes the latest publisher to sue OpenAI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+      "published": "2026-10-08T13:58:33-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging OpenAI's unauthorized use of […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "「USA Today」運営のパブリッシャーがOpenAIを提訴、著作権侵害で巨額賠償請求",
+      "points": [
+        "米大手のUSA Today紙などを傘下に持つ出版社が、著作権侵害を理由にOpenAIを相手取る訴訟を提起しました。",
+        "同社は、OpenAIが無断で数十万件の記事をAIモデルの学習データとして複製したと主張し、2億5,000万ドル以上の損害賠償を求めています。",
+        "メディア各社とAI開発企業の提携が進む一方で、訴訟による司法判断も並行して進み、学習データの利用ルールがより厳格化する可能性があります。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "言わない技術 第5回：念を押さない技術",
+      "url": "https://zenn.dev/garplab/articles/23aae1a7bf62df",
+      "published": "Fri, 09 Oct 2026 00:44:29 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "この記事は、連載「言わない技術」の第 5 回です。うまくいかない症状と、その対処を一つずつ並べています。各回はファイルやスクリプトを一つ置けば完結します。その仕組みがなぜ要るのかは、置いたあとに解説を読めば分かります。連載の全体像と各回の一覧は序論にあります。 今回は、強調の話です。太字、⚠️、「必ず」、そして先頭に移した大事な一行。指示ファイルの中で、私は守ってほしい行ほど強く書いてきました。 前作「読まない技術」の序論で、ルールは足すほど薄まる。1 つ足すことは、他の全部を少し弱くすることと書きました。同じことが、強調でも起きます。 まず一つだけ、数えてみてください。 指示ファイ...",
+      "category": "開発・技術",
+      "title_ja": "言わない技術 第5回：念を押さない技術",
+      "points": [
+        "AIへの指示書（プロンプト）において、ルールを強調しすぎるとかえって指示全体の効果が薄まる現象を解説した記事が公開されました。",
+        "「1つルールを足すことは、他の全部を少し弱くすること」とし、過剰な強調や「必ず」といった言葉の削減を推奨しています。",
+        "AIが確実に指示に従うようにするためのプロンプト簡素化のノウハウとして、開発者やプロンプトエンジニアにとって非常に実用的です。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Anthropic解体新書 — 世界で最も慎重なAI企業の思想・製品・経済・統治を構造化する",
+      "url": "https://zenn.dev/leading_ai/books/anatomy-of-anthropic",
+      "published": "Fri, 09 Oct 2026 00:41:37 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "Anthropicを起源・思想（憲法AI）・モデル構造・製品（Claude Code／Cowork／MCP）・経済・統治（RSP）の6層で解剖した構造分析。結論は「慎重さは信頼を生み、信頼は採用を生み、採用は破壊力を生む」。日本語／英語併記・CC BY 4.0のOSS書籍のZenn版。",
+      "category": "LLM・生成AI",
+      "title_ja": "Anthropic解体新書 — 世界で最も慎重なAI企業の思想・製品・経済・統治を構造化する",
+      "points": [
+        "最も安全性に配慮するAI企業として知られるAnthropicの、思想から経済・ガバナンスまでを構造化した分析記事が公開されました。",
+        "「憲法AI（Constitutional AI）」や「RSP（責任あるスケーリングポリシー）」など、同社特有のガバナンス手法を多角的に解剖しています。",
+        "クローズドなAI開発環境に対して、オープンなライセンスで公開された本書は、AIビジネスに関わる全ての人の必読書となり得ます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "1か月の80コミットは、全部 Claude との共著でした。モデル別に数えたら、差に見えたのはリポジトリの差でした",
+      "url": "https://zenn.dev/rapls/articles/80e18a7f9cb80c",
+      "published": "Thu, 08 Oct 2026 23:38:20 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "9月1日から10月3日までに、自分の WordPress プラグイン5本のリポジトリへ入ったコミットは80件でした。80件すべての末尾に、この行があります。 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com> 括弧の中のモデル名は、途中で3回変わっています。 モデル コミット 最初と最後 Claude Opus 4.8 9 9/1〜9/15 Claude Opus 5 47 9/3〜9/22 Claude Opus 5.5 24 9/24〜10/3 1か月でモデルが3世代入れ替わっても、リリー...",
+      "category": "開発・技術",
+      "title_ja": "1か月の80コミットは、全部 Claude との共著でした。モデル別に数えたら、差に見えたのはリポジトリの差でした",
+      "points": [
+        "WordPressプラグインの開発において、1ヶ月間で行われた80回のコミットすべてをClaudeとの共著で行った実践データが公開されました。",
+        "Opusのバージョン（4.8、5、5.5）による開発への影響を分析し、能力差よりもプロジェクトの複雑さが作業効率を左右したと指摘しています。",
+        "AIを「ペアプログラマー」として完全に開発プロセスへ組み込み、自律的にコードを生成・修正させる時代の本格的な到来を示唆しています。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "ObsidianのメモからAIに次の作業を選ばせるとき、優先順位を丸投げしない方法",
+      "url": "https://qiita.com/boraemon2000/items/0e170a1f29c72583a314",
+      "published": "2026-10-09T09:41:35+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "Obsidianへ日次メモや週報を残していると、次にやることの候補がたくさん見つかります。記事を書く、公開後の表示を確認する、アプリの不具合を直す、保留中の案を見直す。記録が増えるほど、どれから始めるか迷います。 そんなとき、AIに「次に何をすればよいですか」と聞くと、すぐ...",
+      "category": "開発・技術",
+      "title_ja": "ObsidianのメモからAIに次の作業を選ばせるとき、優先順位を丸投げしない方法",
+      "points": [
+        "Obsidianの日報やメモからAIに「次にやるべきタスク」を推薦させる際の、主体性を失わないプロンプト設計が提案されました。",
+        "優先順位の評価を完全にAI任せにせず、ユーザー自身の判断基準をあらかじめガイドラインとしてAIに読み込ませる方法を解説しています。",
+        "個人のタスク管理や仕事効率化における、AIとの理想的な協働モデル（ハイブリッド意思決定）のあり方を示しています。"
+      ],
+      "importance": 3
+    }
+  ]
+}
