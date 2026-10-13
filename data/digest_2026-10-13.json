@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-13",
+  "updated_at": "2026-10-13T11:19:18.137663+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "published": "Mon, 12 Oct 2026 17:56:56 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "category": "LLM・生成AI",
+      "title_ja": "Meta、初のフロンティアAIモデル「Muse Wonder」をリリース",
+      "points": [
+        "Metaが同社初となる本格的なフロンティアモデル「Muse Wonder」を正式発表した。",
+        "先行リリースされた軽量低遅延なMuse Sparkと比べ大規模化されており、コーディングなどの複雑なタスクで高いベンチマークを記録している。",
+        "最先端性能を競うフロンティアモデル市場において、OpenAIやGoogleに対抗するMetaの基盤モデル戦略が本格始動した。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "published": "Mon, 12 Oct 2026 17:19:14 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+      "category": "ビジネス・導入",
+      "title_ja": "気象AI気球のWindBorne、米空軍から約5,000万ドルの大型契約を獲得",
+      "points": [
+        "AIと独自気球で気象予測を行うスタートアップWindBorneが、米空軍から約5,000万ドル規模の契約を受注した。",
+        "独自開発のスマート観測気球群が収集するデータと高度なAI予測モデルを組み合わせ、高精度の気象インテリジェンスを提供する。",
+        "軍事・防衛分野における商用AIセンサーデータの採用拡大を示しており、宇宙・気象テック分野の成長を後押しする事例となった。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "published": "Mon, 12 Oct 2026 15:45:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+      "category": "ビジネス・導入",
+      "title_ja": "企業の広報・PR業務をAIで再定義する「Honeyjar」が登場",
+      "points": [
+        "企業の広報およびコミュニケーション業務全般を最適化・支援するAIツール「Honeyjar」が発表された。",
+        "メディアや記者の関心に合わせたアプローチやリリース作成など、従来属人的で非効率だったPR業務の自動化と品質向上を図る。",
+        "広報人材が不足するスタートアップから大企業まで、AIを活用した対外発信プロセスの効率化が進むか注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Meta has some Wonder Full new AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+      "published": "2026-10-12T13:00:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Meta、業界最高峰に対抗する「Muse Wonder」および「Muse Wonder Full」を発表",
+      "points": [
+        "Metaが業界トップモデルと正面から競合し得ると主張する「Muse Wonder」および「Muse Wonder Full」を公開した。",
+        "再編されたSuperintelligence Labsが主導するプロジェクトであり、先行のAIエージェントMuseに続くフラッグシップモデル群となる。",
+        "AI開発競争での巻き返しを図るMetaが、高度推論や自律型タスクで他社リーダー陣のシェアを崩せるかが焦点となる。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "published": "2026-10-12T09:00:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "マイクロソフト、第3世代AIチップ「Maia 300」を発表——Nvidia依存脱却へ前進",
+      "points": [
+        "マイクロソフトが自社製品・サービスの主要推論基盤となる第3世代AI半導体「Maia 300」を発表した。",
+        "クラウド運用コストと電力効率を大幅に向上させつつ、最新の推論モデルや自律型エージェントタスクに最適化されている。",
+        "Nvidia製GPUへの依存度を抑え、Azure基盤のコスト競争力を高める重要な内製化マイルストーンとなる。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "published": "2026-10-11T14:33:56-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "トランプ米大統領の「AI」改名方針にシリコンバレーの一部有力者が同調",
+      "points": [
+        "ドナルド・トランプ米大統領がAIを「スーパーインテリジェンス」へ呼称変更・リブランドする方針を示し、テック界隈の一部が追従し始めている。",
+        "一般層では浸透していないものの、政策支援や規制緩和を狙うシリコンバレーの有力リーダーらが政権の方針に歩調を合わせる動きを見せている。",
+        "技術用語の政治化が進むことで、今後の米国におけるAI規制政策や国家プロジェクトの推進方針に影響を及ぼす可能性がある。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Claude CodeとCodexを同じリポジトリで並列に動かす: git worktreeの落とし穴と相互レビュー",
+      "url": "https://zenn.dev/arun/articles/parallel-agents-git-worktree",
+      "published": "Mon, 12 Oct 2026 15:00:38 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! 筆者はMacアプリ「Offrun」を開発しています。この記事の手順は素のgitとCLIだけで再現できます。Offrunの紹介は末尾に短く書きました。 何が起きるのか Claude CodeとCodexを同じリポジトリで同時に動かすと、だいたい次の3つに当たります。 2つのエージェントが同じファイルを書き換え、片方の変更がもう片方の作業ツリーを壊す 片方のアカウントが使用量の上限に達して、作業が途中で止まる 生成された差分を、書いたエージェント自身にレビューさせても同じ見落としをする この記事では、1つずつ「エージェントごとにgit worktreeを切る」「別のエージェント...",
+      "category": "開発・技術",
+      "title_ja": "Claude CodeとCodexを同じリポジトリで並列稼働：git worktreeによる競合回避と相互レビュー",
+      "points": [
+        "同一リポジトリ上でClaude CodeとCodexの2つのAIエージェントを安全に並列実行する手順と知見が公開された。",
+        "作業ツリーの破壊やAPI使用量上限への対策としてgit worktreeによる分離を行い、エージェント同士の相互レビュー体制をCLI環境で実現している。",
+        "複数のコーディングAIを協調動作させて開発スピードを向上させる新たなベストプラクティスとして、現場の開発者に有益な手法である。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Anthropic、AIの試験を全部ネットから切り離す",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261012",
+      "published": "Mon, 12 Oct 2026 14:47:37 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "2026年10月12日（月）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます、菅原です。今日はAIの「止め方」と「頼り方」の話が並びました。Anthropicが社内でAIを試す環境を、ネットから全部切り離しました。UC Berkeleyは、AIに10分頼るだけで粘る力が落ちるという実験を出しています。国内のChatGPT利用者は推計2,670万人です。AIが当たり前になった今、どう付き合えば伸びるのか。5つの話でお伝えします。 1. Anthropic、AI試験をネットから全部遮断 図解（完全解説版） ちょっと怖い話からいきますね...",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Anthropic、AIモデルの社内試験環境をインターネットから完全遮断へ",
+      "points": [
+        "Anthropicが社内で高度AIモデルをテストする環境をインターネットから完全に切り離す隔離運用を開始した。",
+        "モデルの自律的・偶発的なネットアクセスによる情報漏洩や脱獄、予測不能な振る舞いを防ぐための厳格な安全対策（エアギャップ）である。",
+        "フロンティアモデルが進化する中で、AIアライメントと安全管理の基準が物理的隔離を含む軍事級セキュリティへと引き上げられている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "日本語の会議録音、ローカルWhisperはどのサイズで足りる？ Macで6サイズ×雑音・話し声・用語ヒントを実測した",
+      "url": "https://zenn.dev/kagaage/articles/b046f8a597c63a",
+      "published": "Mon, 12 Oct 2026 14:40:04 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "社外に出せない会議の録音を、クラウドに送らず手元のMacで文字起こししたい。そのとき最初に迷うのが「Whisperのどのサイズを使うか」です。小さいモデルは速いけれど金額や社名を落とすと議事録に使えない。大きいモデルは正確そうだけれど、1時間の録音に何分待つのか分からない。 そこで、OpenAIの音声認識モデル Whisper の6サイズ（tiny / base / small / medium / large-v3-turbo / large-v3）を、Apple M4のMac（メモリ16GB）で同じ条件にそろえて測りました。この記事は結果の要約です。 測った条件 項目 内容...",
+      "category": "開発・技術",
+      "title_ja": "日本語会議の文字起こし検証：ローカルWhisper全6サイズの精度と処理速度をMacで実測",
+      "points": [
+        "Apple M4 Mac環境にて、OpenAIのWhisper全6サイズ（tiny〜large-v3）を用いた日本語会議の文字起こし比較検証が実施された。",
+        "機密保持で外部クラウドに出せない録音を対象に、雑音耐性・発話認識率・専門用語の反映度・処理時間のトレードオフを綿密に計測している。",
+        "ローカルマシンでの議事録作成において、実用に耐えるモデルサイズとスペック要件を判断するための実践的なガイドとなっている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "AIを講師に使う方法",
+      "url": "https://qiita.com/good59548/items/550de661996767761c33",
+      "published": "2026-10-13T11:15:27+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "AIを自分専属の「講師（チューター）」として活用することは、学習効率や理解度を劇的に高める非常に有効な方法です。単に「答えを聞く」のではなく、インタラクティブな対話型学習の環境を構築することがポイントになります。 ​具体的な活用プロンプト（指示文）の工夫や学習の流れをまとめ...",
+      "category": "開発・技術",
+      "title_ja": "生成AIを自分専用の専属講師（チューター）として活用する学習プロンプト術",
+      "points": [
+        "生成AIを単なる検索代替ではなく、インタラクティブに対話しながら学べる「専属家庭教師」として運用するノウハウが公開された。",
+        "答えを即答させずヒントや問いかけを段階的に提示させるソクラテス式問答プロンプトにより、深い理解を促進する。",
+        "プログラミングや専門資格など自学自習の効率を劇的に高めるプロンプト設計として、幅広い学習者に応用可能なアプローチである。"
+      ],
+      "importance": 3
+    }
+  ]
+}
