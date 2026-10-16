@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-17",
+  "updated_at": "2026-10-17T08:06:49.669123+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "published": "Fri, 16 Oct 2026 21:22:28 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "category": "ビジネス・導入",
+      "title_ja": "Replit、Anthropicとの提携を終了へ コスト面などを理由にCEOが明言",
+      "points": [
+        "クラウド開発環境を提供するReplitが、Anthropicとの協業関係を終了したことをCEOが明らかにした。",
+        "8月にOpenAIとのパートナーシップを発表したReplitだが、今回の判断には利用コストを含む複数の要因が影響しているとされる。",
+        "AIコーディングツール市場における基盤モデル選定のシビアなコスト競争と、OpenAI対Anthropicの勢力争いが一段と鮮明になっている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "published": "Fri, 16 Oct 2026 17:52:24 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "インドでも「不正AIエージェント」の活動が報告、公開設定の不備を悪用した侵入が発生",
+      "points": [
+        "インドにおいて、公開リポジトリや設定ファイルに露出した認証情報を突く自律型不正AIエージェントの侵入被害が報告された。",
+        "過剰に権限が付与されたクラウドロールや脆弱なアプリ設定をエージェントが悪用し、侵入経路を自動探索していたことが判明している。",
+        "AIエージェントによるサイバー攻撃が世界的に顕在化しており、シークレット管理や最小権限の原則徹底などセキュリティ強化が急務となっている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "元NVIDIA幹部のVCが解説「ロボティクスにまだ『ChatGPTの瞬間』が訪れていない理由」",
+      "points": [
+        "元NVIDIAのロボティクス製品責任者で現VCのヴィシュワナート氏が、ロボット産業におけるブレイクスルーの遅れについて見解を示した。",
+        "ロボティクスは依然としてアクチュエータやロボットハンド、安全基準などの基礎を再構築する「レゴ時代」にあり、汎用モデル頼みでは不十分と指摘。",
+        "単なる基盤モデルの進化だけでなく、物理的なハードウェアや規格の成熟が本格的な社会実装への鍵を握るという視点として注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+      "published": "2026-10-16T11:00:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
+      "category": "開発・技術",
+      "title_ja": "NVIDIAの新型Armプロセッサ「RTX Spark」搭載ノートPC試用レビュー、AI時代の新チップの実力とは",
+      "points": [
+        "NVIDIAのノートPC・小型PC向け最新高性能Arm SoC「RTX Spark N1X」を搭載した実機デバイスの先行レビューが公開された。",
+        "AppleやIntel、AMD、Qualcommに対抗する強力なマルチコアCPUとNVIDIA GPUを統合し、高い推論性能と省電力性を両立している。",
+        "ローカルAI処理がノートPC市場の主戦場となる中、ArmベースのNVIDIAチップが今後のPCエコシステムをどこまで変革できるか期待が高まる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "published": "2026-10-16T10:02:40-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Metaの新利用規約、Webサイトやニュース記事を無料のAI学習に利用可能とする懸念が浮上",
+      "points": [
+        "Metaの新しい利用規約により、同社サービスを利用するメディアなど外部サイトのコンテンツをAI学習に無償で巡回・収集できる可能性が報じられた。",
+        "10月30日発効の改定規約には、関連ビジネスの外部コンテンツを開発、改良、調査、学習に利用できる旨が含まれているとされる。",
+        "パブリッシャーとの著作権や対価を巡る交渉が難航する中、規約を通じたデータ収集に対する反発や法的な議論が再燃する可能性がある。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "published": "2026-10-15T18:43:23-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video […]",
+      "category": "LLM・生成AI",
+      "title_ja": "ChatGPT、Chromeで開いているタブの情報を直接参照できる新機能を提供開始",
+      "points": [
+        "OpenAIはChrome拡張機能をアップデートし、ブラウザで開いているタブをChatGPTが直接読み取り・参照できる機能を実装した。",
+        "Web版やデスクトップアプリからChromeをタグ付けすることで、現在閲覧中のタブ内容をプロンプトのコンテキストとして即座に活用できる。",
+        "リサーチや要約のワークフローが大幅に短縮される一方、閲覧履歴や機密情報がAIに渡るリスクを考慮したプライバシー設定の管理が重要になる。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "The Edge of Intelligence ── AIがあなたのデバイスで動く時代：クラウドの終わりと、エッジの始まり",
+      "url": "https://zenn.dev/leading_ai/books/edge-ai-intelligence",
+      "published": "Fri, 16 Oct 2026 18:44:16 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "2026年1〜2月の8週間で、オープンウェイトモデルとプロプライエタリモデルのベンチマーク上の性能差は消滅した。競争の軸は「どのモデルが最も賢いか」から「どこで推論を実行し、誰がデータを支配するか」へ移る。性能収束の証拠・新たな競争軸・企業戦略・消費者行動の4部で、知能がクラウドからエッジへ移る構造を解き明かす。CC BY 4.0で公開。",
+      "category": "開発・技術",
+      "title_ja": "AIがデバイス上で動く時代へ──クラウド集権からエッジ分散へ移るAI競争の新たな軸",
+      "points": [
+        "オープンウェイトモデルの急激な性能向上を背景に、AIの競争軸が「モデルの知能」から「エッジでの推論とデータ主権」へシフトする構造を分析。",
+        "プロプライエタリモデルとの性能差が縮まったことで、クラウド送信を介さずローカル端末で高速・安全に推論を実行する価値が急速に高まっている。",
+        "プライバシー保護と通信遅延の解消が求められる企業システムやコンシューマーアプリにおいて、エッジAI活用への舵切りが加速する見通し。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "草案：Co-generative Systems Design（共生成的システム設計）",
+      "url": "https://zenn.dev/geeknees/articles/227ca996fba821",
+      "published": "Fri, 16 Oct 2026 16:41:10 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! この記事は、AIエージェント時代のソフトウェア設計について考えていることを、議論のためにまとめた草案です。確立した方法論の紹介ではなく、これから検証したい仮説と構想を含みます。 ソフトウェアは、建築よりも都市に近づいていくのではないか ソフトウェア設計は、建築から多くの発想を借りてきた。 GoF（Gang of Four）の『Design Patterns』にまとめられたソフトウェアのデザインパターンには、建築家クリストファー・アレグザンダーのパタン・ランゲージからの明確な影響がある。Eric Evansが体系化したDDD（ドメイン駆動設計）やユビキタス言語も、専門家と設計者が...",
+      "category": "開発・技術",
+      "title_ja": "AIエージェント時代の設計思想「共生成的システム設計（Co-generative Systems Design）」の草案",
+      "points": [
+        "自律型AIエージェントが協調して動作するシステムに向けて、従来の建築的アプローチから都市的な動的設計論への転換を提唱する草案が公開された。",
+        "デザインパターンやDDDの歴史を踏まえつつ、AIと人間が相互にフィードバックを与え合いながら継続的にシステムを進化させる設計モデルを提示。",
+        "単なるコード自動生成を超え、複数エージェントが複雑に絡み合う次世代ソフトウェア基盤のアーキテクチャ設計指針として示唆に富んでいる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "コードの見える化: 決定的な計算を活用する",
+      "url": "https://zenn.dev/shoyataguchi/articles/4f983556c00874",
+      "published": "Fri, 16 Oct 2026 15:44:19 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "「このシステム、外部のインターフェースが変わったら、どこを直せばいいの？」 見慣れないコードベースを前にして、こういう問いに答えられる状態を作りたい、という話がありました。 調査はエージェントにやらせる前提です。そのまま読ませるとコンテキストがあふれてしまいます（みなさんおそらく経験済みですよね？）。また、分析結果もなるべく再現性のある形で出したいです。 そこで、静的解析ツールの出力を根拠として引用させる方針で、使えるものを調べてみました。とりあえず静的解析のドメインやツールについて整理して、導入の容易性やカバー範囲の広さで絞っていきました。 最初の方針 少し調べたあとに、大きな方針...",
+      "category": "開発・技術",
+      "title_ja": "静的解析と決定的な計算を活用したコード可視化──AIエージェントのコンテキスト過多を防ぐ手法",
+      "points": [
+        "大規模コードベースの修正影響調査をAIエージェントに任せる際、静的解析ツールを前段に挟んでコンテキストを最適化する実践手法が共有された。",
+        "コードを丸ごとモデルに渡すとトークン上限や精度低下を招くため、静的解析による決定的な依存関係情報をエージェントに引用させて再現性を担保する。",
+        "LLMの推論と決定論的な静的ツールを組み合わせるハイブリッドなアプローチは、安全で実用的なコード自動修正パイプライン構築の鍵となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AI日報 2026年10月17日：Metaが816Bを公開、ChatGPTがブラウザに侵入、Anthropicが外部評価を受け入れる",
+      "url": "https://qiita.com/lhjjjk4/items/9d6d20577ae122a0683a",
+      "published": "2026-10-17T07:18:14+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "過去24時間のAI関連ニュースから7本を厳選してお届けする。いずれも公式ソースを最低1つ行内で引用している。今週は「開放」がテーマだ。Metaのオープンウェイト、NVIDIAのオープンエージェントモデル、そして自社の内部システムを外部監査に開放したAIラボである。 1....",
+      "category": "海外トレンド・速報",
+      "title_ja": "AI日報まとめ：Metaの超巨大オープンモデル、ChatGPTのブラウザ連携、Anthropicの外部監査",
+      "points": [
+        "過去24時間の重要ニュースとして、Metaによる816Bオープンモデル公開やChatGPTのブラウザタブ連携、Anthropicの外部評価受入などが整理された。",
+        "基盤モデルのオープン化、自律エージェントのOS・ブラウザ統合、AIラボの透明性向上など、技術の「開放」が共通の潮流となっている。",
+        "モデル性能の追求からエージェント連携の実用性やガバナンスへの移行が急速に進んでおり、エコシステム全体の標準化が注目される。"
+      ],
+      "importance": 4
+    }
+  ]
+}
