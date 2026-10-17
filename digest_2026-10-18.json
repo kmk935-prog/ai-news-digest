@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-18",
+  "updated_at": "2026-10-18T07:46:02.347352+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "published": "Sat, 17 Oct 2026 21:31:32 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Meta、スクレイピングとAI学習の懸念を招いた利用規約の文言を削除",
+      "points": [
+        "Metaが自社サービスの商用利用規約から、外部サイトのコンテンツをAI学習に利用できると示唆していた条項を削除した。",
+        "メディアや著作権者からの強い反発を受けた修正だが、Meta広報はWebクローリングの実態自体に変更はないと説明している。",
+        "生成AIの学習データ収集に対する社会的・法的な監視が強まる中、規約の透明性と著作権保護を巡る議論が再燃している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "published": "Sat, 17 Oct 2026 20:21:19 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "category": "ビジネス・導入",
+      "title_ja": "Anthropicの組織構成がシニア化、会議時間も増加傾向に",
+      "points": [
+        "AIスタートアップのAnthropicにおいて、過去1年でジュニア層の割合が減少し、会議にかける時間が増加していることが判明した。",
+        "急速な事業規模の拡大とエンタープライズ向け展開に伴い、組織の構造がスタートアップ初期から成熟企業型へと変化している。",
+        "AIトップ企業が直面する組織マネジメントや開発効率の維持といったスケーリングの課題を示す事例として注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "published": "Sat, 17 Oct 2026 18:48:08 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "category": "LLM・生成AI",
+      "title_ja": "開発プラットフォームReplit、標準AIをAnthropicからOpenAIへ変更",
+      "points": [
+        "オンライン開発環境のReplitが、デフォルトのAIモデルプロバイダーをAnthropicからOpenAIに変更したとCEOが発表した。",
+        "プラットフォーム上でClaudeの利用も継続してサポートされるが、標準設定の座をOpenAIが奪取した形となる。",
+        "開発支援・コーディングエージェント市場における有力プラットフォーマーの選定争いが激しさを増している。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "published": "2026-10-17T11:04:36-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Metaが規約改定、ニュースサイトのスクレイピングを可能にしていた記述を撤回",
+      "points": [
+        "ニュースサイトなどのコンテンツをAI学習に無断利用できると解釈可能だった商用利用規約の文言をMetaが削除した。",
+        "「ドメインやURLのコンテンツをサービス改善やAI開発に利用できる」とする条項に対し、パブリッシャー側から激しい反発が起きていた。",
+        "AI開発企業とコンテンツ保有者との間での適切なライセンス契約や合意形成の重要性が改めて浮き彫りとなった。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "published": "2026-10-17T09:00:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Webサイト各社がAIエージェントのアクセス遮断・制限を本格化",
+      "points": [
+        "自律的にWebを巡回してタスクを代行するAIエージェントに対し、接続をブロックまたは制限するWebサイトが急増している。",
+        "OpenAIやGoogleがエージェント推進を図る一方、サイト運営者はサーバー負荷、ボット被害、商機損失への危機感を強めている。",
+        "エージェントAIの普及には、モデル性能だけでなくWebエコシステム全体との合意形成や新たな通信規約の確立が不可欠となる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+      "published": "2026-10-16T11:00:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
+      "category": "開発・技術",
+      "title_ja": "Nvidiaの新型SoC「RTX Spark」搭載ノートPC、1週間の詳細レビュー",
+      "points": [
+        "Nvidiaの高性能ArmベースSoC「RTX Spark N1X」を搭載した新世代ノートPCの実機テスト結果が公開された。",
+        "多数のCPUコアと強力なGPUを1チップに統合し、AppleシリコンやIntel、AMD、Qualcommに対抗する性能を目指している。",
+        "PC市場におけるArmアーキテクチャの競争が一段と激化し、ローカルAI処理やクリエイティブワークの環境を大きく変える可能性がある。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "個人サイトの案内役を無料で実装した —— AIに答えを書かせず、自信があるときだけ返す",
+      "url": "https://zenn.dev/motimotinotch/articles/b9e36bb30b36e4",
+      "published": "Sat, 17 Oct 2026 11:59:02 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "自分のサイトの左下に、小さな吹き出しのボタンを置いた。押すと入力欄が開いて、サイトについて質問できる。 公開した日、本番に最初に来た質問は「このサイトってなに？」だった。案内役はこれに答えなかった。「その質問の答えはまだ用意していません」と返して、質問を保存しただけだ。 答えなかったときの表示。入力欄の下の注意書きにあるとおり、質問だけを保存する 壊れたわけではない。答えに自信が持てないときは黙る、というのがこの案内役の一番大事な仕様で、その日はその仕様どおりに動いた。この記事では、AI に答えの文章を1文字も書かせずに案内役を作った話と、それを個人サイトの規模なら無料で動かしている話...",
+      "category": "開発・技術",
+      "title_ja": "個人サイト向け案内ボットを無料実装：AIに生成させず高確信時のみ返す設計",
+      "points": [
+        "AIに回答文を直接生成させず、確信がある場合のみ事前定義の回答を返す堅牢な案内役ボットを個人サイトへ導入した事例が公開された。",
+        "ハルシネーションを完全に防止するため、自信がない質問には答えずログ保存に留めるアーキテクチャを無料枠内で構築している。",
+        "高い信頼性が求められるFAQや案内チャットにおいて、生成AIの暴走を防ぐ実用的かつ低コストな設計パターンとして参考になる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "企業の財務データこそローカルLLMを使いたい。ローカルLLMに財務分析の問題解かせてみた。",
+      "url": "https://zenn.dev/bekku/articles/e619fad8202e3a",
+      "published": "Sat, 17 Oct 2026 11:56:25 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに：AIに財務分析の問題を解かせてみた 前回、架空企業94社の仕訳帳と月次の財務諸表をまとめた合成データセット「SyntheticMonthlyFinancials-JP」を公開しました。 https://zenn.dev/bekku/articles/a49512485fcde6 https://huggingface.co/datasets/bekkuzer/SyntheticMonthlyFinancials-JP このデータセットには、財務分析の計算問題を470問付けています。 今回はそこから100問を選び、いくつかのAIモデルに解かせてみました。 どうやって試した...",
+      "category": "開発・技術",
+      "title_ja": "機密性の高い企業財務データ分析にローカルLLMは通用するか、100問で検証",
+      "points": [
+        "架空企業の仕訳帳・財務諸表データを基にした財務分析の計算問題100問をローカルLLMに解かせた検証結果が報告された。",
+        "外部APIに送信できない財務機密の取り扱いを想定し、ローカル環境で稼働するオープンモデルの実務的な計算・分析精度を評価した。",
+        "機密保持を最優先する財務・経理部門におけるローカルAI導入の現実的な実力と現時点の限界が明確になった。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Claude Codeのレビューが全部通ったのに残った書き漏れ、原因は差分だった",
+      "url": "https://zenn.dev/ara_jlu/articles/diff-review-blind-spot",
+      "published": "Sat, 17 Oct 2026 11:54:37 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "Claude Code のサブエージェントにコードレビューをさせていて、レビューが通ったのに「書くべき場所に書いていない」が残っていたことがありました。しかも1回ではなく、実装のステップごとのレビューも、最後のブランチ全体のレビューも、全部通っていました。 なぜ全部通ったのかと、自分のハーネスでどう塞いだかを書きます。持ち帰れるのは、この種類の不備はレビューを何重にしても見えないという構造と、塞ぎ方が1つです。 何が起きたか 自分の事業で動かしているツールに、あるタスクで変更を入れました。その変更で、後続のタスクが定期的に差し替える設定値が1種類から2種類に増えました。後続のタスクを...",
+      "category": "開発・技術",
+      "title_ja": "Claude Codeのレビューをすり抜けた実装漏れ、原因は「差分」の死角",
+      "points": [
+        "Claude Codeのレビューを全通過したコードに実装漏れが残ったトラブル事例と、その構造的要因・対策が解説された。",
+        "差分（diff）中心のレビューでは変更箇所の妥当性しか見えず、「他ファイルや後続タスクで本来追加すべき変更の欠落」を検知できない盲点があった。",
+        "AIコードレビューを過信せず、差分検知の死角を補う全体検証ハーネスや設計チェックを組み合わせる重要性を示している。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "AI日報 2026-10-18：Reflectionが501BモデルをApache 2.0で公開、Anthropicがgitを自社製に置換、TSMCが最高益",
+      "url": "https://qiita.com/lhjjjk4/items/58d1f20ca2ad3c957d2b",
+      "published": "2026-10-18T07:12:14+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "過去24時間のAI主要ニュース7本を、公式ソース付きでまとめる。今号の共通テーマは「エージェントが働くなら、モデルの周辺全部を作り直す必要がある」という話だ。バージョン管理も、サンドボックスも、実験室も、レジ締めも。 1. Reflection、Beamの重みをApac...",
+      "category": "国内テック・話題",
+      "title_ja": "AI日報：超巨大オープンモデル公開、Anthropicの自社製ツール刷新など最新動向",
+      "points": [
+        "Reflectionの超巨大モデル公開やAnthropicの内部ツール再構築、TSMCの業績など最新の重要AIニュースがまとめられた。",
+        "AIエージェントの実働に伴い、モデル単体だけでなくバージョン管理やサンドボックスなど周辺開発環境全体の再設計が進むトレンドを指摘している。",
+        "モデル自体の性能向上に加え、エージェントを支えるインフラや開発ツールの刷新が業界全体の鍵になりつつある。"
+      ],
+      "importance": 3
+    }
+  ]
+}
