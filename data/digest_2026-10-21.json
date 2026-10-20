@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-21",
+  "updated_at": "2026-10-21T08:31:50.938409+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "published": "Tue, 20 Oct 2026 23:01:23 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Anthropic、50人以上の致死リスクでAIモデル公開停止を可能にする安全法案を提案",
+      "points": [
+        "Anthropicが50人以上の生命に関わるリスクを生むAIモデルの公開停止を盛り込んだ安全法案を提案した。",
+        "暴走防止策として機能する一方で、裁判官の許可なく政府機関が独断で公開を差し止めることを禁じる条項も含まれる。",
+        "今後のAI安全性規制のあり方や、政府と民間企業におけるAI主導権争いに大きな影響を与える可能性がある。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "published": "Tue, 20 Oct 2026 22:24:02 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Hugging FaceのCEO、NetflixのOpenAIハックドキュメンタリーは不正確だと注意喚起",
+      "points": [
+        "Hugging FaceのCEOが、NetflixのAIドキュメンタリー番組の内容が不正確であるとSNS等で批判した。",
+        "作中に登場する同CEOは、番組がAIのリスクを過剰に煽る「完全な悲観論モード」に偏っていると指摘している。",
+        "エンタメ作品によるAIへの誤解や過度な恐れに対する業界トップからの反論として注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "published": "Tue, 20 Oct 2026 21:25:22 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+      "category": "ビジネス・導入",
+      "title_ja": "Anthropicとクラウド事業者の提携関係が難航、競合視により計算資源の確保に苦戦",
+      "points": [
+        "Anthropicが主要クラウドプロバイダーからの十分な計算資源の確保に苦慮していると報じられた。",
+        "インフラ支出が急増する中、クラウド事業者が同社を直接の競合とみなすようになり関係性が複雑化している。",
+        "11月に予定されるIPOに向けて、インフラ調達コストと競合リスクのバランスが成長の課題となりつつある。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "published": "2026-10-20T19:04:19-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the last year, Ann had failed to appear for an independent medical examination or […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "米裁判所、サム・アルトマン氏の妹による性的虐待訴訟を棄却",
+      "points": [
+        "米地方裁判所が、OpenAIのサム・アルトマンCEOを相手取って実妹が起こしていた性的虐待訴訟を棄却した。",
+        "原告側が指定された独立した医学的検査に応じなかったことなどが棄却の決定打となった。",
+        "アルトマン氏個人を巡る法的リスクがひとつ解消され、同社の経営体制への直接的な打撃は回避された。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "published": "2026-10-20T18:11:34-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Google、パーソナライズ機能を強化した「Gemini AI」を車載システムに展開へ",
+      "points": [
+        "Googleが車載システム向け「Gemini AI」にパーソナライズ機能（Personal Intelligence）を追加すると発表した。",
+        "Gmail、カレンダー、マップ、写真などの個人データと連携し、運転中にフライト状況を尋ねる等の操作が可能になる。",
+        "車内環境でのAIアシスタントの利便性が向上し、モビリティ分野におけるAI活用の競争がさらに加速する。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+      "published": "2026-10-20T14:07:34-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Meta、AIアシスタント「Muse」の会話共有機能を一時停止—公開URLの露出が判明",
+      "points": [
+        "MetaがAIアシスタント「Muse」の対話ログ共有機能を一時的に停止した。",
+        "セキュリティ研究者が公開DNSレコードを介して6,800件以上の共有会話URLを発見・特定したことが原因。",
+        "生成AIにおけるユーザーデータのプライバシー保護と共有機能の設計セキュリティに対する意識が高まっている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Claude Code のセッション同士でメッセージを送り合うなどスラッシュコマンドに無い機能6つ",
+      "url": "https://zenn.dev/yohakucode/articles/claude-code-features-without-slash",
+      "published": "Tue, 20 Oct 2026 14:45:04 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "Claude Code では、/ を打つと使えるコマンドが一覧で出ます。ところが、この一覧に出てこないのに、言葉で頼むだけで使える機能があります。 私も、Claude Code のセッション同士でメッセージを送り合えることを、最近になって知りました。この記事では、そういう機能を6つ紹介します。どれも、私が使っている Linux の VM で実際に試しています。 別のセッションにメッセージを送る スマホに通知する ファイルをスマホに送る 見張って何か起きたら知らせる 時間をおいてもう一度動く 選択肢で質問してもらう 試した環境は、Claude Code 2.1.300 です。claud...",
+      "category": "開発・技術",
+      "title_ja": "Claude Codeの隠れた便利機能6選！セッション間連携やスマホ通知など",
+      "points": [
+        "CLIツール「Claude Code」でスラッシュコマンド一覧に表示されない非公式な便利機能6つが検証・紹介された。",
+        "別セッションへのメッセージ送信、スマホへの通知やファイル転送、バックグラウンド監視など自然言語で指示可能。",
+        "Claude Codeを使った開発プロセスの自動化や、複数セッションによる並列作業の効率が格段に向上する。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AI同士の依頼は英語の電報調、私への報告は日本語だけ。レビューの返事は418→167トークンに",
+      "url": "https://zenn.dev/twinharness/articles/ai-telegraph-vs-plain-japanese",
+      "published": "Tue, 20 Oct 2026 14:36:30 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AI に開発を任せていると、AI が書く文章の読み手が2種類あることに気づきます。1つは私、もう1つはもう一方の AI です。私は PC にあまり詳しくないと自認していて、専門用語だらけの報告は読めません。ところが、AI 同士のやり取りまで丁寧な日本語の長文にすると、読み込むたびに AI が処理する文字量（トークン。AI の利用量を数える単位）が増えてしまいます。 そこで、読み手によって文体を分けました。AI 同士の依頼と返事は英語の電報のような短い形式に決め、私への報告は日本語だけで、専門用語を使わずに書かせます。同じレビューの返事1件で測ると、トークン数の目安は 418 から 167...",
+      "category": "開発・技術",
+      "title_ja": "AI間の通信は英語電報調、人間への報告は日本語に限定しトークン消費を大幅削減",
+      "points": [
+        "マルチAI開発環境において、読み手（AIか人間か）に応じて文体を最適化する手法が提案された。",
+        "AI同士の依頼・返信を短文の英語電報調に統一することで、レビュー1件あたりのトークン数を418から167に削減した。",
+        "生成AIを活用したシステム開発におけるAPIコストの削減と応答速度向上のための実用的なノウハウである。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "『リーダブルコード』7章・8章を読んで制御フローと式の分割をわかる",
+      "url": "https://zenn.dev/zhaojiayi/articles/6d6b55a00295e6",
+      "published": "Tue, 20 Oct 2026 14:03:05 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "これまでのメモと感想文のまとめ↓ https://zenn.dev/zhaojiayi/articles/2bdd2f7e767d31 7章 制御フローを読みやすくする 7.1 条件式の引数の並び順 左に調べたい値、右に比較の基準を置く。 length >= 10 と書き、 10 <= length のように逆にしない。逆に書くヨーダ記法は、 == を = と書き間違えるミスを防ぐためのものだ。今はlintやコンパイラが警告してくれるので、読みにくくしてまで守る理由はない。 // 良い例：左は変化する値、右は基準 if (length >= 10) {} whi...",
+      "category": "開発・技術",
+      "title_ja": "『リーダブルコード』に学ぶ条件式の読みやすさと制御フロー改善の実践",
+      "points": [
+        "名著『リーダブルコード』の7章・8章をベースに、読みやすい条件式や式の分割方法を解説した記事が公開された。",
+        "変数を左・基準値を右に置く順序や、現代のリンター環境におけるヨーダ記法の不要性などが具体的に整理されている。",
+        "可読性の高いコード記述は人間だけでなくAIによるコード理解・修正の精度向上にも直結するため重要である。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "AI Daily Digest 2026年10月21日：Geminiが車に乗る、Waymoはマドリードへ、Tenstorrentが15億ドル調達",
+      "url": "https://qiita.com/lhjjjk4/items/8741582b8570517e9d05",
+      "published": "2026-10-21T07:10:44+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "過去24時間のAI主要ニュース7本、各記事とも最低1つの一次情報源に基づいています。今号のテーマは1本の線です。AIがブラウザを離れて、車の中、ヨーロッパの街角、マレーシアのデータセンター、RISC-Vチップなど物理的な場所に降りていく動きです。 1. Google、車...",
+      "category": "国内テック・話題",
+      "title_ja": "AIニュースダイジェスト：車載Gemini、Waymoのマドリード展開、Tenstorrentの巨額調達など",
+      "points": [
+        "AI技術がWebブラウザを離れ、実社会やハードウェアへと進出する最新ニュース7本をまとめたダイジェスト。",
+        "車載Gemini、Waymoの欧州展開、Tenstorrentによる15億ドルの資金調達など物理領域での展開が目立つ。",
+        "生成AIの主戦場がソフトウェア単体からエッジデバイスやモビリティなどの実空間へと移行している動向がわかる。"
+      ],
+      "importance": 3
+    }
+  ]
+}
