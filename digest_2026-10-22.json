@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-22",
+  "updated_at": "2026-10-22T08:47:55.087673+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "published": "Wed, 21 Oct 2026 22:51:22 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+      "category": "海外トレンド・速報",
+      "title_ja": "ブラックストーンのAI責任者、「AIインフラ投資への債務懸念は過剰」と指摘",
+      "points": [
+        "米プライベートエクイティ大手ブラックストーンのAI責任者が、AIインフラ構築に伴う債務リスクへの市場の過剰な懸念に反論した。",
+        "データセンター等への莫大な資本投下に対する警戒感が広がる中、同社は長期的な実需と収益性に基づき積極的な投資姿勢を堅持している。",
+        "AIバブル懸念が燻る金融市場において、大手投資ファンドがインフラ整備をどう評価しているかを示す先行指標となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "published": "Wed, 21 Oct 2026 21:16:20 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+      "category": "海外トレンド・速報",
+      "title_ja": "TechCrunch Founder Summit 2026：スタートアップ創業者のための最新カンファレンス概要",
+      "points": [
+        "米TechCrunchが、スタートアップ創業者向けの大型カンファレンス「Founder Summit 2026」の開催概要を発表した。",
+        "全成長フェーズの創業者を対象に、トップVCや経験豊富な起業家から実践的なスケール戦略や事業構築の知見を提供する。",
+        "AI時代における最新の資金調達動向やスタートアップの成功モデルを掴む場として注目される。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "published": "Wed, 21 Oct 2026 21:14:19 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+      "category": "LLM・生成AI",
+      "title_ja": "MetaのAIアプリ「Muse」、利用者数1,000万人を突破—ショッピング用途が急拡大",
+      "points": [
+        "Metaは第3四半期決算にて、自社のAIアプリ「Muse」のアクティブユーザー数が1,000万人を超えたと発表した。",
+        "日常的な会話だけでなく、ショッピングや個人の生産性向上を支援する実用ツールとしての利用が急速に拡大している。",
+        "Metaが保有するソーシャル・コマース基盤とAIエージェントの統合が進み、生成AIの日常化と収益化を占う重要指標となる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Data centers could erase decades of air quality gains",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+      "published": "2026-10-21T18:33:44-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "AIデータセンターの急増で大気汚染が悪化の恐れ、過去数十年間の環境改善が後退する危機",
+      "points": [
+        "生成AIインフラの心臓部であるデータセンターの急増により、米テキサス州などで大気汚染が2000年代レベルに逆戻りする懸念が報じられた。",
+        "施設が要求する膨大な電力を賄うため火力発電への依存が強まり、長年の大気浄化努力が損なわれるリスクが指摘されている。",
+        "AI開発の進展と環境負荷（グリーンAI）のトレードオフが鮮明になり、企業のサステナビリティ方針や電力規制の行方に注目が集まる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Meta to create a new class of shares to fund AI push",
+      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+      "published": "2026-10-21T17:30:02-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, […]",
+      "category": "ビジネス・導入",
+      "title_ja": "Meta、AI投資拡大に向け「議決権なし」の新種株式を発行へ",
+      "points": [
+        "Metaは第3四半期決算発表にあわせ、AI関連の投資資金を調達するために新たな種類株式を発行する方針を明らかにした。",
+        "議決権を持たない新株を通じて資金を確保し、大規模なインフラ拡充や将来的な企業買収、AIトップ人材への報酬に充当する。",
+        "激化するビッグテックのAI覇権争いの中、既存の経営権を維持しつつ巨額投資を継続するための財務戦略として注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "published": "2026-10-21T15:53:20-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Anthropicが新AIエージェント「Claude Duet」を発表、MetaやOpenAIに対抗",
+      "points": [
+        "Anthropicは、MetaのMuseやOpenAIのDotsに対抗する新しいAIエージェント「Claude Duet」をリサーチプレビューとして発表した。",
+        "専門職や小規模ビジネスオーナー向けに最適化されており、モバイルアプリ（iOS/Android）およびWeb版Claude上で利用可能。",
+        "日常業務や事業運営を支援するパーソナルAIエージェント分野において、大手AI各社の競争が一段と加速している。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Claude Codeの自動再開のあと、古い画面に入力すると会話が二つに分かれる。送信を止めるフックを作った",
+      "url": "https://zenn.dev/twinharness/articles/resume-guard-stale-terminal",
+      "published": "Wed, 21 Oct 2026 14:42:32 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AI の使用上限（一定の利用量に達すると、回復するまで使えなくなる制限）で作業が止まったとき、回復の時刻に会話を自動で再開させる仕組みを作りました。ところが、再開は画面に出ないところで進むので、止まったままの古いターミナル画面（コマンドを打ち込む黒い画面）は、そのことを知りません。そこへうっかり指示を打つと、同じ会話が「裏で進んだ版」と「古い画面の版」の二つに分かれてしまいます。 そこで、古い画面からの送信を入口で止めるフックを作りました。この記事では、何を目印に「古い」と判定しているか、判定できないときにどうするか、止められない範囲はどこかを書きます。自動再開を作っている人、あるいは長...",
+      "category": "開発・技術",
+      "title_ja": "Claude Codeの自動復帰時に会話が分岐する問題を防ぐ、送信防止フックの実装テクニック",
+      "points": [
+        "Claude Codeの利用制限解除に伴う自動再開時、古いターミナルへの誤入力で会話が2系統に分岐するのを防ぐフックの実装が公開された。",
+        "バックグラウンドで既に再開されたセッションの進行状態を検知し、古い画面からの送信を入元で遮断するロジックを解説している。",
+        "長時間にわたるコーディング作業や自動化フローを組むエンジニアにとって、コンテキスト破損を防ぐ実践的なノウハウとなる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIエージェントに「実装しながら考える」をさせない。技術負債を減らす計画書作成プロンプト",
+      "url": "https://zenn.dev/kazuki_izutani/articles/1709552ca099f1",
+      "published": "Wed, 21 Oct 2026 13:56:29 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに Claude Code などのコーディングエージェントに実装を任せていると、既存の共通関数を使わずに似た関数を新たに作ったり、他の箇所とは違う方法でエラー処理をしたりすることがあります。 これらの原因の多くは、実装前の計画のあいまいさにあります。計画に未決定や要検討の項目が残っていると、エージェントは、実装中にそれらの箇所を自己判断して実装します。そのときの材料として使われるのは、実装のために読み込んでいる狭いコンテキストの範囲内の情報だけです。結果、その実装箇所では動作するが、コード全体では噛み合っていない、独創的な実装が発明されます。特に、最近のLLMは高性能になってい...",
+      "category": "開発・技術",
+      "title_ja": "AIエージェントの暴走を防ぐ：技術負債を生まないための「計画書作成プロンプト」",
+      "points": [
+        "Claude CodeなどのコーディングAIが仕様の曖昧さから独創的な不要コードを生成するのを防ぐ、計画書作成手法が提案された。",
+        "狭いコンテキストでの自己判断を防ぐため、実装前の段階で未決定事項を洗い出し、プロジェクト規約に沿った設計を固定化する。",
+        "AI主導の開発現場において、コードベースの健全性を維持し長期的な保守コストを削減するための有効なベストプラクティス。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "金融K線専用の基盤モデルKronosにBTC/USDTの値動きを予測させてみた",
+      "url": "https://zenn.dev/matsushima_a/articles/day-022-kronos-btc-price-forecast",
+      "published": "Wed, 21 Oct 2026 13:56:07 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AAAI 2026に採択された金融ローソク足(K線)専用の基盤モデル「Kronos」を、実際にBTC/USDTの1時間足データで動かし、予測結果を実際の値動きと突き合わせてみた。結論から言うと、CPUだけでも十分実用的な速度で動く一方、方向性(上がるか下がるか)の予測力については、今回の検証範囲ではコイン投げ程度にとどまった。 Kronosとは何か Kronosは、世界45取引所・120億件超のK線(OHLCV)データで事前学習した、金融ローソク足専用の基盤モデルである(論文、MIT License)。専用トークナイザがOHLCVを階層的な離散トークンに変換し、自己回帰Transfo...",
+      "category": "開発・技術",
+      "title_ja": "金融ローソク足特化の基盤モデル「Kronos」でビットコインの価格予測を検証",
+      "points": [
+        "AAAI 2026採択の金融ローソク足専用基盤モデル「Kronos」を用いて、BTC/USDTの1時間足の値動き予測を検証した記事が公開された。",
+        "120億件超のデータで事前学習されCPUでも高速に動作する一方、方向性の予測精度は今回の検証ではコイントス程度にとどまった。",
+        "金融時系列データに対する基盤モデルの現状の実力と、今後の特徴量設計やファインチューニングの重要性が浮き彫りとなった。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "MCPサーバーを5分で作る — TypeScript + @modelcontextprotocol/sdk の最小実装",
+      "url": "https://qiita.com/joinclass/items/60abfc1f42358424b26f",
+      "published": "2026-10-22T08:30:06+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "はじめに：自動化ジョブが33個あると、「今どうなってる？」に答えるだけで一苦労 当社（合同会社ジョインクラス）では、社内業務のほとんどを Claude Code と launchd で動かしています。2026年9月に棚卸ししたところ、ジョブは 33個 ありました。STAT...",
+      "category": "開発・技術",
+      "title_ja": "TypeScriptと公式SDKで5分で作る「MCPサーバー」最小実装ガイド",
+      "points": [
+        "Anthropicが提唱するModel Context Protocol（MCP）を用いた自作サーバーを、TypeScriptで素早く構築する実装例が紹介された。",
+        "社内で運用している30個以上の自動化ジョブの稼働状態を、Claude Codeから直接自然言語で問い合わせて確認可能にする。",
+        "ローカル環境や社内システムとLLMエージェントを柔軟に連携させたい開発者にとって、即効性のある入門コンテンツ。"
+      ],
+      "importance": 4
+    }
+  ]
+}
