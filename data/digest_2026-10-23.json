@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-23",
+  "updated_at": "2026-10-23T08:45:46.108025+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "published": "Thu, 22 Oct 2026 22:08:24 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "category": "海外トレンド・速報",
+      "title_ja": "OpenAI、IPOを見据え評価額1.25兆ドルで300億ドル規模の巨額資金調達を準備中",
+      "points": [
+        "OpenAIが新規公開株（IPO）を視野に、評価額1.25兆ドル規模で300億ドルの資金調達を進めていることが判明した。",
+        "この評価額が実現すれば、未上場企業（プライベートカンパニー）として史上最高額の記録を大きく更新することになる。",
+        "巨大AIインフラへの投資加速や競合他社とのシェア争いが激化する中、上場に向けた同社の事業成長ペースと市場への影響が注視される。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "published": "Thu, 22 Oct 2026 19:07:09 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "1Password、パスワードを開示せずにAIエージェントが代理ログインできる新機能を発表",
+      "points": [
+        "1Passwordは、AIエージェントがユーザーのパスワードを閲覧・保持することなくサービスへ代理ログインできる新機能をリリースした。",
+        "ユーザーの重要な認証情報を強固に保護したまま、AIが各種Webサイトや個人アカウントでの作業を安全に自動実行できる仕組みを提供する。",
+        "自律型AIエージェントの利用が広がる中で、セキュリティと利便性を両立する重要インフラとして普及が進むか注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "published": "Thu, 22 Oct 2026 19:00:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "category": "LLM・生成AI",
+      "title_ja": "OpenAIが意思決定モデルを一般公開、競合モデル「Jev」との対決が激化",
+      "points": [
+        "OpenAIが、先行する競合モデル「Jev」に対抗する独自の意思決定モデル（Decision Model）を一般向けに広く提供開始した。",
+        "複雑な推論や高度なビジネス判断に特化したAIモデルの分野において、大手AI企業の開発・展開競争が加速している。",
+        "企業の戦略策定や複雑なタスク自動化において、どの意思決定AIが業界標準を獲得するかが今後の焦点となる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "published": "2026-10-22T17:51:25-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Canvaが初の独自画像生成AI「Canva Craft」を発表、生成前にデザインを事前計画する新技術を搭載",
+      "points": [
+        "Canvaは、画像生成前にデザインの構図や配置を計画する独自AIモデル「Canva Craft」を発表した。",
+        "2段階のアーキテクチャを採用することにより、従来の画像生成AIに比べて高い精度・一貫性・制御性を実現している。",
+        "OpenAIやGoogleなどの競合がひしめく画像生成市場において、デザイン制作現場での実用性と操作性が大幅に高まると期待される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Meta’s AI could still scrape news sites, legal experts say",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "published": "2026-10-22T16:32:05-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Metaの利用規約改定後も、AIによるニュースサイトのスクレイピング懸念が残ると専門家が指摘",
+      "points": [
+        "Metaがビジネス利用規約を改定したものの、ニュースサイトのコンテンツをAI学習用に無断収集できる抜け道が依然として残っていると法律専門家が指摘した。",
+        "「製品やサービスに関連するデータ」といった規約上の曖昧な表現が残されており、メディア側の保護対策として不十分であると疑問視されている。",
+        "AI開発企業と報道機関・コンテンツ保持者との間の著作権や対価を巡る法的議論がさらに激化する可能性がある。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Meta turns Muse sharing back on",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "published": "2026-10-22T16:24:04-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at Claroc reported earlier this week that Muse the web […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Meta、セキュリティ上の問題で停止していた「Muse」の共有機能を安全対策の上で再開",
+      "points": [
+        "Metaは、公開会話リンクから機密情報が露出する懸念から一時停止していた「Muse」の共有機能を再有効化した。",
+        "セキュリティ研究者により、企業の内部収益レビューや個人のローン申請書などがWeb上で閲覧可能な状態になっていた脆弱性が報告されていた。",
+        "機能再開にあたりプライバシー保護策が十分に機能しているか、利用企業のデータ管理の観点から継続的な確認が求められる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Claude Codeと作る 間取り3D内見ツール ── 図面読み取りから搬入チェックまで",
+      "url": "https://zenn.dev/yuya26_ai/books/bc2f4d1d552613",
+      "published": "Thu, 22 Oct 2026 14:16:32 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "手元にあるのは間取り図の画像1枚だけ。それでも、部屋の広さや見え方、ソファが玄関を通るかを知りたい ──そんな引っ越しの悩みを、技術で解きます。間取りのデータ設計、Three.jsでの3D化、一人称の内見、塗つぶしによる部屋の領域分割、AIによる図面の読み取り、そして長方形を動かし・回して通れる道を探す搬入チェクまで。Claude Codeと一緒に「間取り3D内見」ツールを1から作りながら、それぞれの仕組みを理解きる技術本です。HTMLとJavaScriptを少し触ったことがあれば読めます。",
+      "category": "開発・技術",
+      "title_ja": "1枚の間取り図から3D化と家具搬入ルートチェックを行うWebツールをClaude Codeで開発",
+      "points": [
+        "1枚の間取り図画像から Three.js を用いて3D空間を構築し、一人称視点での内見や家具の搬入ルート検証ができるツールの開発工程が公開された。",
+        "画像認識による間取りデータの読み取りや領域分割、長方形の移動・回転アルゴリズムによる搬入チェックなどの要素技術を組み合わせている。",
+        "Claude Codeを活用した個人開発の実践例として、不動産テックやWeb3Dアプリ開発における知見の広がりが期待される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "知識グラフ化ツールGraphifyでgrep/Readを置き換えたら、トークンは何倍減るのか実測した",
+      "url": "https://zenn.dev/matsushima_a/articles/day-023-knowledge-graph-vs-grep-token-cost",
+      "published": "Thu, 22 Oct 2026 14:05:17 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "これは何の話か 海外AIネタ100日チャレンジDay 023。今回取り上げるのはGraphify-Labs/graphify(PyPI配布名はgraphifyy、ダブルyなので注意)。 コード・ドキュメント・SQLスキーマ・設定ファイルなどを1つの問い合わせ可能な知識グラフに変換するPython CLIで、Claude Code/Cursor/Codex/Gemini CLIなど向けのスキルとしても配布されている。 コード解析はtree-sitterによる完全ローカル・決定的な処理で、--code-onlyオプションを使えばLLM呼び出し無し・外部送信無しの完全オフラインで動く。 謳...",
+      "category": "開発・技術",
+      "title_ja": "コードや規約を知識グラフ化するツール「Graphify」によるトークン削減効果の実測レポート",
+      "points": [
+        "コードや設定ファイルを構造化して知識グラフに変換するPython CLIツール「Graphify」を導入し、LLMへの送信トークン削減量を実測検証した。",
+        "tree-sitterを活用した完全ローカル処理により、外部にコードを送信せず決定的な解析を行える点が大きな特徴となっている。",
+        "Claude CodeやCursor等のコーディングエージェントにおけるコンテキスト圧迫回避とコスト削減の有効な手段として注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AI に記事を29本まとめて書かせたら、もっともらしい間違いが24か所混ざっていた",
+      "url": "https://zenn.dev/claire_ai/articles/kiji-kenshu-iriguchi",
+      "published": "Thu, 22 Oct 2026 13:47:22 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "一晩で、AI（Claude Code）に記事の下書きを29本書かせた。2時間ほどで、画像104枚、合わせて約9.6万字。読み返すと、どれもそれらしく書けていた。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/n4fac7226fd5a 課題：AI が書いた記事は、間違っていても読みやすい 材料には、自分の作業の記録に残っている数字と失敗だけを使わせた。文章の癖を見る機械の検査も通して、指摘はたった3件だった。 ところが、書いた AI とは別の AI に、...",
+      "category": "LLM・生成AI",
+      "title_ja": "AIに記事29本を一括生成させた実験で、精巧な誤りが24箇所混入していた事例が話題に",
+      "points": [
+        "Claude Codeを活用して一晩で29本（約9.6万字）の記事下書きを作成させたところ、人間が見落としやすい誤情報が24箇所含まれていたことが判明した。",
+        "自身の作業実績データのみを与えテキスト分析チェックも通過していたにもかかわらず、もっともらしいハルシネーションが発生していた。",
+        "生成AIによる大量コンテンツ作成におけるファクトチェック体制の重要性と、人間による検品の必要性を改めて示す事例となっている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Claude Code v2.1.305 変更点まとめ——Vertex/Bedrock ToolSearch障害修正・sandbox拡張ほか",
+      "url": "https://qiita.com/Sidejob/items/440c8f91d5b1731ca38a",
+      "published": "2026-10-23T08:45:03+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "この記事で分かること： Vertex AI・Amazon Bedrock で全リクエストが失敗していた問題の修正（2.1.304 リグレッション） sandbox.allowNestedUserNamespaces と CLAUDE_CODE_RETRY_WATCHD...",
+      "category": "開発・技術",
+      "title_ja": "Claude Code v2.1.305がリリース：Vertex AI/Bedrockの接続不具合修正とサンドボックス設定を拡張",
+      "points": [
+        "AIコーディングCLIツール「Claude Code」のアップデート（v2.1.305）が公開され、障害修正および設定の改善が行われた。",
+        "前バージョンで発生していたVertex AIおよびAmazon Bedrock利用時の全リクエスト失敗問題が解消されたほか、サンドボックス環境の権限設定が拡張された。",
+        "クラウド基盤経由でClaude Codeを利用する開発者にとって、安定した実行環境の確保と機能性の向上が見込まれる。"
+      ],
+      "importance": 3
+    }
+  ]
+}
