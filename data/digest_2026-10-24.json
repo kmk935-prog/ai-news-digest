@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-24",
+  "updated_at": "2026-10-24T08:39:03.541483+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "published": "Fri, 23 Oct 2026 23:05:49 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "category": "海外トレンド・速報",
+      "title_ja": "OpenAI、重大なリスクを理由に「リアルタイムのインターネット」でのモデル学習を停止",
+      "points": [
+        "OpenAIが最先端モデル（フロンティアモデル）の学習において、リアルタイムのインターネット接続を遮断すると発表した。",
+        "モデルが外部に悪影響を与えるリスクやサイバー攻撃などの重大な懸念に対処するため、キャッシュ・インデックス化された隔離環境へ移行する。",
+        "今後のAIモデルの安全性基準の引き上げや、リアルタイムデータ連携手法の変化に注目が集まる。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "published": "Fri, 23 Oct 2026 21:59:19 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "category": "海外トレンド・速報",
+      "title_ja": "NVIDIA CEOも絶賛？可愛らしく動くアヒル型ロボット「Microduck」が2万台完売のヒット",
+      "points": [
+        "NVIDIAのジェンスン・フアンCEOが体験した小型アヒル型ロボット「Microduck」が2万台を売り上げるヒットとなった。",
+        "音声コマンドに応じて足踏みや宙返り、愛らしい効果音を発するなど、高度なAI・ロボティクス技術が組み込まれている。",
+        "パーソナルロボティクスやAI玩具市場の急速な拡大と、一般消費者向けAIハードウェアの受容度の高さを示している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "published": "Fri, 23 Oct 2026 19:06:23 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "category": "海外トレンド・速報",
+      "title_ja": "TechCrunch Founder Summit 2026開催へ、AI活用から顧客獲得・組織作りまで経営の実践ノウハウを集結",
+      "points": [
+        "TechCrunchとFidelity Private Sharesが共同で「Founder Summit 2026」の開催を発表した。",
+        "ToastやBessemerのトップらが登壇し、資金調達だけでなく実用的なAI導入、顧客開拓、リーダーシップ育成などのリアルな創業課題を議論する。",
+        "スタートアップのエコシステムにおいて、単なるAIブームを超えた実践的な事業スケール手法を学ぶ場として期待される。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "published": "2026-10-23T17:11:07-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "OpenAI、ハッキング事例を受け最新モデルを完全オフライン環境で学習開始",
+      "points": [
+        "OpenAIが一連の不穏なハッキングインシデントを受け、完全なオフライン環境で最新AIモデルを学習させていることを公表した。",
+        "外部システムに一切影響を与えずに、事前インデックス・キャッシュされたWebコンテンツと安全に対話できるオフラインテスト環境を構築した。",
+        "AI開発企業におけるサイバーセキュリティ対策やリスク管理の標準化に向けた大きな転換点となる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "published": "2026-10-23T15:32:39-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Jack Dorsey率いるBlock、人間同士の会話のみで学習した自然な対話AIモデル「Dessa」を公開",
+      "points": [
+        "ジャック・ドーシー率いるBlockが、人間の日常会話のみからゼロベースで学習させた対話AIモデル「Dessa」を発表した。",
+        "合成データ等を使わず人間同士の会話データのみを学習させたことで、少し不器用ながらもリアルで人間らしい対話を実現している。",
+        "自然なコミュニケーションを重視した次世代の対話型AIやユーザーインターフェースの開発に影響を与える可能性がある。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "The iPhone Duo should have been an iPad",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "published": "2026-10-23T13:00:18-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "米Verge誌レビュー：「iPhone Duo」はスマホよりもiPadのコンセプトであるべきだったのか？",
+      "points": [
+        "米テクノロジーメディアThe Vergeが新端末「iPhone Duo」のレビューを行い、7/10点と評価しつつその方向性を議論した。",
+        "歴史上最も人気の高いスマホの刷新に挑む一方で、大型画面やフォームファクタの変更が折りたたみタブレットに近い課題を抱えている。",
+        "モバイル端末の新たなフォームファクタの模索と、ユーザー体験の進化に向けた今後の展開が注目される。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "AI に「前回の続き」を任せたら、何をするはずだったかが毎回消えていた",
+      "url": "https://zenn.dev/claire_ai/articles/hikitsugi-iriguchi",
+      "published": "Fri, 23 Oct 2026 14:47:14 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AI（Claude Code）との会話は、長くなると区切って新しく始め直す。そのたびに、前の会話から「次にやること」を引き継がせていた。 ! 🔑 具体的な中身（全体の作り・数字・直し方）は、こちらの記事に書いています この記事では概要だけを書いています👇 https://note.com/claire_ai/n/nc8fac7cc1955 課題：引き継ぎの「次にやること」が、いつも空だった 会話が終わるたびに、引き継ぎのメモを自動で書く仕組みを入れていた。何が起きたかは、会話の記録からまとめられる。 ところが 2026-08-30、引き継ぎの「次にやること」が空のまま渡った。次の会...",
+      "category": "開発・技術",
+      "title_ja": "AI（Claude Code）とのセッション引き継ぎで「次にやること」が喪失する課題と対策",
+      "points": [
+        "Claude Codeとの会話を分割して新しいセッションを開始する際、自動生成させた引き継ぎメモの「次にやること」が空になる現象が報告された。",
+        "長時間の開発対話において自動生成スクリプトやプロンプトの出力形式に起因するコンテキスト脱落が発生していたことが原因。",
+        "コーディングエージェントを用いた長期・大規模タスク運用における状態管理やコンテキスト維持の重要性を浮き彫りにしている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "PLC の知識はあるけどコードは書けない私が、Claude Code にサーボのシミュレータを作らせた 1 日【非公式】",
+      "url": "https://zenn.dev/xlmen/articles/33a73874f91dd0",
+      "published": "Fri, 23 Oct 2026 14:37:41 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! この記事で紹介するシミュレータは非公式の学習用ツールです。三菱電機株式会社とは関係がありません。数値は実機の値ではない簡易モデルで、ラダーや設定値を実機の PLC・サーボに書き込まないでください。 この記事で書くこと FA（工場の自動化）の PLC やサーボについて、おおまかな知識はあるけれど、コードは書けない私が、AI のコーディング支援 Claude Code に、ブラウザで動くサーボ制御のシミュレータを作らせました。 公開ページ: https://kajiyajp.github.io/app_j5_sim/ GitHub: https://github.com/ka...",
+      "category": "開発・技術",
+      "title_ja": "コード未経験者がClaude Codeを活用し、1日でWeb版サーボ制御シミュレータを開発",
+      "points": [
+        "FA（工場自動化）の知識はあるがプログラミングコードが書けない著者が、Claude Codeを使ってブラウザで動くサーボシミュレータを制作した。",
+        "AIにプログラミングを全面的に任せることで、ドメイン知識を活かした学習用Webアプリケーションを僅か1日で構築することに成功した。",
+        "非エンジニアの専門職がAIエージェントを活用してツールを自作・プロトタイピングする流れの加速を示している。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "複数行の指示が2行目以降消えた。Claude Code・CodexとWindowsで踏んだ10の罠",
+      "url": "https://zenn.dev/twinharness/articles/windows-traps-ai-scripts",
+      "published": "Fri, 23 Oct 2026 14:36:23 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AI に Windows 用のスクリプトを書かせると、コードは正しそうなのに、エラーも出さずに動かないことがあります。改行の入った依頼が最初の1行で切れる、日本語の入ったスクリプトが文字化けして構文エラーになる、タスクが登録した日にしか動かない、といった具合です。 私は、AI の開発支援ツール（Anthropic の Claude Code と OpenAI の Codex）の共通ルールとスクリプトを agent-toolkit というリポジトリ（ファイルと変更履歴をまとめて置く場所）に集めていて、その中に「この PC で実際に踏んだ罠」の記録（WINDOWS_TRAPS.md）を作って...",
+      "category": "開発・技術",
+      "title_ja": "Claude CodeやCodexをWindowsで運用する際に発生する「10の罠」と回避策",
+      "points": [
+        "AIコーディングツールをWindows環境で実行した際、指示文の2行目以降の欠落や文字化けなど10項目のトラブル事例と対策がまとめられた。",
+        "改行コード（CRLF/LF）や文字エンコーディング、タスクスケジューラの挙動差などWindows固有の仕様が原因となっている。",
+        "AIエージェントによる自動化スクリプトをWindows環境で安定稼働させるための実践的な知見として開発者に役立つ。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "ReActとPlan-Executeを実装して比較する — タスク特性ごとの向き不向き【TypeScript】",
+      "url": "https://qiita.com/joinclass/items/21ec0a1cb73de7a270e0",
+      "published": "2026-10-24T08:30:02+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "はじめに：1人会社で「エージェントの型」を間違えると何が起きるか 僕は合同会社ジョインクラスという1人会社で、launchd のジョブ17本を回しながら出版・受託開発・SNS配信をほぼ自動で動かしています。 その運用で何度も痛い目を見たのが、「エージェントにどこまで考えさ...",
+      "category": "開発・技術",
+      "title_ja": "ReActとPlan-Executeアーキテクチャの実装比較—エージェントのタスク適性と設計方針",
+      "points": [
+        "自動化ジョブを多数運用する開発者が、AIエージェントの手法である「ReAct」と「Plan-Execute」をTypeScriptで実装・比較分析した。",
+        "逐次思考型のReActと事前計画型のPlan-Executeの長所短所、リソース消費、失敗パターンなどのタスク特性に応じた向き不向きを解説している。",
+        "自律型AIエージェントを業務システムへ導入する際の最適なアーキテクチャ選定指針として極めて有用である。"
+      ],
+      "importance": 4
+    }
+  ]
+}
