@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-26",
+  "updated_at": "2026-10-26T07:54:47.630256+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "published": "Sun, 25 Oct 2026 21:31:16 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "category": "LLM・生成AI",
+      "title_ja": "xAIのGrok、AI生成映像作品『Odyssey』の冒頭7分間を公開",
+      "points": [
+        "xAIのGrokが、完全AI生成による映像作品『Odyssey』の冒頭7分間の映像を公開した。",
+        "映像の視覚的品質はある程度確保されているものの、人間の芸術性や感情に訴える要素には欠けるという評価を受けている。",
+        "動画生成AIの技術的進展を示す一方で、エンタメ分野におけるクオリティの限界と実用性の議論が深まる点が注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "published": "Sun, 25 Oct 2026 16:57:32 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "category": "ビジネス・導入",
+      "title_ja": "米アポロの経済学者が指摘「テック企業を除く大半の企業でAI投資の財務的還元はゼロ」",
+      "points": [
+        "投資会社アポロの経済学者が、ビッグテックを除く米企業の大部分においてAI投資がまだ財務的成果を生んでいないと分析した。",
+        "巨額の資金投入と高い注目度の一方で、多くの一般企業ではコスト削減や売上増加などの具体的な収益に結びついていない現実がある。",
+        "今後の企業におけるAI導入において、過度な期待から現実的なROI（投資対効果）の検証へとフェーズが移ることが予想される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "published": "Sun, 25 Oct 2026 14:10:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "category": "海外トレンド・速報",
+      "title_ja": "今知っておくべき注目の最新AIウェアラブル＆ガジェット特集",
+      "points": [
+        "Muse Charm、Bee、Friend、Plaudなど、主要な最新AIウェアラブル端末をまとめた一覧が公開された。",
+        "スマートフォンを取り出さずに音声録音やAIアシスタント機能を利用できる専用デバイスが急速に多様化している。",
+        "ポスト・スマートフォンを見据えた新しいインターフェースとして、AIガジェットが普及するか注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "published": "2026-10-25T09:25:32-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Redditのオープンソースコミュニティが「AI利用・生成プロジェクト」を全面禁止に",
+      "points": [
+        "Redditの「r/opensource」において、AIを使用した・AIで生成されたプロジェクトの投稿を全面禁止する新ルールが適用された。",
+        "現在の生成AIの仕組みやコード出力が、オープンソースの理念や透明性と相容れないというモデレーター側の判断が背景にある。",
+        "開発現場でのAI活用が進む一方で、オープンソースコミュニティにおけるAI生成物の倫理的・権利的な扱いを巡る分断が浮き彫りとなった。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "published": "2026-10-25T08:00:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on […]",
+      "category": "ビジネス・導入",
+      "title_ja": "GoogleのAI検索機能アップデートがウェブパブリッシング業界を激変させている理由",
+      "points": [
+        "Googleによる検索結果へのAI回答表示（AI Overview等）の導入が、オンラインメディアへのトラフィック構造を大きく変えている。",
+        "ユーザーが検索結果上で疑問を解決するため、元記事サイトへのクリック率が下がり、パブリッシャーの収益モデルが脅かされている。",
+        "従来のSEO戦略から、生成AI時代に合わせたGEO（AI検索最適化）や独自コンテンツ価値の再定義が求められている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "published": "2026-10-24T17:29:12-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "BBC『ブルー・プラネットIII』、AI時代だからこそ「完璧すぎないリアルな映像美」を追求",
+      "points": [
+        "BBCの自然ドキュメンタリー『ブルー・プラネットIII』が、あえて完璧ではない自然な映像を残す方針を採用した。",
+        "生成AIが作る完璧で過度に磨かれた映像が溢れる中、あえて欠陥を残すことで本物の映像である証明と信頼性を確保する狙いがある。",
+        "AI生成コンテンツが氾濫する時代において、コンテンツの「本物であること（フェイクではない証明）」の価値が高まっている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "最近のエージェンティック開発について調べてみた",
+      "url": "https://zenn.dev/shoyataguchi/articles/bc98b3562bdf3a",
+      "published": "Sun, 25 Oct 2026 14:39:28 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "最近の私の開発は、AI との対話で大きめの GitHub Issue を作り、それらの PR 作成 + AI レビューまで AI にやってもらって、最後に必要な箇所を人がレビューする、という進め方です。ループエンジニアリングやグラフエンジニアリングの考え方は、自分なりにある程度実践できていると思っています。 ただ、これをもっと大規模なソフトウェア開発にスケールさせようとなると、わからないことだらけです。エージェントの構成、タスクの単位、人の役割の設計などなど。そこで、最近話題になった AI を最大限に活用したソフトウェア開発事例をいくつか読んで再整理してみました。各記事毎に、概要と私の所...",
+      "category": "開発・技術",
+      "title_ja": "AIエージェントを活用したエージェンティック開発の現在地と大規模化への課題",
+      "points": [
+        "Issue作成からPR作成、AIレビューまでをAIエージェントに委任する「エージェンティック開発」の実践と事例整理が公開された。",
+        "個人開発レベルでの自動化が進む一方、大規模ソフトウェア開発へスケールさせる際のエージェント構成や人間との役割分担に課題がある。",
+        "開発者の役割が「コードを書くこと」から「AIエージェントのチームをオーケストレーションすること」へシフトする兆候を示している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "守りたい性質からはじめるコード観測",
+      "url": "https://zenn.dev/iroha1203/articles/138dfbf70a9167",
+      "published": "Sun, 25 Oct 2026 14:37:56 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "これまでのソフトウェア開発は、人がコードを読んで理解することを前提にしてきました。分かりやすい名前を付け、長い処理を分けるのも、読む人が意図を追えるようにするためです。 しかし、AIが次々にコードを書くようになると、人が読む速度では追いつきません。変更された箇所だけでなく、周囲の処理や既存の仕様まで確かめようとすれば、読む量はさらに増えます。 これからは、コードを観測するという考え方が必要です。まず、変更後も守りたい性質を決めます。そして、それが保たれているかを確かめるために、必要な情報をコードから取り出します。すべてを人が読み通さなくても、何を守り、何が変わったかをもとに判断できるよ...",
+      "category": "開発・技術",
+      "title_ja": "AI時代に必要な「コード観測」の手法：全文読解から性質の自動検証へ",
+      "points": [
+        "AIが大量にコードを生成する時代に向け、人間がすべてを読む代わりに「守りたい性質」を検証する「コード観測」の概念が提案された。",
+        "コードの生成速度に人間の読解が追いつかないため、事前定義した制約や仕様が維持されているかを抽出・検証する仕組みが不可欠となる。",
+        "コードレビューのあり方が「行単位の確認」から「システム全体のアーキテクチャや制約のモニタリング」へと変化することを示唆している。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "別のAIにレビューさせる決まりをClaude Codeが忘れるので、終了時に1回だけ止めるフックを作った",
+      "url": "https://zenn.dev/twinharness/articles/codex-review-gate-stop-hook",
+      "published": "Sun, 25 Oct 2026 14:31:24 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "「実装したら、書いたのとは別の AI にレビューさせる」というルールを作っても、AI は忘れます。ルールを文章で書くだけでは守られなかったので、会話を終えようとした瞬間に、レビューを通したかを調べて、通していなければ1回だけ止める仕組み（ゲート）を作りました。 ところが作ってみると、誤判定が次々に出ました。レビュー済みのコミットを「未レビューの変更」と数える、裏で走らせたレビューを起動しただけで済んだことにする、差し戻しの文が会話に積み上がって使用量を食う、そして差し戻している最中なのに完了通知が出る、といったものです。この記事では、ゲートの作りと、実際に出た誤判定をどう直したかを紹介し...",
+      "category": "開発・技術",
+      "title_ja": "Claude Codeのルール未遵守を防ぐ！会話終了時の相互レビュー強制フックの実装とハマりポイント",
+      "points": [
+        "Claude Codeが別AIによるレビュー指示を忘れる問題に対し、セッション終了時に未レビュー状態を検知して一律制止するフックが作成された。",
+        "実際の運用過程で発生したコミット状態の誤判定やトークン消費の増大といったトラブルと、その具体的な修正ノウハウが解説されている。",
+        "AI CLIツールや自動化エージェントを現場の運用規律に確実に従わせるための実践的なガードレール設計の手本となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "【2026年版】git worktree 完全ガイド - AI駆動開発時代の並列作業術",
+      "url": "https://qiita.com/goyle/items/ff9db1ea15c627a37dfc",
+      "published": "2026-10-26T07:50:21+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "この記事は、筆者が Zennに投稿した記事 の転載です。 はじめに 開発中に「緊急のバグ修正が入った！でも今の作業をstashするのは面倒...」という経験はありませんか？ git worktree を使えば、1つのリポジトリから複数の作業ディレクトリを作成し、異...",
+      "category": "開発・技術",
+      "title_ja": "AI駆動開発時代における「git worktree」を活用した並列作業ガイド",
+      "points": [
+        "AIエージェントにコード記述やテストを並列で実行させる開発手法に合わせ、「git worktree」の具体的な活用術がまとめられた。",
+        "1つのリポジトリから複数の作業ディレクトリを展開することで、作業中のコードを退避（stash）することなくシームレスな並列開発が可能になる。",
+        "AI開発ツールを複数同時に走らせる現代の開発現場において、作業効率を劇的に高める必須テクニックとして注目される。"
+      ],
+      "importance": 3
+    }
+  ]
+}
