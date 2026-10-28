@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-28",
+  "updated_at": "2026-10-28T09:08:24.500164+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "published": "Tue, 27 Oct 2026 23:34:27 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "points": [
+        "海外メディア「TechCrunch AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "published": "Tue, 27 Oct 2026 22:55:41 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】The data center boom has an upside: innovation for the US grid",
+      "points": [
+        "海外メディア「TechCrunch AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "published": "Tue, 27 Oct 2026 21:44:34 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "points": [
+        "海外メディア「TechCrunch AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "published": "2026-10-27T16:48:58-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "points": [
+        "海外メディア「The Verge AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "published": "2026-10-27T13:30:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come to dominate the conversation about real-world generative artificial […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】VisionQuest is what happens when AI really goes rogue",
+      "points": [
+        "海外メディア「The Verge AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "published": "2026-10-27T12:51:22-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and shareholders eager for returns may […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Anthropic’s elaborate plan to keep Wall Street at bay",
+      "points": [
+        "海外メディア「The Verge AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "AIに効かせるガードレールとして、RuboCop設定をRails本体と比較して見直した話",
+      "url": "https://zenn.dev/tsukulink/articles/342ac67c88c490",
+      "published": "Tue, 27 Oct 2026 15:00:06 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "こんにちは、ツクリンク株式会社でソフトウェアエンジニアをしている千葉です。 今回は、AI開発のガードレールとして正しく機能させることを目的に、ツクリンクの.rubocop.ymlをRails本体（rails/rails）のRuboCop設定と比較し、設定が異なるCopを一つずつ見直しました。 本記事では、差分のあった12Copの一覧と、「寄せる・寄せない」をどう判断したのかを代表的なCopを例に整理してご紹介します。 ✅ はじめに ツクリンクではRuboCopを運用しており、以前はClaude Code Routinesで違反を自動で解消する仕組みもご紹介しました。ただ、.ruboc...",
+      "category": "開発・技術",
+      "title_ja": "AIに効かせるガードレールとして、RuboCop設定をRails本体と比較して見直した話",
+      "points": [
+        "「AIに効かせるガードレールとして、RuboCop設定をRails本体と比較して見直した話」に関する最新ニュース。",
+        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Anthropic上場申請で見えた「AIは2つ使いで離れない」",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261027",
+      "published": "Tue, 27 Oct 2026 14:48:46 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "2026年10月27日（火）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 先に結論を言います。今日は「AIは、使い道が増えるほど手放せなくなる」という話が、いろんな角度から出てきた日なんですよ。Claudeを作るAnthropicが上場の届出書を出して、大口のお客さんの使い方が数字で見えました。AIで服のコーデを手伝って反応が10%上がった事例もあれば、入れただけでは楽にならなかった京都府庁の話もあります。経営者の方にも、個人で学んでる方にも、自分の使い方を見直すヒントになるはずです。 1. Anthropic上場申請、大口の半数超が2製品を併用 ...",
+      "category": "開発・技術",
+      "title_ja": "Anthropic上場申請で見えた「AIは2つ使いで離れない」",
+      "points": [
+        "「Anthropic上場申請で見えた「AIは2つ使いで離れない」」に関する最新ニュース。",
+        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Claudeに有料本の全9章の事実確認を頼んだら、最後の1章しか見ていなかった",
+      "url": "https://zenn.dev/twinharness/articles/ai-book-review-scope",
+      "published": "Tue, 27 Oct 2026 14:37:54 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AI に収益を作らせる実験の一つとして、私は有料の本（全9章）を、技術記事と本の投稿サービス Zenn に出しました。その原稿に書いた数字や主張が、元の記録と合っているかを、週に1回自動で動く仕組みに確認させたところ、1回目の結果は「第9章だけを見て終了」でした。 そこで、AI に渡す仕事の書き方を直し、上位のモデルにも替えて2回目を回すと、全9章を突き合わせて、6か所を直し、3か所を出典なしとして弱めました。この記事では、何が違ったのか、確認の結果を表にして残す形にした理由、そして原因について分かっていないことを書きます。AI に長い原稿のチェックを頼む人に向けた話です。 前提: ...",
+      "category": "開発・技術",
+      "title_ja": "Claudeに有料本の全9章の事実確認を頼んだら、最後の1章しか見ていなかった",
+      "points": [
+        "「Claudeに有料本の全9章の事実確認を頼んだら、最後の1章しか見ていなかった」に関する最新ニュース。",
+        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "中国・華欽科技、文書ゼロの30年物VB/Access銀行システムをAIでJava化——「先にAIで設計書を逆生成」する手順",
+      "url": "https://qiita.com/soliperse/items/0b9b73d4f3120627b031",
+      "published": "2026-10-28T09:04:46+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "設計書なし、作った人は退職済み、一部はソースすら消えてDLLだけ——。そんな30年物の住宅ローンシステムを、AIを使ってJava/React/PostgreSQLへ移したという発表が出ました。香港に本社を置く中国系IT企業の華欽科技（CLPS）が、国際的な大手銀行向けに行っ...",
+      "category": "開発・技術",
+      "title_ja": "中国・華欽科技、文書ゼロの30年物VB/Access銀行システムをAIでJava化——「先にAIで設計書を逆生成」する手順",
+      "points": [
+        "「中国・華欽科技、文書ゼロの30年物VB/Access銀行システムをAIでJava化——「先にAIで設計書を逆生成」する手順」に関する最新ニュース。",
+        "Qiita (AIタグ) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    }
+  ]
+}
