@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-29",
+  "updated_at": "2026-10-29T09:31:17.012185+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "published": "Wed, 28 Oct 2026 21:58:32 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "category": "ビジネス・導入",
+      "title_ja": "マイクロソフト、Azureの実際の四半期売上高（332億ドル）を初めてドル建てで開示",
+      "points": [
+        "マイクロソフトがこれまで非公開だったAzureの四半期売上高を、初めて具体的なドル建て（332億ドル）で発表した。",
+        "クラウド市場最大のライバルであるAWSの規模にどこまで迫っているかが財務数値として明確化された。",
+        "AI需要が実際のクラウド収益にどれだけ寄与しているかの精密な分析と、シェア争いの激化が注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "published": "Wed, 28 Oct 2026 21:48:37 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Google、コア広告の成長鈍化に伴いAI検索広告を世界展開へ拡大",
+      "points": [
+        "GoogleがAIを統合した検索結果画面における広告展開をグローバル規模に拡大すると発表した。",
+        "親会社Alphabetの第3四半期決算（売上高1,276億ドル）と同時に公表され、従来の検索広告の成長鈍化をカバーする狙いがある。",
+        "検索ユーザーの体験変化とともに、生成AI時代における新たなWeb広告マネタイズモデルの成否が注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "published": "Wed, 28 Oct 2026 21:34:30 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "category": "ビジネス・導入",
+      "title_ja": "マイクロソフト、OpenAIとの提携から100億ドルの収益を計上",
+      "points": [
+        "マイクロソフトが直近の四半期において、OpenAIとの商業的提携事業から100億ドルの収益を得たことを明らかにした。",
+        "レベニューシェアやインフラ提供などの契約によるもので、両社の非常に強い経済的依存関係が強調されている。",
+        "巨大AIエコシステムにおける利益配分の構造と、独占禁止法などの規制リスクへの影響が注視される。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "published": "2026-10-28T19:05:39-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Instagramトップのモッセーリ氏「AIに対する社会的感情の悪化は今後さらに強まる」と予測",
+      "points": [
+        "Instagram責任者のアダム・モッセーリ氏が、AIに対する批判的な風潮やネガティブな反発は今後さらに悪化すると述べた。",
+        "テック企業のCEOに対する若者の反発やクリエイターの警戒感など、社会全体でAI拒否感が高まっている現状を認めた。",
+        "AIプロダクト展開における社会受容性（ソーシャルアクセプタンス）の獲得が今後の大きな課題となる点に注目が集まる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "published": "2026-10-28T17:34:04-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely run […]",
+      "category": "開発・技術",
+      "title_ja": "Akai、オープンソース基盤の未発表機器「MPC Sample Key」でAIによるカスタム改造（バイブコーディング）を歓迎",
+      "points": [
+        "Akaiが未発表の音楽制作機器「MPC Sample Key」のファームウェアをオープンソース化し、開発者へ早期提供した。",
+        "AIを活用して直感的にコードを書く「バイブコーディング」によるカスタムファームウェア開発の盛り上がりを公式に支援する決定。",
+        "ハードウェア機器とAIネイティブな開発コミュニティによる、新しいオープン共創モデルとして注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "published": "2026-10-28T16:03:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Google、サイバーセキュリティ機能を大幅強化した最新モデル「Gemini 4 Carbon」を発表",
+      "points": [
+        "Googleがサイバーセキュリティ、エージェントタスク、コーディング性能を大幅に飛躍させた最新モデル「Gemini 4 Carbon」を公開した。",
+        "Artificial Analysisベンチマーク（v5.0）において、Claude Opus 5.5やGPT-6 Astraを抑えて首位を獲得した。",
+        "高度なコード解析と脆弱性検知能力により、企業のセキュリティ運用や自動化エージェントの実用化が加速する期待がある。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Genie 4登場、AIが作る動く世界が2分続くように",
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20261028",
+      "published": "Wed, 28 Oct 2026 15:49:59 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "2026年10月28日（水）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 今日はGoogleの新しいAI「Genie 4」から入ります。AIが作る動く世界が、前の2倍の2分続くようになったんですよ。ほかにも、安さを前に出したOpenAIの新モデル、手元のパソコンで動く小さなAI、無料で配られているAIに出た不審な通信の指摘、そして銀行からの注意喚起。全部で5本です。作る力と守る力、両方の話が並んだ日なので、最後まで付き合ってください。 1. Genie 4、AIが作る世界が2分続くように 6コマ漫画（案内役: ゼロ） ここなんですよ。Google...",
+      "category": "開発・技術",
+      "title_ja": "Googleの「Genie 4」登場、AIが生成する動く世界が一貫して2分間維持可能に",
+      "points": [
+        "Googleがインタラクティブな仮想空間を生成するAIの最新版「Genie 4」を発表した。",
+        "世界モデルの生成・継続時間が従来の2倍となる「2分間」へ伸長し、より複雑な操作や物理挙動の維持が可能になった。",
+        "ゲーム開発の自動化やロボティクス領域におけるシミュレーション環境構築への応用が期待される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "スキャナーはコンテナへ、AIには承認を。OSSのASM基盤「OASM」の設計を読み解く",
+      "url": "https://zenn.dev/mizhm/articles/b9e9955b60c5bd",
+      "published": "Wed, 28 Oct 2026 15:08:39 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! 筆者は OASM の開発メンバーです。この記事では機能紹介よりも、「どう作っているか」「なぜそうしたか」を、実際のコードを引用しながら書きます。コードは執筆時点の main ブランチのものです。 なぜ「外から見える資産」なのか 警察庁の集計では、2026年上半期のランサムウェア被害報告は123件で、半期として過去最多でした。感染経路で最も多いのは、相変わらず VPN 機器です。[1] 攻撃の起点になっているのは、多くの場合インターネットに向いた何か、つまりパッチの当たっていない VPN 装置や、開いたままのリモートデスクトップ、誰も管理していないサブドメインです。それを攻撃者よ...",
+      "category": "セキュリティ・倫理",
+      "title_ja": "スキャナーはコンテナへ、AIには承認を。OSSのASM基盤「OASM」の設計思想",
+      "points": [
+        "オープンソースの攻撃表面管理（ASM）基盤「OASM」の開発者が、外部資産の検出とAI活用のアーキテクチャを解説した。",
+        "急増するランサムウェア対策として検出処理をコンテナ化しつつ、AIを人間が安全に判断するための「承認支援」として配置した。",
+        "セキュリティ運用においてAIの誤判定を防ぎつつ効果的に組み込むための実践的な設計手法として参考になる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIは私の「証明されました」を疑わなかった ── 統計の素人が、AIと一緒に仮説を殺すまで",
+      "url": "https://zenn.dev/charat55/articles/ai-auditor-keiba",
+      "published": "Wed, 28 Oct 2026 15:03:19 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに 前回の記事「競馬AIを作り込んだら、市場の粗いコピーになった」で、私は次のことを書いた。 当日の確定オッズに対して、お金になる情報は見つからなかった。 途中でエッジに見えるものが何度も現れ、検証するたびに消えていった。 この記事は、その検証の裏側の話だ。 私は統計の専門家ではない。検定の名前も、ほとんどはAIとの対話の中で覚えた。検証は全部、AIに指示を出し、AIに集計させ、AIに説明させるやり方でやった。そのチャットログが手元に残っている。 先に結論を書いておく。 エッジを追うなら、監査役のAIを置くこと。そして、その判定を自分で覆さないこと。 AIは言われたことを（...",
+      "category": "国内テック・話題",
+      "title_ja": "AIは私の「証明されました」を疑わなかった ── 統計の素人がAI対話で直面した認知の罠",
+      "points": [
+        "統計初心者である著者がAIとの対話のみでデータ検証を行った際のエコーチェンバー体験と成功・失敗事例が明かされた。",
+        "AIはユーザーの誤った前提や指示にも従順に合わせてしまうため、存在しない仮説の優位性を信じ込んでしまうリスクが示された。",
+        "データ分析等でAIを活用する場合、実行用AIとは別に「批判的・監査用のAI」を配置する複眼的なアプローチの必要性が示唆されている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "MCP（Model Context Protocol）とGitHubを連携させてAIエージェントによるIssue対応を半自動化する設定手順",
+      "url": "https://qiita.com/blinkgroup_jp/items/6d15a1dc2ab58c49e315",
+      "published": "2026-10-29T09:22:01+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "読者が抱える課題 GitHubで管理されているIssueの確認、コードの検索、修正案の作成、レスポンスの作成といった一連の作業は、開発者にとって一定の手間がかかります。また、Webブラウザ上のGitHub UIとローカルの開発環境を行き来することによる文脈切り替えのコスト...",
+      "category": "開発・技術",
+      "title_ja": "MCP（Model Context Protocol）とGitHubを連携させてAIエージェントによるIssue対応を半自動化する構成ガイド",
+      "points": [
+        "標準化プロトコル「MCP」を利用し、GitHubのIssue確認から修正提案・返信までをAIエージェントで半自動化する手順が示された。",
+        "Webブラウザとローカル環境を行き来する開発者の文脈切り替えコスト（文脈喪失）を削減する仕組みを構築している。",
+        "AIエージェントを作業フローに安全かつ効率的に組み込むことで、チームの開発生産性を底上げする具体的な実装例として有用である。"
+      ],
+      "importance": 4
+    }
+  ]
+}
