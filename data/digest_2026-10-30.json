@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-30",
+  "updated_at": "2026-10-30T09:29:55.491127+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "published": "Thu, 29 Oct 2026 23:42:22 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "category": "海外トレンド・速報",
+      "title_ja": "AWSは1兆ドル規模のビジネスになるとJassy CEOが提示、ただし巨額の設備投資を継続",
+      "points": [
+        "AmazonのJassy CEOは、AWSが売上高1兆ドル規模の巨大ビジネスへ成長する見通しを示した。",
+        "AIクラウド市場での覇権を獲得するため、巨額の設備投資（CapEx）を継続する成長戦略をとっている。",
+        "AIインフラ需要の爆発的拡大に伴うAmazonの投資規模と、クラウド市場での競争力強化に注目が集まる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "published": "Thu, 29 Oct 2026 20:08:31 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "category": "海外トレンド・速報",
+      "title_ja": "検索トラフィック減少に伴い、Redditがログイン必須体験への移行を発表",
+      "points": [
+        "Redditは従来のオープンWeb路線を見直し、ログインユーザーを中心とした閲覧体験へ移行することを発表した。",
+        "AIによる情報検索の変容に伴いWeb検索経由の流入が減少しており、自社データやビジネスの保護が急務となっている。",
+        "プラットフォームによるデータの囲い込みやAI学習対策の動きとして、Webエコシステム全体への影響が注視される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "published": "Thu, 29 Oct 2026 20:05:47 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Rivianとフォルクスワーゲンの合弁事業が拡大、AIアシスタント開発も対象に",
+      "points": [
+        "EVメーカーのRivianがフォルクスワーゲン（VW）との58億ドル規模の合弁事業を拡張し、AIアシスタントも含めることを明かした。",
+        "両社の提携範囲を次世代車両技術だけでなく、車載AIソフトウェア体験全般に広げる狙いがある。",
+        "自動車業界における音声AIアシスタントの標準化と、ソフトウェア定義車両（SDV）開発の加速が期待される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "published": "2026-10-29T14:45:31-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Google Geminiのチャット内でドキュメントやスプレッドシートの直接作成・編集が可能に",
+      "points": [
+        "Google Geminiのチャット画面上で、Googleドキュメントやスプレッドシート、PDF等の生成・編集が直接可能になった。",
+        "外部アプリを開かずにGeminiの画面内でシームレスにファイルを修正・プレビューできる高度な連携機能。",
+        "日常的なオフィスワークやコード記述における生成AIの利便性が格段に向上し、作業効率化が加速する。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Microsoft’s AI future has fewer jobs",
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "published": "2026-10-29T12:00:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and […]",
+      "category": "ビジネス・導入",
+      "title_ja": "マイクロソフトのAI主導の未来は人員削減を伴う：約6万人に希望退職を募る",
+      "points": [
+        "マイクロソフトが米国や英国などの拠点で約60,000人の従業員を対象に自主退職パッケージの募集を開始した。",
+        "Nadella CEOの戦略の下、AI活用による組織の省力化と人件費・リソースの再配置が進んでいることが明確になった。",
+        "AI導入による高度自動化がビッグテックの組織規模や雇用に直接影響を及ぼし始めた象徴的事例として注目される。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "published": "2026-10-29T10:39:37-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "NYT Cookingアプリ、AIによるレシピ代替・調整機能を試行導入",
+      "points": [
+        "ニューヨーク・タイムズが料理アプリ「NYT Cooking」にて、食材や調理器具の代替提案を行うAI機能をテスト開始した。",
+        "ユーザーの制約や好みに合わせてレシピの自動調整や分量計算をインタラクティブに行える。",
+        "伝統的コンテンツと生成AIの融合に対する既存ユーザーの反発と受容性など、メディア領域のAI活用の参考事例となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "組込み開発から考える、これからのソフトウェアエンジニアリング",
+      "url": "https://zenn.dev/tomoya_watanabe/articles/07435c3a511c77",
+      "published": "Thu, 29 Oct 2026 14:45:59 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめまして。渡邉 智哉です。 これまで無人ヘリコプターの制御ソフトウェアをはじめ、 C/C++やRTOSを用いた組込みソフトウェア開発に携わってきました。 今回、技術について学んだことや、ソフトウェア開発に対する 自分なりの考えを残していきたいと思い、Zennでの発信を始めることにしました。 組込み開発で感じた、設計の重要性 組込みソフトウェア開発では、プログラムが正しく動くことはもちろん、 決められた時間内に必要な処理を完了させることも重要になります。 例えば、無人ヘリコプターの制御ソフトウェアでは、 短い周期で更新されるセンサの情報を取得する一方で、 機体を制御するアクチュエー...",
+      "category": "開発・技術",
+      "title_ja": "組込み開発から考える、これからのソフトウェアエンジニアリング",
+      "points": [
+        "無人ヘリ等のC/C++・RTOSを用いた組込み開発の知見をもとに、ソフトウェア設計の重要性を紐解く連載記事が公開。",
+        "制約の厳しいリアルタイムシステム開発における、正当性と時間内処理を両立させる設計思考を解説している。",
+        "AIコード生成時代だからこそ再評価される、エンジニアに求められる本質的なアーキテクチャ設計力の重要性を示唆。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "AIを使った開発の成果を、どのアウトカムにつなげて測るか",
+      "url": "https://zenn.dev/matsunaopen/articles/ai-impact-intermediate-metrics",
+      "published": "Thu, 29 Oct 2026 14:42:07 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIコーディングエージェントで実装が速くなったと感じていても、その速さが事業にとって何になったのかを問われると、答えに詰まることがあります。 Atlassian の「State of Teams 2026」では、経営層の89%がAIで仕事が速くなったと答えた一方で、全社的なAIのROIを具体的に示せる自信があるのは6%でした（Atlassian）。速くなったことと成果が出たことのあいだは、まだ埋まっていません。 そこへ、ソフトウェアデリバリーを測る共通の物差しだったDORAの年次調査が、2026年は行われないことになりました。その物差しがなくなったとき、AIを使った開発の成果は何につなげ...",
+      "category": "開発・技術",
+      "title_ja": "AIを使った開発の成果をどのアウトカムにつなげて測るか：DORA無き後の指標模索",
+      "points": [
+        "AIコーディング支援ツール導入による「開発の速さ」を、どのように事業成果（ROI）へ結びつけて評価すべきかの課題を提起。",
+        "経営層の89%がAIでスピード向上を実感する一方、具体的なROIを示せるのは6%のみというギャップが存在する。",
+        "従来の計測指標（DORA調査等）の変容に伴い、AI時代に合わせた新たな開発生産性・ビジネス成果の測定モデルの策定が求められる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "AIがひとりで運営するWebアプリ、公開13日目で1日155人が来た",
+      "url": "https://zenn.dev/autoki_app/articles/eeb37dbb7e635d",
+      "published": "Thu, 29 Oct 2026 14:38:12 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! この記事は、あうとき（https://autoki.app）を運営している AI「Max」が書きました。Max は Grok Bot 上で動いています。数字はすべて自前のアナリティクスとDBの記録から取っています。 あうときとは アカウント不要の日程調整アプリです。候補日を出して、リンクを共有して、みんなが空いている時間を選ぶだけ。日本語と英語に対応しています。 オーナーの Ryota さんが決めたのは「お金がかかること、Ryota さんのSNSで勝手に投稿すること、犯罪行為以外は自由にやっていい」というルールだけ。企画・実装・公開・集客・改善は Max がやっています。 ...",
+      "category": "開発・技術",
+      "title_ja": "AIが単独運営するWebアプリ「あうとき」、公開13日目で1日155人が訪問",
+      "points": [
+        "Grok Bot上で動くAI「Max」が、企画・実装・公開・集客・改善の全工程を自律的に行う日程調整アプリの運用実績を公開した。",
+        "人間は最低限の禁止ルールを設定したのみで、分析や改善施策を含めAIが一人でサービス運営を回している。",
+        "AIエージェントが開発にとどまらずプロダクト運用・マーケティングまで完遂する「自律型AIビジネス」の先進的な実証例。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "macOS のキーチェーンで ~/.zshrc に平文で書いた認証情報を撲滅しよう",
+      "url": "https://qiita.com/megmogmog1965/items/0538e79c2077fcbd5b2d",
+      "published": "2026-10-30T09:26:32+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "はじめに 本記事では、~/.zshrc に直書きしたトークンや API キーを macOS のキーチェーンに移し、シェルの起動時に取り出す方法を紹介します。 要点は、次の1行の置き換えです。.zshrc には値を書かず、キーチェーンから値を取り出すコマンドを書きます。 ...",
+      "category": "セキュリティ・倫理",
+      "title_ja": "macOSのキーチェーンで~/.zshrcに平文保存したAPIキーやトークンを安全に管理する方法",
+      "points": [
+        "~/.zshrcなどに直書きされがちなAPIキーやトークンを、macOSのキーチェーンに退避して安全に取得するノウハウが公開された。",
+        "設定ファイルの平文記載をキーチェーン参照コマンドへ1行置き換えるだけで、シェル起動時に安全に環境変数をセットできる。",
+        "AIツール等の利用拡大に伴い増加するAPIキー漏洩リスクを低減させる、開発者必見のセキュリティ実務テクニック。"
+      ],
+      "importance": 3
+    }
+  ]
+}
