@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-02",
+  "updated_at": "2026-11-02T09:00:50.558225+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "published": "Sun, 01 Nov 2026 21:55:23 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Data centers are deeply unpopular. But what if we called them something else?",
+      "category": "海外トレンド・速報",
+      "title_ja": "OpenAIがデータセンターを「AIコンピュート・キャンパス」に改称か",
+      "points": [
+        "OpenAIが、周辺地域で不評となりがちな「データセンター」という名称を「AIコンピュート・キャンパス」へ改称することを検討中。",
+        "地域住民からの環境負荷や騒音等に対する懸念を和らげ、ブランドイメージを刷新しようとするビジネス的意図が背景にある。",
+        "単なる呼び方の変更が、今後のデータセンター建設に対する地域社会の受容性向上に繋がるかが注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "published": "Sun, 01 Nov 2026 20:57:58 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "category": "海外トレンド・速報",
+      "title_ja": "AIはビッグテックCEOの負担を減らすが、現場の労働者はどうなるのか？",
+      "points": [
+        "AI導入による経営効率化を強調するビッグテック経営陣の発言に対し、世間との温度差や労働者への影響に関する議論が提起された。",
+        "経営陣にとっては業務削減につながる一方、現場の雇用維持や過剰な負担増のリスクが放置されているという問題意識が背景にある。",
+        "企業がAIによる生産性向上を追求する中で、労働環境の保護や適切な雇用バランスをどう維持するかが問われている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "published": "Sat, 31 Oct 2026 21:41:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Apple CEO「単なる流行りとしてのAI機能を提供したいわけではない」と強調",
+      "points": [
+        "Appleのティム・クックCEOが、AI業界における同社の慎重かつ厳選された機能提供アプローチについて言及した。",
+        "他社のように見かけだけのAI機能を性急に導入するのではなく、ユーザーの利便性に直結した完成度を重視するスタンスを維持している。",
+        "独自の「Apple Intelligence」が今後どのように実用的かつ安全に自社エコシステムへ統合されていくかが注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "published": "2026-10-31T12:05:00-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Metaがたまごっち風AI製品を発表する前に自作デバイスを構築した実践記",
+      "points": [
+        "Metaが持ち運び型AIデバイス「Muse Charm」を計画する中、個人開発者が独自にたまごっち風のAIガジェットを自作したレポートが公開。",
+        "愛着の湧くキャラクターインターフェースと小型ハードウェアを組み合わせ、ローカルやクラウドAIを連携させる手法が特徴。",
+        "大手企業による本格的なコンシューマー向けAIハードウェア展開と、個人によるDIY AIガジェット開発の広がりに期待が高まる。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "published": "2026-10-30T18:32:53-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "「Apple Intelligence」がiOS 27.3でついに中国市場へ導入決定",
+      "points": [
+        "Appleが、中国市場向けにiOS 27.3のアップデートを通じてApple Intelligenceを導入することを正式発表した。",
+        "現地法規制への適応や提携関係を整え、11月初旬のベータ版公開を経て12月に一般公開されるスケジュールとなっている。",
+        "巨大市場である中国におけるiPhoneの販売促進および現地AIエコシステムへの影響が注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "published": "2026-10-30T16:48:43-04:00",
+      "source": "The Verge AI",
+      "summary_raw": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "サム・アルトマン氏「RAMは個人のPCよりデータセンターに集約すべき」と発言",
+      "points": [
+        "OpenAIのサム・アルトマンCEOが、世界的なメモリ不足の中で個人のローカルPCに大容量RAMを配置するのは非効率的だと主張した。",
+        "AI計算資源を最大化するためには、クラウド上の大規模データセンターへ集中的にハードウェアリソースを投入すべきという見解が背景にある。",
+        "個人向けPC市場や自作PCユーザーへの影響、および極度なクラウド依存に対する業界の議論を呼ぶ可能性がある。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Claude Code に本番のリポジトリを直させ、マージまで任せる範囲の決め方（型とスクリプト付き）",
+      "url": "https://zenn.dev/tasukina/books/claude-code-merge-line",
+      "published": "Sun, 01 Nov 2026 17:11:56 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "Claude Code に本番のアプリのリポジトリを直させるとき、どの変更までを人のレビューなしでマージさせてよいかを決めるための本です。中心にした材料は、Claude Code に開発を任せている小さな「会社」の、2026-10-05〜10-16 の17回の記録です。候補探しの役、指示書の割り方、直す前の赤いテスト、マージしてよい線、本番の見張り、線を広げた後の形を、1章ずつ実際の記録から書きます。第1〜7章に試す手順を置き、うち3つの章には、Python の標準ライブラリだけで動く小さなスクリプトと pytest のテストを付けました。スクリプトは手元の JSON とログを読んで画面に書くだけで、マージはしません。レビューを不要にする本ではなく、省いてよい範囲を狭く決め、その外を人に返す形を書く本です。狭い線の自動マージは、2026-10-18 の時点で1件だけでした。2026-10-19 に線を「禁止の一覧に触れなければ全部」に広げた後の形と、2026-10-25 までに自動でマージされた121本の記録は、第8章に書きました。この本は Claude Code が会社の記録をもとに書きました。第1章は無料です。",
+      "category": "開発・技術",
+      "title_ja": "Claude Codeに本番リポジトリの修正から自動マージまで任せる範囲の決め方",
+      "points": [
+        "Claude Codeを活用し、本番アプリの修正と人間によるレビューなしでの自動マージを許可する基準や手順が示された。",
+        "小規模運用の実証データをもとに、プロンプト構成、テストの実施、Pythonスクリプトによる安全な境界線の設定手法を解説。",
+        "AIエージェントによるコード生成を安全かつ効率的にCI/CDや日常開発に組み込むための実践的ガイドとして注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Kiro CLIとKiro Crewを改めて入門してAWSで動かすまで",
+      "url": "https://zenn.dev/upgradetech/articles/2026-11-kiro-crew-api-key-intro",
+      "published": "Sun, 01 Nov 2026 14:43:42 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "KiroはIDEだけの製品ではなくなりました。2026年11月時点では、IDE、CLI、Web、Mobile、そしてCrewの5つの入口があります。 特にCLIはAPIキーでヘッドレス実行ができるようになり、Crewは自分のマシンに常駐して仕事を進めるエージェントとして公開されました。 IDEでSpecを書いた経験はあるけれど最近は触っていない、という状態から、CLIとCrewとAPIキーを実機で一通り試して整理しました。 Kiroの今の全体像 入口は公式ドキュメントの数え方で5つあります。 IDEは従来どおりで、チャットとSpecsとHooksがあります。CLIにはヘッドレスモー...",
+      "category": "開発・技術",
+      "title_ja": "エージェント開発ツール「Kiro」のCLIとCrewを使ってAWS上で運用する手順",
+      "points": [
+        "マルチエージェント対応の開発ツール「Kiro」のCLIと常駐型「Crew」を用い、AWS上でヘッドレス実行する構築手順が解説された。",
+        "従来のIDE拡張機能にとどまらず、APIキーを用いたCLIによる無人実行や常駐型エージェントなどの最新機能を網羅している。",
+        "AWS環境と連携させて自律型AIエージェントのバックエンドや業務自動化システムを構築する開発者にとって貴重なノウハウである。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "今日の市場ブリーフィング",
+      "url": "https://zenn.dev/bambampurin/articles/2026-09-22-market-daily",
+      "published": "Sun, 01 Nov 2026 14:36:54 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "日経平均65,000円突破とレーザーテック+8.7%急騰から読み解く市場指標リファレンス この記事で分かること 65,000円台に乗せた日経平均株価と米国市場の温度差 米10年債利回り4.97%の上昇下におけるVIX指数と為替の動向 レーザーテック急騰にみる半導体関連株とその他主要銘柄の明暗 主要株価指数の動きを把握する方法 日経平均株価が65,000円の大台を突破した背景には、ハイテク株を中心とした市場の買い展開が存在します。 2026年9月22日の日経平均株価は前日比+1.38%（+886.08円相当）上昇し、65,018.95円で取引を終えました。出来高は1億...",
+      "category": "ビジネス・導入",
+      "title_ja": "日経平均65,000円突破と半導体・AI株急騰に見る市場動向のリファレンス",
+      "points": [
+        "日経平均株価が65,000円の大台を突破し、レーザーテックをはじめとする半導体・AI関連株が急騰した市場動向が分析された。",
+        "米国金利の上昇やVIX指数の動向を踏まえつつ、ハイテク銘柄が相場全体の上昇を牽引した背景と指標の見方が整理されている。",
+        "AIインフラ需要を背景とした半導体株の成長傾向と、今後の株式市場における資金シフトの注目点が示されている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "大企業と個人でAI自動化を続けて気づいた3つのギャップ",
+      "url": "https://qiita.com/Sidejob/items/6ea5d2e3ddb9066ba502",
+      "published": "2026-11-02T08:45:03+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "対象読者 大企業でAI導入に関わっている方、または個人でもAIを使った自動化を試みている方を想定している。「会社でCopilotを使っている、個人でもChatGPTや自動化スクリプトをちょっと動かしている」という方に刺さる内容になっていると思う。どちらか一方しかやっていな...",
+      "category": "ビジネス・導入",
+      "title_ja": "大企業と個人開発におけるAI自動化のギャップと乗り越えるための知見",
+      "points": [
+        "大企業でのCopilot等のAI導入事例と、個人のスクリプトによる自動化の知見を比較し、現場で発生する3つのギャップが提示された。",
+        "大企業特有のセキュリティ・ガバナンスの壁と、個人開発におけるスピード感やコスト感覚の違いが主な要因として挙げられている。",
+        "各立場でAI自動化をスムーズに推進し、現実的な成果をあげるための具体的なアドバイスとして参考になる。"
+      ],
+      "importance": 4
+    }
+  ]
+}
