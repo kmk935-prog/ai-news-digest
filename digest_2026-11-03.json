@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-03",
+  "updated_at": "2026-11-03T11:43:09.095625+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "published": "Tue, 03 Nov 2026 01:49:52 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Apple、サードパーティ製AIアプリを活用した新たな収益化戦略を模索か",
+      "points": [
+        "Appleが決算発表にて、サードパーティ製AIアプリの「機会」を通じて収益を拡大する可能性を示唆しました。",
+        "App Storeでの成果報酬モデルやシステム連携を通じて、外部の高度なAIサービスを取り込みつつビジネス化する狙いがあると見られます。",
+        "今後、iOSエコシステムにおけるAIアプリのマネタイズ構造や新たなプラットフォーム連携の動きに注目が集まります。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "published": "Tue, 03 Nov 2026 00:35:52 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "category": "海外トレンド・速報",
+      "title_ja": "YCのギャリー・タン氏、AIエージェントの過剰利用で年間最大20万ドルのトークン費用を消化",
+      "points": [
+        "Y CombinatorのCEOであるギャリー・タン氏が、自身のAIエージェント活用で年間最大20万ドル（約3,000万円）分のAPIトークンを消費していることを明かしました。",
+        "複数のAIエージェントを自律的に並列稼働させ、日常業務や開発の自動化を極限まで押し進めている実践的な背景があります。",
+        "トップ投資家が主導するAIエージェント活用のスケール感と、今後の個人レベルの生産性革命の方向性を示す事例として注目されます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "published": "Mon, 02 Nov 2026 23:13:53 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The one-year-old startup is now valued at $300 million.",
+      "category": "海外トレンド・速報",
+      "title_ja": "非エンジニアでもAIモデルの学習を可能に——スタートアップ「Trajectory」が4,500万ドルを資金調達",
+      "points": [
+        "設立1年のスタートアップTrajectoryが、評価額3億ドルで4,500万ドルの資金調達を実施したことを発表しました。",
+        "高度な専門知識を持たないドメインエキスパートでも、直感的にプログラミングなしでAIモデルのファインチューニングやトレーニングを行える基盤を提供します。",
+        "医療や法律など特定分野の専門家が直接高品質な専門AIを作成可能になることで、ドメイン特化型AIの開発速度が格段に向上すると期待されます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "published": "2026-11-02T13:56:02-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Anthropic、開発ツール「Claude Code」による既存ゲームの複製・クローン作成を制限",
+      "points": [
+        "AnthropicがAIコーディングツール「Claude Code」のシステムプロンプトを更新し、既存レトロゲーム等の再現や複製を行えないよう制限を追加しました。",
+        "AIを活用した著作権グレーゾーンなゲームの逆コンパイルやクローン移植が乱立している現状への対応が背景にあります。",
+        "AI生成コンテンツに関する知的財産権の保護や利用規約の厳格化が進む中、AI開発ツールにおけるIPリスク対策の重要性が示されています。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "published": "2026-11-02T13:01:30-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "OpenAI、データセンターの自家発電電力を非常時に地域へ供給する地域保護プログラムを発表",
+      "points": [
+        "OpenAIがジョージア州の新設データセンターにて、猛暑などの緊急時に最大1,000メガワット（約70万世帯分）の電力を一般電力網に開放する試み「Grid Protectors Program」を発表しました。",
+        "データセンター併設の自家発電設備を活用し、地域インフラの電力不足を緩和するための革新的なアプローチです。",
+        "AI需要急増に伴うデータセンターの消費電力問題や地域住民からの反発に対し、持続可能な協調モデルとして今後の業界標準となるかが期待されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "published": "2026-11-02T12:51:19-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "米NYタイムズ等、AI学習用の無断データ収集と有料壁の回避を理由にWebブラウザ「Brave」を提訴",
+      "points": [
+        "New York Timesをはじめとする複数の主要メディアが、Webブラウザ「Brave」の運営会社に対して著作権侵害などで訴訟を提起しました。",
+        "AIモデルの学習目的で行われた違法なWebスクレイピングに加え、ユーザーが有料記事（ペイウォール）をバイパスできる機能を問題視しています。",
+        "メディア業界とAI開発企業・ブラウザベンダー間の権利主張の対立が激化しており、データ利活用における法的境界線の明確化が促されています。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "AIの定期タスクを止めずに回す：使用量の上限・モデルの使い分け・時間の分散・見張り役",
+      "url": "https://zenn.dev/shoyomayabot/articles/keep-scheduled-ai-tasks-running",
+      "published": "Mon, 02 Nov 2026 14:40:30 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIエージェントには、決まった時間に仕事をさせる「スケジュールタスク」を設定できます。毎朝のニュースまとめ、毎週のレポート、記事の投稿などです。 便利な反面、数が増えると困ったことが起きます。気づいたら止まっている。朝に失敗したのに、夜まで誰も気づかない。使用量の上限に当たって、まとめて失敗する。 この記事では、AIの定期タスクを止めずに回すための工夫を4つ紹介します。 使用量の上限を知る モデルを使い分ける 実行時間を分散させる 見張り役のタスクを置く 例はClaudeのスケジュールタスクですが、考え方は他のAIサービスでも同じです。 1. 使用量の上限を知る AIのサブスクリ...",
+      "category": "開発・技術",
+      "title_ja": "AIの定期タスクを止めずに回す：使用量の上限・モデル使い分け・時間分散・見張り役の設置",
+      "points": [
+        "AIエージェントによる自動レポート出力やニュースまとめなどの「定期タスク」をエラーなく安定稼働させるための4つの実践的アプローチが解説されました。",
+        "レートリミット（使用上限）の回避、コストや性能に応じたモデル選定、実行時間の分散、不具合を自動検知する監視タスクの導入などノウハウを凝縮しています。",
+        "AIエージェントの業務組み込みが本格化する中、システム運用を止めないための現実的かつ実践的なアーキテクチャ設計指針となります。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIコーディングエージェント向け検出器「impeccable」で自分のHTMLを検査したら94件の指摘が出た",
+      "url": "https://zenn.dev/matsushima_a/articles/day-034-impeccable-detect-contrast",
+      "published": "Mon, 02 Nov 2026 14:17:11 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "要約 海外AIネタ100日チャレンジのDay 034。GitHub TrendingのJavaScript/TypeScriptランキングで急伸していたpbakaus/impeccable(Apache-2.0)を試した。 impeccableは、AIコーディングエージェントが生成するUIに特有の「いかにもAI感(AIスロップ)」なデザインパターンを、62個の決定論的なルールでLLM・APIキーなしに検出するCLIツール。 本チャレンジ自身が毎日作っているX投稿用シェアカードHTML(posts/cards/day-NNN.html、31枚)とその土台のテンプレートに対してimpe...",
+      "category": "開発・技術",
+      "title_ja": "AI特有の不自然なUIデザインを自動検出するCLIツール「impeccable」の実践検証レポート",
+      "points": [
+        "AIコーディングエージェントが出力する不自然なUIパターン（AIスロップ）をルールベースで検出するツール「impeccable」の利用レポートが公開されました。",
+        "APIキー不要かつ軽量に、62個の定義済みルールでHTML/UIコードのデザイン的・構造的欠陥を高速検知できる点が大きな特徴です。",
+        "AIによるフロントエンド自動生成が広まる中、コード品質の担保や人間によるレビュー負担を大幅に削減する品質管理ツールとして注目されます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIエージェントの購入委任をRubyで扱う — AP2対応SDK v1.0.0を公開しました",
+      "url": "https://zenn.dev/ccq/articles/6ca97030e6c8fd",
+      "published": "Mon, 02 Nov 2026 14:15:25 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIエージェントがユーザーの代わりに商品を購入する場合、販売者はどうやって「このAgentには、その商品を買う権限がある」と確認すればよいのでしょうか。 この課題に取り組む仕組みの一つが、AP2（Agentic Payment Protocol）です。 AP2のCheckout MandateをRubyで扱うOSS、ap2_mandate_verifierのv1.0.0を公開しました。 以前の記事では、v0.1.0を使い、正常・改ざん・期限切れの3ケースで「購入委任を検証する」ところを紹介しました。 今回は、そこから広がった発行 → 提示 → 検証 → Checkout Receipt確...",
+      "category": "開発・技術",
+      "title_ja": "AIエージェントの代理購入権限を検証するAP2対応Ruby SDK「ap2_mandate_verifier」v1.0.0が公開",
+      "points": [
+        "AIエージェントがユーザーに代わって決済を行う際の権限（Checkout Mandate）を正しく検証するAP2規格対応のRubyライブラリv1.0.0がリリースされました。",
+        "権限の発行・提示・検証から購入受領書（Checkout Receipt）の確認までを安全かつ統一されたプロトコルで実装可能にしています。",
+        "AIエージェントが自律的に決済を行う「エージェント・エコノミー」の実用化に向け、セキュリティ面での重要な基礎技術となります。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "フロントエンド開発とUIデザインを加速する：AIを活用したレトロタイポグラフィの自動生成と実装",
+      "url": "https://qiita.com/Diiiii/items/b7bc8f170ed91bc07eff",
+      "published": "2026-11-03T11:36:40+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "Web開発やUI/UXデザインの現場において、タイポグラフィの選定はプロジェクトのクオリティを左右する極めて重要な要素です。特に、キャンペーンサイトや特定のブランディングが求められるプロジェクト（例：80年代のシンセウェーブ風、90年代のピクセルアート風、あるいはY2Kテイ...",
+      "category": "開発・技術",
+      "title_ja": "AIを活用したレトロタイポグラフィの自動生成と効率的なフロントエンド実装手法",
+      "points": [
+        "Web開発・UIデザインにおいてブランディングを左右するレトロタイポグラフィを、AIを用いて自動生成し実装に落とし込む解説記事が公開されました。",
+        "80年代風やピクセルアートなど多様なデザイン文脈に沿ったフォント選定とスタイリングの手間を、生成AIで大幅に自動化・最適化する技術を紹介しています。",
+        "デザイナーとエンジニアがAIを組み合わせることで、意匠性の高いUI開発におけるプロトタイピングの速度とクオリティが大きく向上します。"
+      ],
+      "importance": 2
+    }
+  ]
+}
