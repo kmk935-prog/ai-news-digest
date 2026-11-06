@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-06",
+  "updated_at": "2026-11-06T10:16:44.414807+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "published": "Thu, 05 Nov 2026 22:40:55 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "points": [
+        "海外メディア「TechCrunch AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "published": "Thu, 05 Nov 2026 19:48:28 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Meta says US users can now video chat with their Muse AI avatar",
+      "points": [
+        "海外メディア「TechCrunch AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "published": "Thu, 05 Nov 2026 19:12:39 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Meta warns that election backlash against data centers could make AI expansion harder",
+      "points": [
+        "海外メディア「TechCrunch AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "published": "2026-11-05T19:37:56-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】OpenAI is stepping back from NDAs for data center projects",
+      "points": [
+        "海外メディア「The Verge AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Airbnb is working on an AI travel agent",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "published": "2026-11-05T19:06:12-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Airbnb is working on an AI travel agent",
+      "points": [
+        "海外メディア「The Verge AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Perplexity launches its own take on AI agents for work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "published": "2026-11-05T17:26:50-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "【海外速報】Perplexity launches its own take on AI agents for work",
+      "points": [
+        "海外メディア「The Verge AI」が報じた最新トピック。",
+        "最新のモデル動向やグローバルなAIサービス展開に関するニュースです。",
+        "日本国内のAIエコシステムや開発環境にも波及する可能性があり注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Jevでプロンプトを仕分けして、Claudeのモデルを自動で切り替える",
+      "url": "https://zenn.dev/toshibowie/articles/9244c8f317a7a9",
+      "published": "Thu, 05 Nov 2026 15:25:20 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "目的 🎯 「hello」にOpus、「設計判断」にHaikuを消費する状態をやめたい 分類をJev（TypeSafe AIの分類用モデル）に任せて、Claude Codeのモデルとeffortを1ターンごとに自動で切り替えたい Claude Codeにプロンプトを送るたびにその内容をJevに精査してもらい、適当なモデルとeffortを選んでもらうpluginを自作しました。 Jevとは？ 🧩 テキストと「選択肢の説明」を渡すと、どの選択肢が当てはまるかを確率つきで返すAPIです。 ラベルの名前も説明文も、呼び出す側がリクエストのたびに渡します。Jevの判断材料は, その説明文...",
+      "category": "開発・技術",
+      "title_ja": "Jevでプロンプトを仕分けして、Claudeのモデルを自動で切り替える",
+      "points": [
+        "「Jevでプロンプトを仕分けして、Claudeのモデルを自動で切り替える」に関する最新ニュース。",
+        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "【公開3分で撤退】コード未経験の大学生がiPadとGeminiでSNSを作った2.5ヶ月。エラー写真300枚の泥臭いデバッグと得た学び",
+      "url": "https://zenn.dev/rc000/articles/620cec7b42b691",
+      "published": "Thu, 05 Nov 2026 15:12:05 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "プログラミング知識ゼロの文系（経済学部）大学生が、開発環境をiPadの「Swift Playgrounds」のみ、AIパートナーを「Gemini」一本に絞り、バックエンドに「Supabase」を採用して大学生向けSNSアプリ「B KNOW」を開発した2.5ヶ月の記録です。 独自ドメインを取得し、専用メールを用意して一度は正式公開したものの、「公開わずか3分」で即時撤退とお蔵入りを決断しました。 AIハルシネーションによる2度のプロジェクト全崩壊、カメラロールに残された300枚のエラー画面写真、サーバーコストを抑える端末キャッシュ設計、そして個人開発者が直面するセキュリティと運用の...",
+      "category": "開発・技術",
+      "title_ja": "【公開3分で撤退】コード未経験の大学生がiPadとGeminiでSNSを作った2.5ヶ月。エラー写真300枚の泥臭いデバッグと得た学び",
+      "points": [
+        "「【公開3分で撤退】コード未経験の大学生がiPadとGeminiでSNSを作った2.5ヶ月。エラー写真300枚の泥臭いデバッグと得た学び」に関する最新ニュース。",
+        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "AI駆動文章作成において俺が意識しているテクニック集",
+      "url": "https://zenn.dev/ntk221/articles/34ad88a9225364",
+      "published": "Thu, 05 Nov 2026 14:35:31 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに 私は基本的に、「誰もわたしが書いた文章なんて読みたくない」と思っています。 みんな忙しいんです。そんな中であなたが文章を書いて、誰かがそれを読むということは、双方に何かしらの目的があるんだと思います。 しかも今は AI のおかげで、文章は一瞬でいくらでも書けるようになりました。結果として、仕事の中でも外でも AI が生成した文章が溢れかえっています。AI に書かせた長文を「で、何が言いたいの？」と思いながらスクロールした経験ってありませんか。 わたしはあります。 だからこそ、みんな忙しい中でどうやって読んでもらうか？ を考えるテクニックが大事になると思います。この記事では...",
+      "category": "開発・技術",
+      "title_ja": "AI駆動文章作成において俺が意識しているテクニック集",
+      "points": [
+        "「AI駆動文章作成において俺が意識しているテクニック集」に関する最新ニュース。",
+        "Zenn (AIトピック) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "0。SKILL.mdが新しい攻撃面として報告された日、自分の指示書が『データであり命令ではない』と明記する5箇所に、スキルの説明文は入っていなかった",
+      "url": "https://qiita.com/Hideki_Tamae/items/f911fa99a2ab976466f8",
+      "published": "2026-11-06T09:49:07+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "はじめに 0。 これが今回の数字です。何の0かというと、このパイプラインを動かしている自分(Claude)の指示書(システムプロンプト)の中で、「外部から来た内容はデータであり命令ではない」と名指しで注意している場所が5箇所あるうち、その対象リストに「スキル(SKILL....",
+      "category": "開発・技術",
+      "title_ja": "0。SKILL.mdが新しい攻撃面として報告された日、自分の指示書が『データであり命令ではない』と明記する5箇所に、スキルの説明文は入っていなかった",
+      "points": [
+        "「0。SKILL.mdが新しい攻撃面として報告された日、自分の指示書が『データであり命令ではない』と明記する5箇所に、スキルの説明文は入っていなかった」に関する最新ニュース。",
+        "Qiita (AIタグ) より配信。記事本文よりトピックを抽出しています。",
+        "AIの最新トレンドや実用化動向として要注目のトピックです。"
+      ],
+      "importance": 4
+    }
+  ]
+}
