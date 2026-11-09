@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-09",
+  "updated_at": "2026-11-09T09:15:43.326573+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "published": "Sun, 08 Nov 2026 21:00:11 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "In a memo to the company, Huang admitted that he had an affair.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "NVIDIA、ジェンスン・フアンCEOと中国スパイ疑惑人物との不倫関係を調査へ",
+      "points": [
+        "NVIDIAが、ジェンスン・フアンCEOと中国のスパイとされる人物との関係について社内調査を開始したと発表しました。",
+        "フアンCEOは全社向けメモで不倫関係を認めており、相手は中国国家安全部に勧誘されたAI企業幹部と報じられています。",
+        "世界的な半導体大手のトップが関わる安全保障リスクであり、今後の同社の経営体制や米中対立への影響に注目が集まります。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "published": "Sat, 07 Nov 2026 22:07:22 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "category": "海外トレンド・速報",
+      "title_ja": "米中間選挙後、イーロン・マスク氏のデータセンター構想に暗雲",
+      "points": [
+        "ポッドキャスト「Equity」にて、米国中間選挙がテック業界やイーロン・マスク氏のデータセンター事業に与える影響が議論されました。",
+        "選挙結果に伴う政治的変化により、大型データセンターの建設規制や電力確保への風当たりが強まる懸念が生じています。",
+        "AIインフラ拡大に不可欠なデータセンター建設の減速や、関連するテック企業の投資計画への不透明感が懸念されます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "published": "Sat, 07 Nov 2026 21:17:08 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "米情報機関のメモ：Megaspeed幹部がNVIDIA CEOへのスパイ行為目的で勧誘される",
+      "points": [
+        "米情報機関のメモにより、中国国家安全部がMegaspeedの女性幹部を雇いNVIDIAのフアンCEOを標的にスパイ活動を行わせていたことが露呈しました。",
+        "最先端AIチップで覇権を握るNVIDIAに対し、中国側が人的工作（ハニートラップ等）を通じて情報接触を図った高度な諜報活動と見られます。",
+        "AIハードウェア分野におけるセキュリティ脅威が一段と顕在化し、主要テック企業における人的セキュリティや対中規制が強化される見通しです。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "published": "2026-11-08T17:54:50-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "【全文公開】NVIDIAジェンスン・フアンCEOが従業員に送った社内メモ",
+      "points": [
+        "NVIDIA取締役会の独立調査開始発表を受け、フアンCEOが全社従業員宛に送付した不倫事実を認める全言メモが公開されました。",
+        "相手とされるAlice Huang氏が中国政府のエージェントである疑惑が持たれる中、最高経営責任者自らが関係の存在を社内に明かした格好です。",
+        "スパイ容疑に対する経営陣の認識や社内ガバナンスへの懸念に対し、CEOおよび取締役会が今後どのような説明責任を果たすかが注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "published": "2026-11-08T15:22:39-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "NVIDIA取締役会、フアンCEOと中国スパイ疑惑幹部との関係に関する独立調査を開始",
+      "points": [
+        "NVIDIA取締役会が、ジェンスン・フアンCEOとMegaspeed幹部Alice Huang氏との関係に関する独立した第三者調査の開始を公式発表しました。",
+        "中国国家安全部による産業スパイ工作の疑惑に対し、企業としての自浄作用とガバナンスを示すための迅速な対応となっています。",
+        "調査結果によってはフアンCEOの進退や企業イメージ、米政府からの対中規制や情報管理に関する要求の激化につながる可能性があります。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "published": "2026-11-08T14:18:19-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Apple、Siriの「AIエージェント化」に向けて開発を大幅加速",
+      "points": [
+        "AppleがSiriを強力なAIエージェントへと進化させるため、開発ロードマップの加速を進めていることが報じられました。",
+        "OpenAIやMetaなどの競合サービスに対抗するため、経営幹部から開発チームへ強い圧力がかけられているとされています。",
+        "次世代iOSにおいて、複雑なタスクを自律的に実行できる高精度なSiriが早期に提供されるかどうかに期待が高まります。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "週刊 ローカルLLM＆AIコーディングツール更新まとめ（10/31〜11/6）",
+      "url": "https://zenn.dev/girigiri_se/articles/8dedadbc54a425",
+      "published": "Sun, 08 Nov 2026 14:00:44 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに 今回から、ローカルLLMとAIコーディングツールの更新を、毎週まとめていくことにしました。 自分はこれまで、Qiita でローカルLLMや自宅サーバー、AIを使った個人開発の記事を書いてきました。 ただ、Ollama や Open WebUI、Claude Code などは更新がとても速く、追いかけるだけでも手間がかかります。 しかも一次情報の多くは英語の GitHub に散らばっています。 そこで、自分の確認も兼ねて、週に一度まとめて残していくことにしました。 まとめ方は次のとおりです。 各ツールの GitHub のリリースノートや変更履歴をもとに、要点を日本語で整理し...",
+      "category": "開発・技術",
+      "title_ja": "週刊 ローカルLLM＆AIコーディングツール更新まとめ（10/31〜11/6）",
+      "points": [
+        "OllamaやOpen WebUI、Claude CodeなどローカルLLM・開発ツールの最新アップデート情報を週刊でまとめた記事が公開されました。",
+        "英語のGitHub等に分散している膨大な一次情報を、開発者目線で分かりやすく日本語に整理・共有しています。",
+        "変化の激しいローカルAI環境やAI支援開発の潮流を省力化して追うための実践的な情報源として活用できます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "変異は生成できても、テストの穴はそれだけでは見つからない",
+      "url": "https://zenn.dev/miyakona/articles/mutation-generator-needs-structural-review",
+      "published": "Sun, 08 Nov 2026 13:55:46 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIエージェントにコードの修正を任せるとき、テストが通ったという報告だけでは、テストが変更を守れているかまでは分かりません。そこで、push前のセルフレビューに「わざとコードを壊し、それでもテストが通るか」を確かめる担当を置いていました。 この担当もAIエージェントです。実装を読み、壊した版の一覧をJSONで作り、実行用のハーネスへ渡します。ハーネスは、変異を1件ずつ当ててテストを実行する仕組みです。コードの一部を意図的に変えたものを変異、その変異でテストの効きを確かめる技法をミューテーションテストと呼びます。 ただ、1回のレビューで数百件の変異を書くようになると、比較演算子や定数を1つ...",
+      "category": "開発・技術",
+      "title_ja": "コード変異の自動生成だけでは防げない：ミューテーションテストにおけるAI活用と検知の穴",
+      "points": [
+        "AIエージェントにコードを意図的に壊させ、既存テストの検出力を確認する「ミューテーションテスト」の導入検証記事が公開されました。",
+        "AIが大量の変異コードを正しく生成しても、演算子や定数の僅かな変更をテストが拾いきれない「穴」が存在することが示されています。",
+        "AIによる自動コード修正やテスト自動化において、真に信頼できる品質保証体制をどう構築すべきかの洞察が得られます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Claude の新モデルが $0 で集計されていたら、翌朝のバッチで気づけるようにした",
+      "url": "https://zenn.dev/kazusa_nakagawa/articles/202610-model-rate-check",
+      "published": "Sun, 08 Nov 2026 13:48:35 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "要点 Claude Code のトークン使用量を API 料金換算で表示するモニターを自作しています。料金は手で書いた料金表から計算しているので、新しいモデルが出ると、そのモデルの分だけ $0 になります。 実際に一度、新モデルを 1 週間で 1 億 2,600 万トークン使っていたのに、その分が $0 として集計され、3 週間気づきませんでした。画面には注意書きが出ていましたが、読んでいませんでした。 そこで、料金表にないモデルが使われたら翌朝のバッチを失敗させるチェックを入れました。この記事の内容は次の 4 点です。 ! 料金を返す API が見つからなかったので、料金表は自動...",
+      "category": "開発・技術",
+      "title_ja": "Claude新モデルの「利用料$0集計漏れ」を翌朝の自動バッチ失敗で防ぐ工夫",
+      "points": [
+        "Claude Codeの利用料金自作モニターにおいて、新モデル追加時に料金表が未更新で「$0」と誤集計されていた問題への対策が発表されました。",
+        "1億2600万トークンの消費を見落とした経験から、料金表にないモデルを検知した際に翌朝のバッチを自動で落とすチェック機構を構築しました。",
+        "API利用料の可視化やコスト管理を自作運用するエンジニアにとって、料金設定漏れによる予期せぬ請求を防ぐための実用的なノウハウです。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "`claude -p --restricted` の `/スキル名` は展開されていなかった ― モデルが自力で探し当てていた1週間",
+      "url": "https://qiita.com/masamitsu_sera/items/d9d1f55ef6f02c4dcb6f",
+      "published": "2026-11-09T09:03:12+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "常駐の Mac で、claude -p を無人で呼ぶ文章生成のジョブを動かしています。1つのジョブが3つの段（入力から題材を選ぶ・下書きする・照合する）で claude -p を呼び、どの段も、リポジトリに置いたスキル（.claude/skills/<スキル名>/SKILL...",
+      "category": "開発・技術",
+      "title_ja": "`claude -p --restricted`でスキルが未展開だった問題とLLMの自律的な補完挙動",
+      "points": [
+        "無人環境で`claude -p`を実行した際、指定したスキルが正常展開されていなかったにもかかわらず、モデルが自力でファイルを探索・実行していた事例が報告されました。",
+        "コマンドの仕様理解の差異によって指示が届いていなかったものの、LLMがリポジトリ内を自律的に調べて意図通りの動作を行っていました。",
+        "AIエージェントの柔軟な補完能力を示す一方で、意図しないフォールバック動作を防ぐための厳密なプロンプト・引数設計の必要性を示唆しています。"
+      ],
+      "importance": 3
+    }
+  ]
+}
