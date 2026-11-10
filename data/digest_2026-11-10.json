@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-10",
+  "updated_at": "2026-11-10T12:02:48.703678+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "published": "Tue, 10 Nov 2026 01:27:12 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Anthropicが新規株式公開（IPO）に向けた手続きを本格化との報道",
+      "points": [
+        "大手AIスタートアップのAnthropicがIPOに向けた準備を進めており、今週中にも評価額の提示範囲を設定する見込みであることが報じられた。",
+        "競合するOpenAIに対抗するための大規模な資金調達と、初期投資家へのリターン確保が主な目的とされる。",
+        "生成AI領域を代表する有力企業の株式公開が、今後のAI市場の投資環境や競合図式に与える影響が注目される。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "published": "Mon, 09 Nov 2026 23:28:37 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Nvidiaのジェンセン・ファンCEO、過去の疑惑報道を受け危機管理PR会社を起用していたと判明",
+      "points": [
+        "Nvidiaのジェンセン・ファンCEOが約1年前、著名人のスキャンダル対応で実績のある大手PR会社を起用していたと報じられた。",
+        "親族とのビジネス関係に関する疑惑が報道された直後の2025年秋に講じられた危機管理措置とされる。",
+        "世界的半導体企業の最高経営責任者を巡るガバナンス体制やレピュテーションリスクへの対応に関心が集まっている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "published": "Mon, 09 Nov 2026 22:46:09 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "空売り投資家、Nvidia CEOと中国企業幹部との不自然な関係を問題発覚の半年前に指摘",
+      "points": [
+        "調査会社のCulper Researchが、Nvidiaのスパイ疑惑報道が出る6ヶ月前の時点でCEOと中国側幹部の親密な関係を警告していたことが判明した。",
+        "半導体業界における情報漏洩リスクや、経営陣の個人的なネットワークに対する市場の懸念が改めて浮き彫りとなった。",
+        "米中技術覇権争いの渦中にあるNvidiaのコンプライアンス体制と、株価や業績への波及効果が注視されている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "published": "2026-11-09T19:28:49-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "パラマウント・スカイダンスCEO「AIは映画史上最大級の創造的進歩をもたらす」と発言",
+      "points": [
+        "パラマウント・スカイダンスのデヴィッド・エリソンCEOが決算会見で、AIが映像制作にCGI以上の影響を与えると予測した。",
+        "単なるコスト削減だけでなく、制作現場のクリエイティブな表現幅を格段に広げる技術としての可能性を評価している。",
+        "ハリウッドにおけるAI導入の加速と、従来の制作プロセスやクリエイターの雇用環境への波及が今後の焦点となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "published": "2026-11-09T18:51:58-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "中国はNvidiaのジェンセン・ファンCEOから何を得ようとしているのか",
+      "points": [
+        "米国のAIインフラを独占的に支えるNvidiaとそのCEOに対し、中国側がどのような関心やアプローチを寄せているかを分析した記事が公開された。",
+        "NvidiaのAIチップは先端技術開発の基盤であり、同社のサプライチェーンや投資先ネットワークは世界的な影響力を持つ。",
+        "米国の対中輸出規制を背景に、最先端AIハードウェアの安全保障上のリスクと技術保護の重要性が改めて議論されている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "published": "2026-11-09T18:47:46-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "トランプ米大統領、Nvidia CEOのスパイ疑惑や社内調査について記者会見で言及",
+      "points": [
+        "トランプ大統領がホワイトハウスの記者会見で、Nvidiaのジェンセン・ファンCEOを巡る不倫および中国スパイ疑惑に関して言及した。",
+        "CEO自身が配偶者への不誠実な行為を認め、同社が特別調査を開始した直後の政権トップによるコメントとなった。",
+        "AI市場を牽引する巨大テック企業のトップ不在・退任リスクや、政権による安全保障上の対応に関心が集まっている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Godotでプレイテストを自動化する方法：入力のシミュレート、ボット、MCPサーバー、AIエージェント",
+      "url": "https://zenn.dev/zivaengine/articles/bffec9e5d9b95a",
+      "published": "Mon, 09 Nov 2026 18:39:15 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "この記事は https://ziva.sh/blogs/godot-automated-playtesting の日本語版です（英語の原文はZiva.shが2026年11月5日に公開）。 Godotでプレイテストを自動化するには、代わりにボタンを押すものと、その結果が正しかったかを判定するものが必要です。どちらも自分でスクリプトにできます。GUTやGdUnit4の入力テスト、またはコマンドラインから実行するボットのオートロードを使えば、CIでのヘッドレス実行もできます。ボタンを押す役をAIに任せることもできます。Claude CodeやCursorにゲームを実行させるMCPサーバーや、Z...",
+      "category": "開発・技術",
+      "title_ja": "GodotエンジンでAIエージェントやMCPサーバーを活用しプレイテストを自動化する方法",
+      "points": [
+        "ゲーム開発エンジンGodotにおいて、入力シミュレーションやボット、AIエージェントを組み合わせてプレイテストを自動化する設計手法が公開された。",
+        "GUTやGdUnit4などのテストフレームワークに加え、Claude CodeやCursorとMCPサーバーで連携したCI環境での自動実行を提案している。",
+        "ゲーム開発における品質保証（QA）コストの削減や、AIを活用した自律的テスト環境構築の実用例として注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "「AIで何かしたい」を解ける課題に変える ― AIソリューション設計の実践ガイド",
+      "url": "https://zenn.dev/inf_e/books/ai-solution-design-guide",
+      "published": "Mon, 09 Nov 2026 18:29:44 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "「AIで何かしたい」という曖昧な要望を、解くべき課題に置き換え、AIとデータで解決策を設計し、効果と進め方まで示すための実践ガイドです。AI導入の基礎知識、要件定義の7ステップ、15のソリューションパターン、製造・物流・金融などの業界別の代表例、8つのケーススタディを収録しています。",
+      "category": "ビジネス・導入",
+      "title_ja": "「AIで何かしたい」を解ける課題に変える ― AIソリューション設計の実践ガイド",
+      "points": [
+        "ビジネス現場の曖昧なAI活用要望を具体的に解くべき課題へ変換し、導入効果まで導くための実践的フレームワークが公開された。",
+        "要件定義の7ステップや15のソリューションパターン、製造・物流・金融分野などの具体的ケーススタディを網羅している。",
+        "AI導入の失敗を防ぎ、事業成果に繋がるシステム設計とプロジェクト運用を推進するための実用手引きとして活用できる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "「AIで何かしたい」を解ける課題に変える ― AIソリューション設計の全体像",
+      "url": "https://zenn.dev/inf_e/articles/ai-solution-design-overview",
+      "published": "Mon, 09 Nov 2026 18:29:41 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! 本記事は、調査した内容をもとに、生成AIを多分に活用して執筆しています。 「AIで何かできないか」「検査をAIで自動化したい」「生成AIを入れたのに、使われていない」。こうした相談は、業界や職種を問わず増えています。けれど、要望の言葉をそのまま形にしても、多くの場合うまくいきません。本当に解くべき課題がずれていたり、作ったAIが業務の中で使われなかったりするからです。 この記事では、曖昧な要望から 「何を問題とするか」 を定め、AIとデータで 「どう解くか」 を設計し、「やる価値と進め方」 を示すまでの全体像を、ひと続きの手順として説明します。 詳しい解説、15のソリューションパタ...",
+      "category": "ビジネス・導入",
+      "title_ja": "「AIで何かしたい」を解ける課題に変える ― AIソリューション設計の全体像",
+      "points": [
+        "導入しても使われないAIを防ぐため、曖昧な相談から真の問題を設定し、解決策を設計するまでの一連の手順を解説した記事が公開された。",
+        "現場で発生しがちな課題と要件のズレを解消し、データの用意から業務組み込みまでのフローを体系化している。",
+        "社内DXや生成AI導入を推進するPM・エンジニアにとって、プロジェクトを成功に導く指針となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "無料でAI漫画を試す入力例｜人物・場面・セリフを分けて準備する",
+      "url": "https://qiita.com/Ikechom/items/9ba992a555af37bca4d1",
+      "published": "2026-11-10T11:41:43+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "無料枠でAI漫画を試すときは、最初の生成前に人物・場所・小物・出来事を短く整理すると、出力を見て直したい箇所を判断しやすくなります。この記事では、短編を漫画制作向けの入力に変える例と、実際に生成した一コマの確認点を紹介します。 本記事はLyra Japanの公式発信です。L...",
+      "category": "開発・技術",
+      "title_ja": "無料枠で試すAI漫画制作のプロンプトテクニック｜人物・場面・セリフの事前整理術",
+      "points": [
+        "無料のAI画像生成ツールで効率よく漫画を作成するために、人物・場所・小物を事前に切り分けてプロンプトを構成する方法が紹介された。",
+        "出力を確認した際の修正点を明確に指定しやすくし、試行錯誤の回数を減らしてクオリティを安定させるコツを解説している。",
+        "生成AIを活用した個人でのマンガ制作やショートコンテンツ制作のハードルを下げる実用的なノウハウである。"
+      ],
+      "importance": 2
+    }
+  ]
+}
