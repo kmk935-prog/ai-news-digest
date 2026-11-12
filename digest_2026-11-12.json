@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-12",
+  "updated_at": "2026-11-12T11:03:57.079799+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "published": "Wed, 11 Nov 2026 23:50:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "category": "海外トレンド・速報",
+      "title_ja": "NVIDIAフアンCEOを巡る巨大スキャンダル：経緯とタイムライン",
+      "points": [
+        "米NVIDIAの創業者兼CEOであるジェンスン・フアン氏に関する一連のスキャンダルの詳細なタイムラインが報道された。",
+        "中国諜報員とされる女性との不倫を本人が認めたほか、米中AI覇権争いの渦中で国家安全保障上の懸念が強まっている背景がある。",
+        "半導体業界のトップを揺るがす深刻な事態であり、今後の米中情勢やAIインフラ投資への波及効果に注目が集まる。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "published": "Wed, 11 Nov 2026 23:28:45 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+      "category": "海外トレンド・速報",
+      "title_ja": "NVIDIA株価が急落、取締役会がフアンCEOの解任を準備中との報道",
+      "points": [
+        "NVIDIA取締役会が、33年間同社を率いてきた創業者兼CEOジェンスン・フアン氏の解任手続きを進めていると報じられ、株価が下落した。",
+        "相次ぐ不倫問題やガバナンス上の危機が背景にあり、早ければ週内にも取締役会が更迭を決定する可能性がある。",
+        "世界のAI市場を独占する巨頭のトップ交代は、半導体業界や関連ハイテク株全体に測り知れない影を落とす恐れがある。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "published": "Wed, 11 Nov 2026 23:17:05 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+      "category": "海外トレンド・速報",
+      "title_ja": "NVIDIAのフアンCEOに新たな疑惑、社内女性幹部との不倫も発覚か",
+      "points": [
+        "中国スパイ疑惑のある人物との関係を認めたばかりのフアンCEOに、自社幹部の部下とも不適切な関係があったとの新疑惑が浮上した。",
+        "組織内の重大なコンプライアンス違反およびガバナンス欠如とみなされ、解任に向けた動機を一段と強める要因となっている。",
+        "一企業のトップの個人的スキャンダルを超え、企業統治のあり方と株価・市場への連動性に読者は注視すべきである。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "published": "2026-11-11T17:44:36-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "米NVIDIA取締役会、フアンCEO解任へ本格着手（WSJ報道）",
+      "points": [
+        "米WSJの報道によると、NVIDIA取締役会が2件目の不倫発覚を受けてジェンスン・フアンCEOの解任準備に入った。",
+        "1件目の中国スパイ疑惑のある女性との関係に続き、NYT紙が報じた社内幹部との不倫報道が致命的な決定打となった。",
+        "AI市場のリーダー企業の電撃的なCEO更迭劇が現実味を帯びており、サプライチェーンや投資家心理への影響が懸念される。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "United won’t let your AI agent book your flight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "published": "2026-11-11T16:54:21-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like Doordash. But United is concerned […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "ユナイテッド航空、個人用AIエージェントによるチケット予約をブロックへ",
+      "points": [
+        "米ユナイテッド航空が、個人のAIアシスタント等を通じた自動の航空券予約を禁止する方針を固めた。",
+        "プライバシー保護や各種航空規制への適合が理由であり、DoorDashなど他業界でも同様のAI制限の動きが広がっている。",
+        "自律型AIエージェントの普及に伴い、企業側がセキュリティやAPI連携の観点からどう受容・制限していくかが今後の争点となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "published": "2026-11-11T11:00:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Googleが実験的AI「Tabletop」を発表、対話形式でカスタム協働アプリを構築",
+      "points": [
+        "Googleが自然言語の指示（バイブコーディング）で家族や仲間との協働ハブを作成できる新AIツール「Tabletop」を公開した。",
+        "Asanaのようなプロジェクト管理画面を備えつつ、ユーザーが求める機能を対話型AIで即座にカスタマイズ生成できる点が特徴である。",
+        "プログラミング知識を必要としない個人向け・チーム向けミニアプリ開発の新しいスタンダードとなるか注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIガバナンス【G検定 技術解説】",
+      "url": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-governance-tech",
+      "published": "Wed, 11 Nov 2026 17:24:43 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "概要 AIガバナンスは、G検定のシラバスで重要な概念です。この記事では、技術的な詳細について解説します。 定義と背景 AIガバナンスについて、以下の観点から理解することが重要です： 理論的背景 実装方法 実務での応用 G検定での出題ポイント 技術的詳細 基本原理 AIガバナンスの基本となる原理を理解することは、G検定合格に向けて必須です。 実装とアプリケーション 実務では以下の点に注意します： パフォーマンス最適化 スケーラビリティ 保守性 監視とロギング 参考資源 JDLA公式ガイドライン 業界標準のベストプラクティス 学術論文および白書",
+      "category": "開発・技術",
+      "title_ja": "AIガバナンスの基本と実装（G検定対応・技術詳細解説）",
+      "points": [
+        "JDLA G検定のシラバスに含まれる「AIガバナンス」の理論的背景と実践的な実装方法を解説する技術記事が公開された。",
+        "パフォーマンス最適化、スケーラビリティ、監視・ロギングなど、実務でAIシステムを安全に運用するための要点を網羅している。",
+        "AIの社会実装が進む中で、開発者や事業者がリスク管理やコンプライアンスを徹底するための基礎知識として有益である。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "図解でAIと認識を共有する資料作成ガイド",
+      "url": "https://zenn.dev/yy7613/articles/4af301b4025cbb",
+      "published": "Wed, 11 Nov 2026 16:11:12 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに この記事では図解を中心に情報を整理してAIと人が内容を共有しやすい資料を作成する方法を紹介します。 この記事の要点 文章はセクションや段落に分割して主張と理由をつなげる 図解で全体像や関係性を示して詳細を文章で補足する 図は関連する要素をグループ化して全体像から詳細の順に示す 配置と配色を調整して重要な部分を強調し視線を誘導する 用語集と補助資料を基準に繰り返し添削する AIは短時間で大量の文章を生成できます。しかし、そうした文章をすべて読むのは現実的ではありません。内容を確認して判断や修正を伝えるには人が把握できる形への整理が必要です。 情報を整理する方法の一つが...",
+      "category": "開発・技術",
+      "title_ja": "AIと人間の認識齟齬を防ぐ！図解を活用した情報整理・資料作成ガイド",
+      "points": [
+        "AIと人間がスムーズに意図を共有・確認できるドキュメント作成および図解化の手法を解説した記事が投稿された。",
+        "AIが大量の文章を出力できるからこそ、人間が素早く確認できるようセクション分割、視線誘導、用語集作成で構造化することが不可欠とされる。",
+        "生成AI時代において「人間側の情報整理力・プロンプト以前のコンテキスト提示」をいかに高めるかという実用的ノウハウを提供している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "ハーネスエンジニアリングを、人間とAIの合意形成へ",
+      "url": "https://zenn.dev/ryo0221/articles/7983cf7e857298",
+      "published": "Wed, 11 Nov 2026 15:21:05 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIエージェントの能力が向上するにつれ、ソフトウェア開発のあり方は大きく変わりつつある。 以前は、人間がコードを書き、AIがその一部を補助するという関係だった。それが今では、AIが実装し、テストし、修正し、人間が結果を確認するという形になりつつある。 この変化の中で、注目されているのが「ハーネスエンジニアリング」という考え方だ。 AIモデル自体の能力を高めるだけでなく、AIが仕事を進めるための環境、道具、制約、評価の仕組みを整える。優秀なAIを用意するだけでは不十分で、そのAIが能力を発揮できる環境を設計する必要がある、という考え方である。 例えば、OpenAIのHarness engi...",
+      "category": "開発・技術",
+      "title_ja": "人間とAIの合意形成を目指す新概念「ハーネスエンジニアリング」とは",
+      "points": [
+        "AIエージェント時代における新たな開発・設計思想「ハーネスエンジニアリング」の重要性を解説する記事が公開された。",
+        "AIモデル自身の能力向上だけでなく、AIが能力を発揮して自律的に働くための環境、制約、評価の枠組み（ハーネス）を設計するアプローチである。",
+        "コードを書く主体がAIへと移行する中、人間が成果物のテスト・評価システムをどう設計・統制していくべきかという課題への指針となる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "2026年11月12日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "url": "https://qiita.com/ennagara128/items/c10f317642594517575a",
+      "published": "2026-11-12T11:02:42+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 集中力散漫＆過集中持ちエンジニアがAWS DE...",
+      "category": "国内テック・話題",
+      "title_ja": "Qiitaの最新トレンド記事を朝7時に音声でチェックできるAIポッドキャスト配信中",
+      "points": [
+        "Qiitaのトレンド記事をAIが要約・音声化し、毎朝7時に更新するポッドキャストサービスが実施されている。",
+        "前日夜のトレンドをまとめて通勤時や作業中の「ながら聴き」でインプットできるように自動生成されている。",
+        "エンジニアの効率的な情報収集手段として、AIを用いたテキストから音声コンテンツへの自動変換の好例といえる。"
+      ],
+      "importance": 1
+    }
+  ]
+}
