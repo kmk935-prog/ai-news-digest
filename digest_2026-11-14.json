@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-14",
+  "updated_at": "2026-11-14T10:07:47.289212+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "published": "Fri, 13 Nov 2026 22:43:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "category": "海外トレンド・速報",
+      "title_ja": "ジェンセン・フアン氏の辞任がAIスタートアップ資金調達に大打撃、VCや創業者が懸念",
+      "points": [
+        "NvidiaのCEOジェンセン・フアン氏の辞任を受け、AIスタートアップへの投資激減に対する懸念が急速に高まっています。",
+        "フアン氏の強力なリードのもとで数十億ドル規模の巨額投資が行われていたため、後任体制での支援縮小が警戒されています。",
+        "スタートアップの資金調達額の減少や企業評価額の下落が見込まれ、新規AIエコシステムの成長ペースに影響が出る可能性があります。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "published": "Fri, 13 Nov 2026 19:37:57 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "category": "海外トレンド・速報",
+      "title_ja": "AIエージェント開発支援の「LangChain」が評価額30億ドル（約4500億円）に到達",
+      "points": [
+        "LangChainが最新の資金調達ラウンドにて、評価額30億ドルを達成したことが明らかになりました。",
+        "モデルやプラットフォームに依存しないAIエージェント管理ツール「LangSmith」の顧客数が7,000社へと急拡大しています。",
+        "エンタープライズ領域におけるAIエージェント運用の標準基盤としての地位を固めており、導入の更なる加速が注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "published": "Fri, 13 Nov 2026 18:40:30 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "category": "海外トレンド・速報",
+      "title_ja": "輸出規制対象のNvidia製チップが中国の最高性能AIモデル構築に使用されていたことが発覚",
+      "points": [
+        "中国の最先端AIモデルの訓練に、米国の輸出規制対象であるNvidia製高性能チップが使われているとする調査結果が発表されました。",
+        "規制回避ルートや既存在庫の活用の実態が浮き彫りとなり、米国の貿易制裁の実効性が問われています。",
+        "米政府による規制の更なる厳格化やNvidiaへの法規制リスクが高まる可能性があり、半導体供給網への影響に注視が必要です。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "published": "2026-11-13T18:49:11-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Amazonがウェブ上の全EC商品をインデックス化する「World Product Graph」構想を推進",
+      "points": [
+        "Amazonが自社で未取扱の商品も含め、ネット上の全EC商品を網羅・統合する「World Product Graph」プロジェクトを進めていることが報じられました。",
+        "外部サイトの商品情報も自社上で完結・検索可能にすることで、ユーザーの離脱を防ぐ狙いがあります。",
+        "ECプラットフォームとしての検索支配力がさらに強まる見込みであり、競合やオンラインショップの集客構造の変化に注目です。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "published": "2026-11-13T15:45:10-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+      "category": "LLM・生成AI",
+      "title_ja": "OpenAIが「ChatGPT Wallet」をリリース、AIエージェントによる自動決済が可能に",
+      "points": [
+        "OpenAIがChatGPT Proユーザー向けに、AIによる購入代行を可能にする決済機能「ChatGPT Wallet」の提供を開始しました。",
+        "同社のAIエージェント基盤「Dots」と連携し、ユーザーに代わってクレジットカード決済での実商品の購入手続きを行えます。",
+        "自律型AIエージェントが直接的に経済活動を行う未来への大きな第一歩として業界内外から高い関心を集めています。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "What’s really at stake in the Jensen Huang saga",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "published": "2026-11-13T09:47:16-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Nvidiaジェンセン・フアン氏辞任劇の裏にある地政学リスクと真の争点",
+      "points": [
+        "Nvidiaの象徴的リーダーであったジェンセン・フアン氏がCEOを辞任し、AI業界全体に大きな衝撃が走りました。",
+        "辞任の背景には、中国市場での取引問題や米政府による安全保障上の厳格な調査圧力・取引規制が存在します。",
+        "単なる経営陣の交代にとどまらず、米中AI冷戦やグローバルなAIハードウェア供給網の再編という巨視的な波及効果が懸念されます。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "人間は0行、検証は4.2万行 ― Claude Code × Codex でスーファミ格闘ゲームを作った57日",
+      "url": "https://zenn.dev/hawkymisc/books/human-zero-lines-snes-fighter",
+      "published": "Fri, 13 Nov 2026 17:27:20 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "コードを1行も書かず、判断だけをした57日間の実録。Codex と Claude Code の2つのAIエージェントに、スーパーファミコン用の2D対戦格闘ゲーム、M5Stack CoreS3 用のエミュレーター、macOS版・Web版を作らせた。363のセッション、1,010コミット、228のPRという一次資料から、何が壊れ、どう止め、どう機械で保証させたかを書く。",
+      "category": "開発・技術",
+      "title_ja": "人間はコード0行、検証4.2万行 ― Claude Code × Codex でスーファミ格闘ゲームを作った57日の記録",
+      "points": [
+        "人間が1行もコードを書かず判断と検証のみで、2つのAIエージェントにスーファミ用格闘ゲーム等を開発させた実践記録が公開されました。",
+        "Claude CodeとCodexを組み合わせ、363セッション・1,010コミットを通じてテストと動作検証を機械に徹底保証させています。",
+        "AIによる完全自動コード生成時代において、人間の役割が「コーディング」から「仕様定義と検証設計」へ移行することを実証しています。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Antigravity CLIでコメントを監視する：セットアップと実データ",
+      "url": "https://zenn.dev/everyinfra/articles/antigravity-cli-video-comment-monitoring",
+      "published": "Fri, 13 Nov 2026 17:23:07 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! この記事は EveryInfra ブログ からの転載です（原文が正本です）。 動画の公開後24時間で、コメント欄の雰囲気が決まります。早めに人が対応すべきコメントは3種類あります。苦情、回答を求める質問、そして返信しないと冷淡な印象を与えかねないコメントです。このガイドでは、Gemini CLIの後継となるGoogleのターミナルエージェント、Antigravity CLIでコメント巡回を構築します。コマンドはagyです。数時間ごとにシステムのタイマーがagy -pを起動し、エージェントが新着コメントを取得して短いレポートを書きます。 コメントデータはEveryInfraのリモート...",
+      "category": "開発・技術",
+      "title_ja": "GoogleのAntigravity CLIを使ったコメント監視自動化のセットアップと活用例",
+      "points": [
+        "Googleの新たなターミナルエージェント「Antigravity CLI (agy)」を用いて、Webのコメント監視を自動化する実践手法が公開されました。",
+        "タイマー実行により定期的に新着コメントを取得・分析し、苦情や重要質問を判定して自動レポートを生成します。",
+        "CUIエージェントを活用した運用自動化の具体例であり、顧客対応やSNSモニタリングの即時対応に応用が期待できます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "自分のサイトを12個のAIに審査させたら、人間度12から100まで全部出た話",
+      "url": "https://zenn.dev/ray_9618/articles/6ec984248b8ee3",
+      "published": "Fri, 13 Nov 2026 16:55:45 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "! 前提として、この記事もAI（Muse）の支援を受けて記述しています。仕様・判断・最終検収は筆者自身が行っています。 はじめに 個人で商用ソフト「Megrab Studio」を開発しています。コードはAIエージェントに書かせ、自分は仕様・判断・検収に回る、という体制をこれまでの記事で公言してきました。 そこで気になったのが、公式サイトを見た人は（そしてAIは）これを「AIが作ったサイト」だと思うのか、という点です。 せっかくなので、思いつく限りのAIに同じ質問を投げました。「このサイトはAI制作か、人間制作か。スコアと根拠を出してほしい」。集まった審査は 12件。結論を先に書くと...",
+      "category": "国内テック・話題",
+      "title_ja": "AI支援で制作したサイトを12の主要AIに判定させた結果、人間度スコアが12〜100まで大割れ",
+      "points": [
+        "AIエージェント主体で作成したWebサイトを12個の主要AIに判定させ、「人間が作ったかAIか」のスコア検証が行われました。",
+        "同じサイトであるにもかかわらず、判定AIによって「人間度12」から「人間度100」まで真逆の評価が出揃う結果となりました。",
+        "現在のAI生成コンテンツ判定アルゴリズムの曖昧さが浮き彫りとなり、今後のAI判定ツールやSEO施策の参考になる検証です。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "2026年11月14日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "url": "https://qiita.com/ennagara128/items/d9fa6da5a42bf05867a3",
+      "published": "2026-11-14T10:01:27+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。 通勤中などにながら聴きしよう！ （Qiita投稿は通勤には間に合わないと思われますが） フィードバックとか助かりますのでください ↓こちらから 出典 【AWS】AWS EmulatorでCDK/T...",
+      "category": "国内テック・話題",
+      "title_ja": "2026年11月14日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "points": [
+        "Qiitaの最新トレンド技術記事を毎朝AI音声でポッドキャスト配信する取り組みが共有されました。",
+        "前夜のトレンド情報を抽出し、通勤時などの「ながら学習」に適した音声コンテンツとして自動生成・更新しています。",
+        "技術情報のインプット手段の多様化や、Webテキストコンテンツの自動音声化プロセスの好例となっています。"
+      ],
+      "importance": 2
+    }
+  ]
+}
