@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-15",
+  "updated_at": "2026-11-15T09:30:21.573083+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "published": "Sun, 15 Nov 2026 00:08:07 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "Nvidiaのセキュリティチームはどこにいたのか？内部流出とCEO辞任劇の舞台裏",
+      "points": [
+        "Nvidiaのセキュリティ責任者が8月に極秘退任し、CEOのジェンスン・フアン氏も中国へのチップ流出が疑われる企業の幹部等との関係を理由に辞任した。",
+        "元情報機関の担当者によると、こうした企業内の雑談レベルでの情報流出は、一般的な企業のセキュリティチームでは検知・防止が極めて困難とされる。",
+        "米中間の半導体規制が強まる中、技術大手の内部安全保障体制の甘さとコンプライアンス管理の難しさが浮き彫りになっており、今後の業界全体への影響が懸念される。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "published": "Sat, 14 Nov 2026 21:41:22 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "category": "海外トレンド・速報",
+      "title_ja": "イーロン・マスクらTech首脳陣がNvidiaにジェンスン・フアン前CEOの復職を求める署名活動を開始",
+      "points": [
+        "イーロン・マスク氏をはじめとする複数のテクノロジー企業幹部が、Nvidiaに対しジェンスン・フアン前CEOの復職を求める署名運動に参加した。",
+        "署名数は115,000筆を超えており、テック業界内における同氏の絶大な影響力と支持の高さを示している。",
+        "サプライチェーンや半導体業界への影響が大きい人物だけに、株主や取締役会がこの署名運動にどう対応するか注目が集まる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "published": "Sat, 14 Nov 2026 17:30:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "category": "海外トレンド・速報",
+      "title_ja": "「AIの墓場」：期待に応えられず終了・失速したプロジェクト＆スタートアップ一覧",
+      "points": [
+        "遅延を繰り返したAppleのSiri改善計画やOpenAIの混迷したスーパーアプリ構想など、失敗・閉鎖に追い込まれたAIプロジェクトのまとめ一覧が公開された。",
+        "急速なAIブームの裏で、巨額の資金投入にもかかわらず期待通りの成果を出せずに頓挫する製品やスタートアップが相次いでいる。",
+        "AI市場の過熱感が一段落する中、単なるブームではなく実用性と収益性を兼ね備えたサービスだけが生存できるフェーズに入っている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "published": "2026-11-14T10:00:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "サム・アルトマン解任に関わったOpenAI元取締役が警告「AI企業のCEOをまだ信用すべきではない」",
+      "points": [
+        "OpenAIの元取締役でCSET幹部のヘレン・トナー氏が、インタビューでAI企業の経営体制やガバナンスに対する懸念を改めて表明した。",
+        "アルトマン氏解任劇の当事者として、AI企業の利益追求姿勢と安全性の確保がしばしば対立し、適切なチェック体制が機能していない実態を指摘した。",
+        "AIの安全な普及には企業主導の自主規制だけでなく、第三者機関や法的枠組みによる厳格なガバナンスが不可欠であることが示唆されている。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "published": "2026-11-14T07:00:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "ジェンスン・フアンの辞任に見る「カリスマ創業者CEO時代」の陰り",
+      "points": [
+        "NvidiaのCEOを辞任したジェンスン・フアン氏の軌跡を通じて、テック業界におけるカリスマ型ショーマン経営者の衰退傾向が論じられた。",
+        "2025年1月のCESなど大観衆を前に魅了した同氏だったが、地政学リスクや内部ガバナンス問題により退任へと追い込まれた。",
+        "個人のカリスマ性に頼るテック企業の経営スタイルの限界を示しており、巨大AI半導体企業の統治構造の変化が注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "published": "2026-11-13T18:49:11-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+      "category": "ビジネス・導入",
+      "title_ja": "Amazonが自社外含む「世界中のEC商品データ」を統合・インデックス化する計画を推進",
+      "points": [
+        "Amazonが自社で販売していない商品も含め、ネット上の全EC商品をデータベース化する「World Product Graph」プロジェクトを推進中と報じられた。",
+        "買い物客が価格比較や商品検索のためにAmazonを離脱することを防ぎ、ECプラットフォームとしての支配力をさらに高める狙いがある。",
+        "膨大なデータとAIを組み合わせた検索・提案体験の強化が期待される一方、競合ECサイトへの影響やデータ収集に関する規制の動向が注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "「これはいつ収益をうむの？」 ― 無料記事だけでは収益は生まれない、段の話",
+      "url": "https://zenn.dev/ai_secretary/articles/cb0d7a24fd0c5a",
+      "published": "Sat, 14 Nov 2026 22:22:39 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "8日目、公開15本、売上0円 AI収益の仕組みを動かし始めて、2026-11-12で8日目になった。公開した記事は、Zenn 7本・Qiita 8本の計15本。売上0円・費用0円は台帳の実測の通りだ。 2026-11-11に、池田さんから「これはいつ収益をうむの？」と聞かれた。8日間、毎日記事を出しているのに、収益がゼロのままなのはなぜか。答えは、ひとつだけだ。無料記事には、収益化の仕組みがない。 出し続けても、無料記事の段にいる限り、収益は生まれない。 収益は「段」を上がって初めて生まれる この仕組みは、3層のラダーでできている。発信 → 低単価商品 → 受託だ。目標の段は、段...",
+      "category": "開発・技術",
+      "title_ja": "「これはいつ収益を生むの？」— 無料記事の量産から脱却しAIビジネスでマネタイズするための3段階モデル",
+      "points": [
+        "ZennやQiitaで15本の無料記事を投稿しても収益0円であった実践結果から、無料コンテンツ発信の限界と収益化の構造が分析された。",
+        "収益化には「情報発信 → 低単価商品 → 受託開発・伴走」という3層のラダー（段）を上る明確な導線設計が不可欠であると説く。",
+        "AIを活用した情報発信活動において、単なるアクセス集めではなく明確なマネタイズ構造をいかに構築するかが個人のビジネス展開の鍵となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIに「3時間空けて」と決めたら、2回続けて数十秒足りなかった —— 決まりを秒で測り直した話",
+      "url": "https://zenn.dev/ai_shihan/articles/88d4d47d73c7e1",
+      "published": "Sat, 14 Nov 2026 21:57:06 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "X の投稿は、AI の席（広報部）に任せています。決まりの1つに「前の投稿から3時間以上空ける」があります。この決まりを、実際の投稿時刻で測り直したら、2回続けて線に届いていませんでした。 測った時刻 投稿は、日本時間の 9:05・12:05・21:05 の枠で出します。枠は3時間おきなので、9:05 と 12:05 は、きれいに3時間です。 実際に出した時刻は、次のとおりでした。 日 前の投稿 次の投稿 間隔 11/13 9:07:05 12:06:35 2時間59分30秒 11/14 9:07:26 12:07:18 2時間59分52秒 どちらも、3時間に...",
+      "category": "開発・技術",
+      "title_ja": "AI広報に「投稿間隔を3時間」と指示したら数十秒足りなかった問題と原因検証",
+      "points": [
+        "Xの自動投稿をAIに任せた際、「前投稿から3時間以上空ける」という運用ルールに対し、数十秒不足するケースが連続発生した実例が報告された。",
+        "定期実行プログラムの処理遅延やタイムゾーン・秒単位の計算精度により、指定時刻と実際の処理時刻にズレが生じることが主な要因。",
+        "AIや自動化システムに業務ルールを適用する際は、秒単位のログ検証やマージン設計など詳細な運用仕様の考慮が必要であることを示している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "髪型プロンプトで特殊ヘアに挑戦！Tsubaki.3とEdit Proで6種類のヘアチェンジを検証",
+      "url": "https://zenn.dev/satofun/articles/921c5877f6a4ae",
+      "published": "Sat, 14 Nov 2026 21:28:27 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIで作ったお気に入りのキャラクター。顔も服装も気に入っているのに、髪型を変更しようとすると別人のようになってしまう……。そんな経験はありませんか？ 既存キャラのヘアチェンジでは、希望する髪型を再現するだけでなく、元のキャラクターらしさを残すことも重要です。 今回は、PixAIの「Tsubaki.3」を使い、同じオリジナルキャラを5種類の個性的な髪型に変更してみました。さらに「Edit Pro」では、実写の髪型を参考画像として読み込み、アニメキャラへの反映にも挑戦しています。 一般的なヘアスタイルでは表現の違いが分かりにくいため、あえてアフロやハート型ヘアなど、特徴を強調した髪型を選び...",
+      "category": "開発・技術",
+      "title_ja": "AI生成キャラの髪型変更検証：PixAIの「Tsubaki.3」と「Edit Pro」による一貫性維持の試み",
+      "points": [
+        "PixAIの画像生成モデル「Tsubaki.3」と「Edit Pro」を使用し、キャラクターの同一性を保ちながら特殊な髪型へ変更する手法の検証結果が公開された。",
+        "アフロやハート型など特徴的なヘアスタイルへのプロンプト変更、および実写画像を参考画像としたアニメキャラへの反映技術を評価している。",
+        "生成AIを用いたキャラクターデザインにおいて、顔や特徴を維持したまま衣装や髪型を変更する高度な画像編集のノウハウとして活用が期待される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "経済産業省BtoB-EC調査、2025年のEC化率45.9%。仕入先への発注業務がまだ電話・FAXなら整えたい発注管理の3ステップ｜見積書・納品書の手入力をなくす",
+      "url": "https://qiita.com/DnD-inc/items/8aacbfa5bb80f498375f",
+      "published": "2026-11-15T09:20:33+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "経済産業省BtoB-EC調査、2025年のEC化率45.9%。仕入先への発注業務がまだ電話・FAXなら整えたい発注管理の3ステップ｜見積書・納品書の手入力をなくす 本記事は、株式会社DnD（https://dnd-inc.jp）のコラムを一部編集して掲載しています。 初...",
+      "category": "ビジネス・導入",
+      "title_ja": "2025年BtoB EC化率45.9%へ：電話・FAX発注から脱却し見積・納品書の手入力を削減する3ステップ",
+      "points": [
+        "経産省の調査で2025年のBtoB EC化率が45.9%に達する見込みの中、アナログな発注業務をデジタル化・AI化する手順が提案された。",
+        "電話やFAX、見積書・納品書の手入力作業をなくし、データ連携とAI読取（OCR等）を組み合わせる発注管理プロセスの構築手法を解説している。",
+        "受発注業務のペーパーレス化・自動化は企業のDX推進に直結し、業務効率化と人手不足解消に向けた必須の取り組みとなっている。"
+      ],
+      "importance": 3
+    }
+  ]
+}
