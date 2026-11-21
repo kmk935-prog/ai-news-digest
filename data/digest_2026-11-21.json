@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-21",
+  "updated_at": "2026-11-21T10:52:04.809081+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "published": "Fri, 20 Nov 2026 19:53:41 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Spotify創業者ダニエル・エク氏がAI研究者の核融合スタートアップに出資",
+      "points": [
+        "Spotify創業者のダニエル・エク氏が、AI研究者が立ち上げた核融合発電スタートアップ「Europa Fusion」に出資した。",
+        "AI技術を活用して制御が極めて難解な核融合反応の制御・最適化を大幅に加速させるアプローチを採用している。",
+        "データセンター等による急増するクリーン電力需要に対し、AIと先端エネルギーの連携事例として今後の成果が期待される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "published": "Fri, 20 Nov 2026 19:32:08 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+      "category": "LLM・生成AI",
+      "title_ja": "167年の歴史を持つ難問「リーマン予想」に対し、AIと人間の数学者がそれぞれ解法を主張",
+      "points": [
+        "最先端AIと人間の数学者が、167年間未解決であった「リーマン予想」に対する解決策をそれぞれ提示した。",
+        "数学界において、AIが超高度な定理証明や新たな仮説立案で主導的な役割を果たし始めていることを示している。",
+        "双方の解法のピアレビューと検証が進むことで、数学的発見におけるAIの真価と信頼性が試される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Chips can survive the space environment — can their financing?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "published": "Fri, 20 Nov 2026 17:40:01 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+      "category": "海外トレンド・速報",
+      "title_ja": "宇宙環境に耐える半導体、課題は宇宙データセンターへの金融融資モデル",
+      "points": [
+        "宇宙データセンター構想において、軌道上に打上げられる高価な半導体の融資担保リスクが問題視されている。",
+        "半導体自体は宇宙の放射線や過酷な環境に耐えられる設計が進む一方、金融機関が宇宙資産への融資を警戒している。",
+        "宇宙ベースのAIインフラ構築に向けて、技術力のみならず金融リスクを低減する新たなファイナンス手法の確立が必要とされる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "published": "2026-11-20T13:50:19-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "トランプ米大統領、AIデータセンターの海外建設を行う企業に「巨額の関税・増税」を警告",
+      "points": [
+        "トランプ大統領が、米国外にデータセンターを建設する米国企業に対して巨額の課税を行う方針を言及した。",
+        "全米各地で環境や電力上の理由からデータセンター新設制限が強まる中、企業の海外逃避を阻止する狙いがある。",
+        "米国のAIインフラ保持政策が強化されることで、グローバルなデータセンター投資や立地戦略の再考が迫られる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "published": "2026-11-20T11:34:13-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Anthropicの数学者がClaudeを用いて未解決難問「リーマン予想」を証明したと発表",
+      "points": [
+        "Anthropic所属の数学者が、対話型AI「Claude」の協力を得て数学のミレニアム懸賞問題「リーマン予想」を解明したと主張した。",
+        "数十年以上世界トップの数学者を悩ませてきた超難問に対し、高度LLMとの協働による証明アプローチが用いられた。",
+        "解法の検証が成立すれば、学術・基礎科学研究におけるAIの能力を証明する巨大な歴史的偉業となる。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "The week everything fell apart",
+      "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "published": "2026-11-20T09:06:59-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "大規模障害が同時多発した「崩壊の1週間」— クラウドインフラ依存の脆弱性が顕在化",
+      "points": [
+        "OutlookやiCloudの障害、全米規模の航空機運航停止、銀行システムダウンなどITインフラの同時多発障害が発生した。",
+        "高度に複雑化し巨大クラウドへ一極集中したグローバルITインフラの単一障害点リスクが浮き彫りとなった。",
+        "AI活用が急速に進む社会の中で、インフラ全体のレジリエンス（障害耐性）確保と再設計が喫緊の課題となっている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Claude Code のログを分析する仕組みを作ったら、hook の問題から Claude Code の不具合 2 件まで切り分けられた",
+      "url": "https://zenn.dev/murooka_az/articles/failure-scan-two-claude-code-bugs",
+      "published": "Fri, 20 Nov 2026 17:37:18 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "Claude Code で同じ失敗が何度も起きると、CLAUDE.md や rule に「こうしない」と一文足したくなります。足しても止まらなければ、言い方を変えてまた足す。なんなら、Claude 自身が CLAUDE.md にどんどん追加しようとします。そうして CLAUDE.md が長くなっていきます。 手元の会話の記録で、止められた呼び出しと失敗した呼び出しをスクリプトで数え、その原因を LLM に分析させてみました。直す価値があると分析が判断したものには、次のようなものがありました。 すでに読んだファイルを「まだ読んでいない」と拒否される。サブエージェントを再開した直後に起きて...",
+      "category": "開発・技術",
+      "title_ja": "Claude Codeのログ自動分析でプロンプト肥大化の問題と不具合2件を特定・修正",
+      "points": [
+        "Claude Codeの実行ログをスクリプトとLLMで解析する仕組みを構築し、エラー原因やツール自体の不具合を特定した。",
+        "同じ失敗を避けるためルールを追加し続けプロンプトが肥大化する悪循環に対し、定量的ログ分析による原因切り分けを実施した。",
+        "AIエージェントの開発運用において、感覚的なプロンプト調整に依存しないデータ駆動型改善手法の実用性を示している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "ClaudeやCursorからBlenderを操作する: Klakix Bridgeアドオンの導入と使い方",
+      "url": "https://zenn.dev/klakix/articles/a10253affc97cf",
+      "published": "Fri, 20 Nov 2026 16:17:18 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "Claude や Cursor に「いま開いている Blender のシーンを触らせる」ためのアドオン、Klakix Bridge の使い方をまとめます。筆者は Klakix の開発側の人間なので、中立的なレビューではなく、作った側から見た導入ガイドとして読んでください。 Klakix Bridge とは Blender 4.2 以降で動く、無料の GPL-3.0 アドオンです。ホスト型の Klakix MCP サーバーと Blender をつなぎ、MCP クライアント(Claude、ChatGPT、Cursor、Claude Code など)から開いているシーンを操作できるようにし...",
+      "category": "開発・技術",
+      "title_ja": "ClaudeやCursorからBlenderを直接操作するオープンソースアドオン「Klakix Bridge」が登場",
+      "points": [
+        "Blender 4.2以降に対応し、MCPクライアントから開いている3Dシーンを操作可能にするアドオン「Klakix Bridge」が公開された。",
+        "Claude CodeやCursor等のMCP対応AIエージェントと接続することで、自然言語やコードから3Dモデル・シーンの制御が可能になる。",
+        "ソフトウェアのUI操作をAIエージェントが肩代わりするMCP活用の実践例として、クリエイティブ制作の自動化を前進させる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "作れるエンジニアから、価値を届けるエンジニアへ",
+      "url": "https://zenn.dev/kubell/articles/3c3490a3592bb1",
+      "published": "Fri, 20 Nov 2026 15:50:41 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIプロダクトグループの中山 龍 (@ryu_develop)です。 この記事は、手羽先プロンプト #2 で発表した LT「作れるエンジニアから、価値を届けるエンジニアへ」を記事にしたものです。 僕は「手羽先プロンプト」という名古屋の勉強会を主催しているのですが、そこでトークした内容の評判が良かったので、せっかくならと思って記事にしてみました。 僕自身がこの半年で経験し学んだこと・考えたことを書いています。 「この内容が正しい」だったり「自分は実践できています」とは言い切れないですが、自分の学びを発信することで、読んでくださる方の少しでも助けになれたら嬉しいなと思います。 はじめに...",
+      "category": "ビジネス・導入",
+      "title_ja": "AI時代のエンジニア像：「作れる」こと以上に「ユーザーへ価値を届ける」マインドへの転換",
+      "points": [
+        "AI活用勉強会にて、単に仕様通り開発するだけでなくユーザーに価値を届ける姿勢への意識変革に関する知見が共有された。",
+        "生成AIによるコード生成スピードの向上に伴い、実装力単体よりもプロダクトの課題解決力や価値検証の重要性が高まっている。",
+        "AI時代におけるソフトウェアエンジニアの役割変化と、ビジネス価値創出を中心としたキャリア設計の指標となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "【2026年版】画像から3Dモデル生成AI 5種を徹底比較：Idol Max / Turbo・Tripo・Meshy・Hunyuan3D・TRELLISの料金・リギング・PBR・導入コスト",
+      "url": "https://qiita.com/czmilo/items/c3da0648aeb973651b05",
+      "published": "2026-11-21T10:41:02+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "結論（最初にまとめ） 2026年時点で「1枚の画像から実用的な3Dモデル（GLB）を生成するAI」を選ぶ場合、用途別の最適解は以下の通り明確に分かれます。 月額課金なし・20〜50秒でゲーム向け約3万ポリゴンGLB＋自動リギング（walk/run/jump/idle）...",
+      "category": "開発・技術",
+      "title_ja": "画像から3Dモデルを生成する最新AI 5種を比較（Idol Max / Tripo / Meshy / Hunyuan3D / TRELLIS）",
+      "points": [
+        "1枚の単一画像から実用的な3Dモデル（GLB）を自動生成する主要AIツール5種の機能、料金、品質を比較解説している。",
+        "自動リギング対応モデルや高解像度PBRテクスチャ作成など、開発コストやゲーム・XR等の用途に応じた最適なツール選定基準を整理した。",
+        "3Dコンテンツ制作の効率化を目指すゲーム開発者やクリエイターにとって、最適なAI選定を可能にする実践的ガイドとなっている。"
+      ],
+      "importance": 4
+    }
+  ]
+}
