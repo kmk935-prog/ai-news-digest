@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-22",
+  "updated_at": "2026-11-22T09:46:16.962694+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "published": "Sat, 21 Nov 2026 21:37:10 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "SignalがAI監視の「存亡の危機」に対抗、アプリ内でのスクリーンショットを制限",
+      "points": [
+        "暗号化通信アプリのSignalが、AndroidおよびiOSアプリでのスクリーンショット撮影機能を制限したことが発表された。",
+        "画面情報を自動的に解析・収集するAIベースの監視やデータ抽出が、プライバシー保護における「存亡の危機」となっている背景がある。",
+        "AI時代におけるパーソナルデータの保護対策として、他のメッセージングアプリやSNSへのセキュリティ制限の波及が注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "published": "Sat, 21 Nov 2026 21:07:42 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "category": "海外トレンド・速報",
+      "title_ja": "エヌビディアを巡る2つの視点：好決算とジェンスン・フアン復帰を求める声",
+      "points": [
+        "エヌビディアの最新決算報告と、同社CEOジェンスン・フアン氏の復帰を強く求める経営陣の声という対照的な2つの動きが報じられた。",
+        "圧倒的な業績成長を維持する一方で、業界内や幹部間におけるリーダーシップや将来構想に対する見解の違いが浮き彫りとなっている。",
+        "半導体・AI市場の絶対的王者である同社の今後の経営体制と、市場全体への影響に注目が集まる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published": "Sat, 21 Nov 2026 17:00:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "category": "LLM・生成AI",
+      "title_ja": "テキストメッセージ内で使える注目のAIエージェント一覧",
+      "points": [
+        "SMSやメッセージングアプリ内で直接動作する注目のAIエージェントをまとめたリストが公開された。",
+        "汎用アシスタントから、家族向け、旅行計画、ビジネス業務特化型まで、専用アプリを介さず使える多様なツールが登場している。",
+        "アプリの切り替えなしで会話画面からAIを呼び出すインターフェースの普及と、日常業務の効率化が期待される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "published": "2026-11-21T15:03:37-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "国連、「殺傷能力を持つ自律型兵器（キラーロボット）」規制の国際ルール合意に至らず",
+      "points": [
+        "ジュネーブで開催された国連専門家会議にて、自律型兵器（キラーロボット）の規制ルール策定に関する合意が得られなかった。",
+        "一週間にわたる難航した交渉の末、「今後の選択肢の議論を開始する」にとどまり、実効性のある国際法規の策定は先送りとなった。",
+        "AI兵器の軍事利用が急拡大する中、国際的な倫理・安全枠組みの構築の遅れと今後のリスクが懸念される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "published": "2026-11-21T10:00:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Anthropicは「安全第一」を貫けるか？ 上場後のAI開発と市場圧力",
+      "points": [
+        "AIモデル「Claude」を手がけるAnthropicがNasdaqへ上場したことを受け、同社の「安全重視」方針の持続性が議論されている。",
+        "上場に伴う巨額の資金調達と株主からの利益圧力が、従来の安全優先の理念と衝突する可能性が指摘されている。",
+        "AI安全研究を掲げる代表的企業が、利益重視の市場環境でどのように理念と成長を両立させるかが注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "published": "2026-11-21T09:00:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "Chess.comの挑戦：麻雀から数独まで集約する「クラシックゲーム」プラットフォームを公開",
+      "points": [
+        "チェス対局サイト大手のChess.comが、バックギャモンや将棋、麻雀、数独など10種類のゲームを網羅する新プラットフォームを立ち上げた。",
+        "ポーカーサイト「Gambit」の展開に続き、チェスにとどまらず伝統的な頭脳ゲーム全般をカバーする総合プラットフォームへの拡張を図る。",
+        "オンラインゲームプラットフォームとしてのユーザー層拡大や、AIを活用した対局・学習機能の他ゲームへの展開が期待される。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Excelのエラー表示、AIに聞くときの「3点セット」：表計算をAIに頼む頼み方",
+      "url": "https://zenn.dev/tenpurekoubou/articles/cc34739277baa1",
+      "published": "Sat, 21 Nov 2026 18:44:33 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "「#VALUE!って何？」だけでは、自分の答えは返ってこない Excelやスプレッドシートでエラー表示が出たとき、生成AIに聞く人は多いと思います。でも、「#VALUE!って何？」とだけ聞くと、返ってくるのは一般的な説明だけ。自分の表のどこが悪いのかは分かりません。 精度を分けるのは、渡す材料の3点セットです。 エラー表示（セルの表示そのまま） 入れた関数（セルの中身をコピー） 周辺の状況（周りのセルに何が入っているか、直前に何をしたか） この3つがそろうと、AIの回答が「B2に文字が入っているのが原因の可能性が高い」といった、自分のケースの答えになります。 無料で1本、型を...",
+      "category": "LLM・生成AI",
+      "title_ja": "Excelのエラー表示、AIに聞くときの「3点セット」：表計算をAIに頼む頼み方",
+      "points": [
+        "ExcelやスプレッドシートのエラーをAIで的確に解決するためのプロンプト構成「3点セット」ノウハウが共有された。",
+        "「エラー表示」「使用した関数」「周辺の状況」の3つの材料を同時に渡すことで、自分の環境に即した具体的な原因特定と回答が得られる。",
+        "日常業務におけるAI活用精度を高め、トラブルシューティングにかかる時間を大幅に削減する実戦テクニックである。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "LLM出力の壊れたJSONをPython標準ライブラリで決定的に修復・型検証する実装パターン",
+      "url": "https://zenn.dev/inemuri/articles/llm-broken-json-repair-validator",
+      "published": "Sat, 21 Nov 2026 18:07:38 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "LLMにJSON形式での出力を指示しても、実運用では次のような「あと一歩で壊れているJSON」が必ず混ざります。 前後に説明文や ```json ... ``` のコードフェンスが付く 末尾カンマ（trailing comma）や // コメントが入る シングルクォートや Python の True / False / None が混ざる 最大トークン上限に当たって末尾の } や ] が欠けたまま途切れる これを毎回LLMに「直して」と再プロンプトすると、API費用も遅延も倍増します。そこで LLM呼び出しゼロ・Python標準ライブラリだけ で壊れたJSONを決定的に修復し、必須項...",
+      "category": "開発・技術",
+      "title_ja": "LLM出力の壊れたJSONをPython標準ライブラリで決定的に修復・型検証する実装パターン",
+      "points": [
+        "LLMが出力した不正なフォーマットのJSONを、API再呼び出しをせずPython標準ライブラリのみで修復・検証する手法が公開された。",
+        "コードブロック記法、末尾カンマ、途切れなどの典型的なエラーをアルゴリズムで補正し、APIの追加コストや遅延を防止する。",
+        "LLMを組み込んだWebアプリやバックエンドシステムの堅牢性と応答速度を向上させる実践的な実装知見として役立つ。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "TechLead Conference 2026 Autumn 参加レポート:テックリードは、エンジニアの上位版ではなかった",
+      "url": "https://zenn.dev/dip_techblog/articles/f3e463cfe79fc3",
+      "published": "Sat, 21 Nov 2026 16:59:37 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに 2026年11月6日、TechLead Conference 2026 Autumn に参加してきました。主催は Eight、会場は有明、12時半から20時半までの一日開催です。650名の枠に当日受付も出ていました。 セッションの要約はしません。自分の立場に当たったところだけ書きます。 自分の立場を先に書いておきます。認証基盤のプロダクトオーナーをしていて、開発組織の運営をしています。手を動かす仕事は減って、決めることと説明することが増えました。 行く前にいちばん知りたかったのは、AI時代のテックリードは何を意識すればいいのか、でした。 一日聴いて持ち帰ったのは、想像と違う...",
+      "category": "開発・技術",
+      "title_ja": "TechLead Conference 2026 Autumn 参加レポート：テックリードは、エンジニアの上位版ではなかった",
+      "points": [
+        "カンファレンス「TechLead Conference 2026 Autumn」のレポートが公開され、AI時代におけるテックリードの役割が提示された。",
+        "テックリードは単なる技術力の上位互換ではなく、意思決定や組織への説明、AI時代の開発プロセス運営が核心であることが語られた。",
+        "AIツールの普及によりコード記述以外の役割が重視される中、今後のエンジニアのキャリア形成や組織マネジメントの指針となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "撮影なしで、創業者が登場する1分46秒の動画をAIモデルで作ったときのハマりどころ5つ（音声・リップシンク・肌・BGM・AI判定）",
+      "url": "https://qiita.com/wiroai/items/a7b781440cf9c4914518",
+      "published": "2026-11-22T09:13:35+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "はじめに Product Hunt でのローンチに合わせて、創業者が登場する1分46秒の動画を作りました。ただし、撮影は一度もしていません。映像のカットはすべて生成したもので、声はクローン音声、画面のアニメーションは HTML ページを1フレームずつレンダリングしたもので...",
+      "category": "開発・技術",
+      "title_ja": "撮影なしで創業者が登場する動画をAIモデルで作った際の5つのハマりどころ（音声・リップシンク・肌・BGM・AI判定）",
+      "points": [
+        "実写撮影を一切行わず、生成AIや音声クローン等の技術のみを用いて創業者が登場する1分46秒のPR動画を作成した事例が公開された。",
+        "音声クローン、口の動きの同期（リップシンク）、肌の質感表現、BGM構成、AI生成判定の回避など、実践的な課題とノウハウが整理されている。",
+        "動画制作コストを大幅に削減するAI生成動画の実用化に向けた具体的な知見として、マーケターや開発者に有用である。"
+      ],
+      "importance": 4
+    }
+  ]
+}
