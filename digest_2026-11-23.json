@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-23",
+  "updated_at": "2026-11-23T10:14:49.225413+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "published": "Sun, 22 Nov 2026 21:14:07 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "OpenAIの最高科学責任者が語るAI開発制限の手法とその課題",
+      "points": [
+        "OpenAIの最高科学責任者が、AI開発の進化スピードをいかに制限すべきかに関する考えを明かした。",
+        "開発スピードの制限を実現するには、まず「速度」や「危険性」を客観的にどのように測定・定義するかで合意形成が必要と指摘。",
+        "今後の国際的なAI安全規制やガバナンス構築において、評価基準の標準化が大きな議論の焦点を握る見込み。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "published": "Sun, 22 Nov 2026 18:08:43 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "category": "海外トレンド・速報",
+      "title_ja": "なぜデータセンターがビッグテック批判の中心となっているのか",
+      "points": [
+        "ジャーナリストのパリ・マークス氏が新著『Hyperscale』を通じ、ビッグテックのデータセンターに対する反発運動の要因を解説した。",
+        "AI需要急増に伴う莫大な電力・水資源の消費や地域環境への負荷が、周辺住民や環境保護団体からの強い批判を招いている。",
+        "生成AIの爆発的普及に伴い、今後のインフラ拡張においては環境配慮や電力網の確保、地域社会との合意が必須の課題となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "published": "Sat, 21 Nov 2026 21:37:10 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "category": "セキュリティ・倫理",
+      "title_ja": "SignalがAI監視の「存在脅威」に対抗し、スクリーンショット制限機能を導入",
+      "points": [
+        "プライバシー重視のメッセージアプリ「Signal」が、iOSおよびAndroid版でスクリーンショット撮影を制限する機能を導入した。",
+        "AIを活用した画面監視やデータ抽出の技術進化を存続上の脅威とみなし、ユーザーの同意なき情報搾取を防ぐ目的がある。",
+        "生成AI時代のプライバシー対策として、同様の画面保護やデータ漏洩防止機能が他のアプリへ普及する兆しを示している。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "We haven’t seen the last of the major tech outages",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "published": "2026-11-22T17:48:02-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "大規模テック障害の連鎖は続く：インフラ依存が生む脆弱性の高まり",
+      "points": [
+        "米国での航空管制停止、Outlookの長期障害、大手銀行のシステム障害など、社会インフラに関わるシステム障害が連発した。",
+        "高度なクラウド依存と複雑化したインフラ構成により、単一障害点による広範囲な業務停止が起こりやすい環境が浮き彫りとなった。",
+        "国家情報長官の元高官らが指摘するように、今後も同様のシステム障害が懸念され、各組織のBCP（事業継続計画）強化が急務となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "published": "2026-11-22T12:25:20-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "人気ゲーム『The Binding of Isaac』開発者が批判を受けてAI楽曲を削除",
+      "points": [
+        "ゲーム『The Binding of Isaac』の最新アプデでAI生成音楽が使用されていることが判明し、炎上後にデータが削除された。",
+        "ユーザーが音楽ファイル内にAI楽曲生成「Suno」のメタデータを発見したことで、Steam上で低評価レビューが殺到する事態となった。",
+        "エンタメ・ゲーム業界においてAI生成素材の商用利用に対する拒絶反応は根強く、クリエイターの透明性確保が求められている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "published": "2026-11-22T08:00:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
+      "category": "LLM・生成AI",
+      "title_ja": "「バイブコーディング」革命があらゆるガジェットへ波及する",
+      "points": [
+        "大まかな雰囲気や自然言語の指示でプログラミングを行う「バイブコーディング」が、ガジェットやハードウェア分野に広がっている。",
+        "高度なAIモデルの進化により、コードの詳細を書くことなく製品の挙動修正やカスタマイズが非エンジニアでも可能になりつつある。",
+        "モノづくりの主軸が「コーディング技術」から「直感的な指示と試行錯誤」へと移り、個人のプロダクト開発速度が飛躍的に上がる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "LLMが勾配なしで重みを書き換える「Self-Rewriting」の仕組みとリスク",
+      "url": "https://zenn.dev/nalt/articles/llm-self-rewriting-weights-arxiv-2611",
+      "published": "Sun, 22 Nov 2026 17:21:40 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "「モデルの弱点を直すには、重い GPU で勾配を回すか、推論時に高いトークン代を払い続けるしかない」――そう思い込んでいませんか？ 実は 「学習と推論の壁」は知能の制約ではなくツールの制約にすぎず、27B のオープン LLM が勾配計算ゼロ・推論のみ（CPU 上の Python 編集）で自分の重みを書き換えて +6.6 ポイント賢くなる ことが実証されました（Jiajun Fan ら, arXiv:2611.21885, 2026年11月）。 ! tl;dr; 何が起きたか: 27B モデル（Qwen3.5 系）が自身の隠れ層状態を診断し、W' = W - \\alpha \\,...",
+      "category": "開発・技術",
+      "title_ja": "LLMが勾配なしで重みを書き換える「Self-Rewriting」の仕組みとリスク",
+      "points": [
+        "LLMが重いGPUでの勾配計算を行わず、推論処理（CPU）のみで自らの重みを書き換えて自己改善する技術「Self-Rewriting」が実証された。",
+        "27Bパラメータモデルが自身の隠れ状態を自己診断・編集することで、ベンチマークテストのスコアが＋6.6ポイント向上した。",
+        "GPUリソースに頼らない低コストな自己進化手法である一方、AIモデルの予期せぬ変容や制御不能といったリスク管理が課題となる。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Keep the Title Lockup, Change the Genre Art: Book Cover Series",
+      "url": "https://zenn.dev/andytanlinks/articles/b631f156f08358",
+      "published": "Sun, 22 Nov 2026 15:34:58 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "A small press often has to show a series before every illustration is finished. The typography lockup is already approved: the title, the author name, the imprint mark, and the trim are in the right places, in the typefaces the designer will defend in a meeting. Then editorial asks for four genre...",
+      "category": "開発・技術",
+      "title_ja": "タイトル組版を保持しアートを変更する：書籍カバーシリーズのデザイン効率化",
+      "points": [
+        "書籍シリーズのデザインにおいて、規定のタイトル組版（タイポグラフィ）を保ったまま背景アートのみを差替・自動化するワークフローが紹介された。",
+        "制作コストを抑えつつ、統一感あるブランドデザインと各ジャンルに合わせた柔軟なビジュアル表現の両立を実現している。",
+        "生成AI時代のデザイン現場における、品質コントロールと大量生産を両立させる実践的パターンとして参考になる。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "サブエージェントに調査を丸投げする型：Exploreと自作エージェントで本体の文脈を汚さない",
+      "url": "https://zenn.dev/aizangyobu/articles/claude-code-subagent-chousa",
+      "published": "Sun, 22 Nov 2026 15:26:20 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "結論：調べものは別窓のエージェントに投げ、本体には要約だけを持ち帰らせる コードベースの調査を本体の会話でやると、読んだファイルの中身がそのまま文脈に積もり、やがて本題の指示が埋もれます。サブエージェントはこの問題の答えです。調査は別の文脈ウィンドウで走らせ、返ってくるのは要約だけ。本体はきれいなまま、次の判断に集中できます。扱うのは、組み込みExploreの使い分けと、調査専用エージェントの定義ファイルです。 サブエージェントとは何か サブエージェントとは、特定の種類の作業を扱う専用のAIアシスタントです。自分の文脈ウィンドウと専用のシステムプロンプト、使えるツールの範囲、独立...",
+      "category": "開発・技術",
+      "title_ja": "サブエージェントに調査を丸投げする型：Exploreと自作エージェントで本体の文脈を汚さない",
+      "points": [
+        "コードベース調査などの探索タスクを独立したサブエージェントに任せ、メインエージェントの文脈ウィンドウを守る設計手法が解説された。",
+        "大量のテキスト読み込みによるコンテキストの圧迫と指示の没却を防ぎ、要約結果のみを持ち帰らせることで精度の高い応答を維持できる。",
+        "複雑なLLMアプリケーション開発におけるコンテキスト管理のベストプラクティスとして活用価値が高い。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "機密かどうかを AI に聞く前に、自前の regex で伏せる ── 判断モデルを比べた結果と、本番への組み込み",
+      "url": "https://qiita.com/chooser/items/fac17f40dac121e38286",
+      "published": "2026-11-23T10:01:47+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "上原正吉（EarthLink Network Co., Ltd.）。Claude Codeを開発の主体に据え、20を超えるプロダクトを1人で同時に開発・運用しています。これは、その現場の実測記です。 機密かどうかを AI に聞く前に、自前の regex で伏せる ── ...",
+      "category": "開発・技術",
+      "title_ja": "機密かどうかを AI に聞く前に、自前の regex で伏せる ── 判断モデルを比べた結果と本番組み込み",
+      "points": [
+        "機密情報をAIに送信・判定させる前処理として、正規表現（regex）を用いてローカル側で事前に伏字化する実践手法が共有された。",
+        "AI判定のコストや漏れのリスクを減らし、ルールベースの確実性とAIの柔軟な判定能力を組み合わせる構成が最も現実的であると提示。",
+        "プロダクト運用時のセキュリティ強化・APIコスト削減・レスポンス速度向上を同時に達成するための実用的なナレッジである。"
+      ],
+      "importance": 4
+    }
+  ]
+}
