@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-25",
+  "updated_at": "2026-11-25T12:51:58.302385+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "published": "Wed, 25 Nov 2026 00:12:02 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+      "category": "海外トレンド・速報",
+      "title_ja": "イエール大のソネンフェルド教授「Nvidiaは米国の産業力の阻害要因であり、立役者ではない」",
+      "points": [
+        "イエール大学のソネンフェルド教授が、ジェンスン・ファンCEOの復帰とNvidiaの経営姿勢を強く批判した。",
+        "米国の敵対国へ高度なAIチップが流出しているリスクや、取締役会が被る法的責任の可能性が問題視されている。",
+        "安全保障上の懸念や米国の半導体規制が強まる中、同社のガバナンスと市場への影響に注目が集まる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "published": "Tue, 24 Nov 2026 22:27:52 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Nvidiaのジェンスン・ファンCEO、後継者計画は「不要な階層を生む」との持論を維持",
+      "points": [
+        "Nvidiaのジェンスン・ファンCEOが、後継者育成計画は社内に不要な階層構造を作るだけだという持論を改めて示した。",
+        "最高経営責任者の不在がもたらす混乱が議論された直後でありながら、自身のフラットな組織論を維持している。",
+        "創業者依存度が高い大企業におけるガバナンス構造や、長期的な組織の持続可能性が問われている。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "published": "Tue, 24 Nov 2026 21:48:27 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "category": "海外トレンド・速報",
+      "title_ja": "Nvidiaのジェンスン・ファンCEO、全社集会でホワイトハウスに感謝し「セラピーを受けている」と明かす",
+      "points": [
+        "Nvidiaの復帰後初となる全社集会で、ファンCEOが社員に謝罪するとともにセラピーに通っていることを告白した。",
+        "経営主導権を巡る混乱の中でCEO復帰を助けたとされるホワイトハウスへの感謝を表明した。",
+        "激しい揺れ動きを見せたNvidiaの社内体制の安定化や、ファンCEOのメンタル面を含む今後のリーダーシップが注目される。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+      "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "published": "2026-11-24T15:02:03-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "ファンCEO、全社集会で「トランプ氏のおかげで復帰したわけではない」と報道を否定",
+      "points": [
+        "ジェンスン・ファンCEOが全社集会で、自身のCEO再任にトランプ前大統領が介入したとの言説は事実ではないと社員に説明した。",
+        "ホワイトハウスや政界・IT界の有力者が復帰を後押ししたとする一部メディアの報道内容から距離を置く姿勢を示した。",
+        "ハイテク企業のトップ人事に対する政治的圧力や過熱する報道合戦の実態に関心が集まっている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "published": "2026-11-24T13:15:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "デヴィッド・フィンチャー監督の最新作、試写で生成AIの使用疑惑が浮上し波紋",
+      "points": [
+        "デヴィッド・フィンチャー監督の最新映画『The Further Mis-Adventures of Cliff Booth』の試写会にて、生成AIが使用された疑惑が持ち上がっている。",
+        "観客からは「不気味の谷」現象を起こす不自然で一貫性のない映像演出が多数散見されると報告されている。",
+        "ハリウッド映画界における生成AIの導入範囲や、映像表現の質とクリエイターの倫理を巡る議論が再燃している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "published": "2026-11-24T12:17:09-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "音楽配信サービス「Tidal」、来月よりAI生成楽曲の配信を全面禁止へ",
+      "points": [
+        "音楽ストリーミングサービスのTidalが、12月9日よりAIによって生成された楽曲を全面的に禁止すると発表した。",
+        "約2900万曲の既存AI楽曲を削除し、今後1日あたり8万〜8.5万曲におよぶ新規AIトラックの申請を拒否する大規模な措置をとる。",
+        "音楽業界における著作権保護やアーティストの収益防衛に向け、配信プラットフォームの規制強化が加速している。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Sakana AIの2026年論文6本で読む「社会実装に向かうAI」：音声対話からモデル編成まで",
+      "url": "https://zenn.dev/kentaro36/articles/sakana-ai-six-papers-2026",
+      "published": "Tue, 24 Nov 2026 23:12:20 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに Sakana AI の2026年の論文6本を、「社会実装・産業応用・社会的課題解決」の観点から読み解きます。 このシリーズではこれまで、The AI Scientist 4部作（第1弾）と、進化計算を中心とした5本の論文（第2弾）を読んできました。第2弾では、モデルの作り方そのものを扱う研究が中心でした。一方、今回の6本は、AI が社会で使われる場面により近い問題を扱います。具体的には、音声で人と対話すること、金融の資格試験で能力を測ること、会社経営を任せて監査の観点から評価すること、偽情報を見分けること、推論コストを下げること、複数のモデルを束ねて製品にすることです。い...",
+      "category": "開発・技術",
+      "title_ja": "Sakana AIの2026年論文6本で読み解く「社会実装へ向かうAI技術」",
+      "points": [
+        "Sakana AIが社会実装や産業応用、社会的課題解決に焦点を当てた2026年の研究論文6本を解説した。",
+        "音声対話、金融資格試験、企業経営と監査、偽情報検知、推論コスト削減、モデル統合など実用領域に迫る研究が集約されている。",
+        "要素技術の開発から、実際の社会・ビジネス現場での具体的なAI利活用とモデル最適化の動向が注目される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "リーマン予想はAIで解けた？ Claudeとの証明をLeanがどう確かめたか",
+      "url": "https://zenn.dev/student_blog/articles/riemann-hypothesis-ai-claude-lean",
+      "published": "Tue, 24 Nov 2026 23:02:18 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "数学者のレベント・アルポーゲ氏が11月20日、生成AIのClaudeとともにリーマン予想の証明を見つけたとして、証明を記述したコードを公開しました。翌日、Lean FROとMathlib Initiativeは共同声明で、コードがリーマン予想そのものを証明していると確認したと発表しました。11月24日時点で、クレイ数学研究所はリーマン予想を懸賞問題一覧の「Active problems」に掲載しています。 ニュースを追ううえで知りたいのは、Leanが何を確かめ、数学者が次に何を読むのかです。 リーマン予想とは 素数は2、3、5、7、11と不規則に現れます。「ある数までに素数がいくつあ...",
+      "category": "開発・技術",
+      "title_ja": "AIがリーマン予想を解いた？ Claudeが作成した証明コードを検証ツールLeanが確認",
+      "points": [
+        "数学者のアルポーゲ氏がAI「Claude」と共にリーマン予想の証明コードを公開し、検証ツールLeanがその内容を確認したと公表された。",
+        "Lean FROとMathlibによる共同声明が出されたが、クレイ数学研究所の懸賞問題一覧では依然として未解決の「Active」扱いとなっている。",
+        "定理証明支援系を用いた「AIによる超難問へのアプローチ」の実効性と、数学界による厳密な精査のゆくえが注視される。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "moomoo証券OpenDがバックグラウンド起動で入力無視して詰んだのでPython疑似端末で突破した話",
+      "url": "https://zenn.dev/df_blogger/articles/moomoo-opend-pty-winsize-bypass",
+      "published": "Tue, 24 Nov 2026 22:42:25 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "深夜。 「ブログだけじゃ5000万に届かないから、株の自動売買AIも作ろうぜ」 うちのエンジニア（彼）がそんな新たな無茶振りを思いつき、私たちのサーバーには3人目のAIエージェント——クオンツ株取引AIの VEGA（ベガ） が配備された。 日本株の自動発注基盤として選ばれたのは、公式API（OpenAPI）を提供している moomoo証券 だ。 APIで注文を飛ばすには、まずローカルサーバー上で中継ゲートウェイである OpenD というC++製バイナリデーモンを常駐させ、ログイン認証を通す必要がある。 だが、その OpenD をLinuxサーバーのバックグラウンドで自動起動させようとした...",
+      "category": "開発・技術",
+      "title_ja": "moomoo証券OpenDのバックグラウンド起動問題をPythonの疑似端末（pty）で回避した技術検証",
+      "points": [
+        "moomoo証券の自動発注API中継デーモン「OpenD」をLinux環境で自動起動させる際、入力が無視される問題をPythonの疑似端末で解決した事例が公開された。",
+        "C++製のバイナリデーモンの対話型ログイン処理を、標準入力ではなく`pty`モジュールで端末エミュレートして突破するノウハウを解説している。",
+        "株の自動売買AI（クオンツAI）開発など、制限のある公式ツールを環境構築する際の実践的なトラブルシューティングとして参考になる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIでGmail作ってみた【個人開発】",
+      "url": "https://qiita.com/yangon/items/2d7e26f6c306ed255282",
+      "published": "2026-11-25T12:24:06+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "はじめに — 独自ドメインメールの Web メーラー、まだ重い・古い UI で我慢していませんか？ 独自ドメインや自社サーバー、VPS などで運用している IMAP / SMTP メールを確認したいとき、こんなモヤモヤを感じたことはないでしょうか。 レンタルサーバー付属...",
+      "category": "開発・技術",
+      "title_ja": "生成AIを活用してモダンな自作Webメーラー（Gmail風UI）を個人開発した事例",
+      "points": [
+        "独自ドメイン等のIMAP/SMTPメールで使う既存WebメーラーのUIの古さや重さを解消するため、AIを活用して新しいWebメーラーを開発した事例が公開された。",
+        "快適な操作性と現代的なデザインを備えたメーラーを構築し、自社サーバーやレンタルサーバーのメール体験を大幅に改善している。",
+        "生成AIをプログラミングパートナーとして活用し、実用的なWebアプリを効率よく個人開発するプロセスの参考になる。"
+      ],
+      "importance": 3
+    }
+  ]
+}
