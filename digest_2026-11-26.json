@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-26",
+  "updated_at": "2026-11-26T12:17:24.042314+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "published": "Wed, 25 Nov 2026 22:44:32 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "category": "海外トレンド・速報",
+      "title_ja": "S&P、ガバナンスと「キーマンリスク」を理由にエヌビディアの格下げを検討中",
+      "points": [
+        "格付会社S&Pが、エヌビディアの信用格付けを「AA-」へと引き下げる可能性を示唆しました。",
+        "ジェンスン・ファンCEOへの過度な依存（キーマンリスク）とコーポレートガバナンス体制が懸念材料とされています。",
+        "経営体制の多様化が進むかや、今後の資金調達コスト・株価への影響が注目されます。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "published": "Wed, 25 Nov 2026 20:03:27 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "category": "LLM・生成AI",
+      "title_ja": "OpenAI、ChatとWorkの統合に伴いヘビーユーザーの利用制限到達が早まると注意喚起",
+      "points": [
+        "OpenAIがChatGPTの「Chat」機能と「Work」機能を統合し、単一の使用量メーターを導入すると発表しました。",
+        "両機能を日常的に併用するヘビーユーザーは、従来よりも早いタイミングで利用上限に達する可能性があります。",
+        "今後の利用制限の調整方針や料金プラン構成の見直しに注意が必要です。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "published": "Wed, 25 Nov 2026 19:54:57 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "category": "海外トレンド・速報",
+      "title_ja": "エヌビディアのファンCEOが行動規範に違反、社内カルチャーへの影響に懸念",
+      "points": [
+        "エヌビディアのジェンスン・ファンCEOが、自社の行動規範（Code of Conduct）に違反したことが報じられました。",
+        "企業の規範は社内カルチャーの基盤であり、トップによる違反が社員の信頼関係やガバナンスに及ぼす影響が懸念されます。",
+        "リーダーシップの求心力維持や今後の企業統治の再構築が重要視されています。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "published": "2026-11-25T16:51:26-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "グーグルが個人向けAI動画フィードの特許を出願、エンタメの未来に懸念の声",
+      "points": [
+        "グーグルがユーザーデータに基づきパーソナライズされたAI動画と広告を自動生成するシステム「My Channel」の特許を出願しました。",
+        "特許自体は現在拒絶査定を受けているものの、修正再申請の可能性があり過度な自動生成コンテンツの氾濫が懸念されています。",
+        "視聴体験のAI化がコンテンツ制作業界や利用者の健全なメディア消費に与える影響が注目されます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "published": "2026-11-25T12:44:51-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "米FCC、SpaceXの最大100万台に及ぶ「AIデータセンター衛星」配備計画を承認",
+      "points": [
+        "米連邦通信委員会（FCC）が、SpaceXの「Starmind」構想に基づく最大100万台のAIチップ搭載衛星の配備を承認しました。",
+        "宇宙空間に大規模なAIデータセンターを構築する初の当局承認例となり、GoogleやBlue Originも追随する主要領域です。",
+        "宇宙ベースのAIインフラ構築競争が本格化し、低遅延処理の実用化に向けた動きが加速する見通しです。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "published": "2026-11-25T11:00:59-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "NothingがAI搭載イヤホンと充電ケースの詳細を公開、会話の要約機能を備える",
+      "points": [
+        "Nothingが12月8日に発売予定の新作AIイヤホン「Ear Note」および充電ケースの詳細仕様を公開しました。",
+        "ケースに録音・文字起こし・要約機能が統合されており、イヤホン本体での通話録音にも対応しています。",
+        "ウェアラブルデバイスにおける実用的なAI機能の統合が日常の生産性をどう変えるか注目されています。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "PLATEAU×Three.js白箱動画をGemini Omni 1.2 Flashで実写化する手順と360p・1080p比較",
+      "url": "https://zenn.dev/kanta13jp1/articles/plateau-threejs-whitebox-gemini-omni-video-guide",
+      "published": "Wed, 25 Nov 2026 20:46:58 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "はじめに：AI 動画のカメラ破綻と Blender 重作業の間をどう埋めるか テキスト指示だけで都市のドローン空撮を AI 動画生成すると、建物の配置や道路のつながりが途中で崩れやすく、狙ったカメラ軌道に収まりません。逆に Blender（無料の 3D CG 制作ソフト）で街全体にテクスチャや照明を焼き込んで描画すると、設定と計算時間の負担が一気に重くなります。 この課題を解く実践例として、ゆずいろ氏の共有投稿（x.com/yuzuirocreate/status/2125220586825592838）および引用元であるレナロゼ氏のスレッド（親投稿／手順 1／理由 2／出典・応用 ...",
+      "category": "開発・技術",
+      "title_ja": "PLATEAU×Three.js白箱動画をGemini Omni 1.2 Flashで実写化する手順と画質比較",
+      "points": [
+        "国土交通省の3D都市データ「PLATEAU」とThree.jsで作成した白箱動画をGemini Omni 1.2 Flashで実写化する実験手順が公開されました。",
+        "AI動画におけるカメラ軌道の破綻と、Blenderでの重いレンダリング作業という双方の課題を打ち消す画期的なアプローチです。",
+        "都市空間モデルの軽量かつ高品質な映像生成手法として、動画制作や建築プレゼンへの応用が期待されます。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Next.js 16のproxy移行で、公式ドキュメントのテスト関数が存在しなかった",
+      "url": "https://zenn.dev/playpark/articles/nextjs-middleware-to-proxy-agent-checklist",
+      "published": "Wed, 25 Nov 2026 18:58:58 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "「最新ドキュメントを読ませたから大丈夫」と思っていませんか エージェントに入っている版の公式ドキュメントを読ませたから、古い知識で書かれる心配はない。Next.js 16 の middleware から proxy への移行で、この前提がそのまま崩れる場面に当たりました。 公式ドキュメントは、proxy の matcher を単体テストする関数として unstable_doesProxyMatch を載せています。Web 版にも、node_modules/next/dist/docs/ に同梱された版にも同じ名前があります。ところが Next.js 16.4.2 でそのとおり書くと、...",
+      "category": "開発・技術",
+      "title_ja": "Next.js 16のproxy移行時、公式ドキュメント掲載のテスト関数が存在しない不具合が発生",
+      "points": [
+        "Next.js 16のmiddlewareからproxyへの移行過程で、公式ドキュメント記載のテスト関数が存在しない事例が報告されました。",
+        "ドキュメントに明記された単体テスト関数「unstable_doesProxyMatch」が、実際のバージョン（16.4.2）のコードベースに含まれていませんでした。",
+        "AIエージェントに最新ドキュメントを参照させるだけでは回避できない「仕様と実装の剥離」への注意喚起となっています。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "HackwithBay 4.0参加記｜Evidence GTMを個人で作って見えた課題",
+      "url": "https://zenn.dev/rootforgerie/articles/hackwithbay-4-evidence-gtm-retrospective",
+      "published": "Wed, 25 Nov 2026 18:58:19 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "サンフランシスコでハッカソンに参加した 2026年11月24日、サンフランシスコのAWS Builder Loftで開催されたHackwithBay 4.0に参加しました。イベントのテーマは「Thoughtful Agents for Productivity」でした。 開催案内 今回は個人で開発し、B2B営業の企業調査からメール案の確認までをつなぐ Evidence GTM を作りました。締め切りまで約1時間になったところで機能追加を区切り、GitHubへの反映とデモの録画へ移りました。 Evidence GTMで作ったもの Evidence GTM のソースコード（GitHu...",
+      "category": "開発・技術",
+      "title_ja": "サンフランシスコのハッカソン参加記｜営業支援ツール「Evidence GTM」開発と課題",
+      "points": [
+        "サンフランシスコで開催された「HackwithBay 4.0」にて、B2B営業調査・メール作成を支援するツールが個人開発されました。",
+        "企業リサーチからメール案の確認までを自動化する実用的なエージェント構築のプロセスと、締め切り間際の開発課題が共有されています。",
+        "生産性を高める思考型エージェント（Thoughtful Agents）の具体的な実装ノウハウとして参考になります。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Gemini 4 Neonの衝撃とAI界の動向",
+      "url": "https://qiita.com/maskot1977/items/c3b88000f77a5f1bf368",
+      "published": "2026-11-26T12:12:02+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "ソース（AINews）が提供する情報に基づき、Gemini 4 Neonの台頭とAI市場の動向（ビジネスおよび経済の視点） について、詳細かつ総合的に解説します。 わずか3ヶ月前まで主要開発者の離脱観測やGemini 3モデルの停滞により、Google DeepMin...",
+      "category": "LLM・生成AI",
+      "title_ja": "Gemini 4 Neonの台頭とAI市場の最新動向・ビジネス的影響",
+      "points": [
+        "Google DeepMindによる新モデル「Gemini 4 Neon」の登場と、それに伴うAI業界の経済・ビジネス的インパクトが解説されました。",
+        "開発者の離脱観測や前世代モデルの停滞を乗り越え、市場で圧倒的な評価を獲得している背景が分析されています。",
+        "急速に進化するフロンティアモデルが企業の競争環境や生成AI市場全体に与える影響が注目されます。"
+      ],
+      "importance": 4
+    }
+  ]
+}
