@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-27",
+  "updated_at": "2026-11-27T12:21:55.651591+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "published": "Thu, 26 Nov 2026 20:03:54 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "category": "海外トレンド・速報",
+      "title_ja": "NVIDIA、東南アジア向けAIチップの出荷を一時停止",
+      "points": [
+        "NVIDIAが製造パートナーに対し、マレーシア、シンガポール、タイ、インドネシア向けのAIサーバー出荷停止を通知した。",
+        "米国政府による対中AI半導体規制の強化に伴い、東南アジアを経由した迂回輸出を防ぐ監視が高まっていることが背景にある。",
+        "東南アジアにおけるAIインフラ構築の遅延や、米中対立によるグローバルサプライチェーンへの更なる影響が懸念される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "published": "Thu, 26 Nov 2026 16:00:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "category": "海外トレンド・速報",
+      "title_ja": "『GTA VI』の歴史的ヒットが示す、AI時代における「人間の手仕事」の価値",
+      "points": [
+        "Anthropicの株式公開と同日に、膨大な人力と時間を費やして開発されたゲーム『Grand Theft Auto VI』が記録的ヒットを達成した。",
+        "生成AIによる圧倒的な開発効率化が注目される中で、人間の緻密なこだわりや職人技が最高峰のエンタメ価値を生むことを証明している。",
+        "AI時代において単なる効率性のみを追求するのではなく、人間ならではの創造性の価値が再認識される重要な契機となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "published": "Wed, 25 Nov 2026 22:44:32 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "category": "海外トレンド・速報",
+      "title_ja": "S&P、ガバナンスと「キーマンリスク」を理由にNVIDIAの格下げを検討",
+      "points": [
+        "大手信用格付会社S&Pが、NVIDIAの信用格付けを上から4番目の「AA-」へ引き下げる可能性を示唆した。",
+        "急成長を遂げる一方で、ガバナンス体制の課題や特定経営陣への依存という「キーマンリスク」が懸念材料として挙げられている。",
+        "AIブームの牽引役であるNVIDIAの経営・財務体制への評価変化は、株式市場やAI業界全体の投資心理に影響する可能性がある。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "published": "2026-11-26T04:54:40-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "全米42州の司法長官、Character.AIによるユーザーチャット履歴の売却差し止めを要求",
+      "points": [
+        "全米42州の司法長官連合が、連邦破産法第11条（チャプター11）の手続きを進めるCharacter.AIに対し、ユーザーデータの売却阻止を申し立てた。",
+        "同社が破産手続きの一環として、2,100万を超える米国アカウントの非公開チャット履歴をオークションに出品しようとしていることが告発された。",
+        "生成AIサービスにおける会話データのプライバシー保護と、企業破産時における顧客情報の取り扱いに関する重要な判例となる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "published": "2026-11-25T16:51:26-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Googleの「パーソナライズ型AI動画配信」特許が示すエンタメの未来と課題",
+      "points": [
+        "Googleがユーザー情報に合わせてAI生成動画や広告をパーソナライズ配信するシステム「My Channel」の特許を出願していたことが判明した。",
+        "提出された特許は一旦拒絶されたものの、再申請や内容修正による提出の可能性が残されている。",
+        "ユーザーごとに完全最適化されたAI生成コンテンツの普及が、クリエイターエコノミーや既存のメディア文化に与える影響が議論されている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "published": "2026-11-25T12:44:51-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "米FCC、SpaceXによる最大100万基の「宇宙データセンター衛星」計画を承認",
+      "points": [
+        "米連邦通信委員会（FCC）が、SpaceXの「Starmind」構想に基づく最大100万基のAIチップ搭載衛星の展開計画を正式に承認した。",
+        "地上の電力不足を回避し宇宙空間にAIインフラを構築する試みであり、GoogleやBlue Originも参入を目指す最先端分野である。",
+        "宇宙データセンター構想における世界初の公認事例となり、通信・AIインフラのあり方を根本から変える可能性がある。"
+      ],
+      "importance": 5
+    },
+    {
+      "title": "Forge Neo × Anima（DiT）で Regional Prompter と NegPiP（本家・派生）を併用できるようにしたお話",
+      "url": "https://zenn.dev/neon_aiart/articles/27787e29a4e635",
+      "published": "Thu, 26 Nov 2026 16:33:22 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "併用不可の情報を見つけたので 併用を可能にするための修正にチャンレジ 第２弾 【イントロダクション】 結論: どちらもマージされたら使えるようになります 豆知識: コードを見て初めて分かった Anima × NegPiP の重要な仕様 解説: エンジニア様やプログラマー様じゃなくても分かりやすい解説 詳細: 専門用語を含めた専門家様向けの詳しい解説 関連: それぞれのリポジトリへのリンク （読了目安：約５～６分） ねおんが提出した修正コード（NegPiP側の #76・#77 と Regional Prompter側の #424・#425）が すべて採用される必要があります ２つを一緒に使...",
+      "category": "開発・技術",
+      "title_ja": "Forge Neo × Anima（DiT）環境における「Regional Prompter」と「NegPiP」の併用実現アプローチ",
+      "points": [
+        "画像生成WebUI「Forge Neo」とDiTモデル「Anima」の組み合わせにおいて、併用不可だった「Regional Prompter」と「NegPiP」を動かす修正コードが提案された。",
+        "両リポジトリの内部コード仕様を解析し、非互換の原因を特定した上で本家・派生プロジェクトへプルリクエストを出して対応を図っている。",
+        "DiT系生成モデルにおける領域指定やネガティブ制御など、高度な画像制御技術の自由度向上が期待される。"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "AIを活用した開発を始めるために、既存リポジトリで何から取り組むべきか",
+      "url": "https://zenn.dev/matsunaopen/articles/ai-dev-foundation-steps",
+      "published": "Thu, 26 Nov 2026 15:00:00 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "AIコーディングエージェントをチームに導入したのに、期待したほど開発が前に進まないことがあります。コードの生成速度は上がっているのに、レビューでの手戻りが増え、既存の仕様を壊す変更が混ざるようになっている状態です。 すでに運用が続いている既存リポジトリでAIを活用するには、AIが安全かつ自律的に検証を回せる環境を順番に整える必要があります。 DORAの2025年レポート『State of AI-assisted Software Development』でも、AIは既存の強みも課題もそのまま拡大する増幅器（amplifier）として位置づけられています。構造が整理され検証の仕組みが整った...",
+      "category": "開発・技術",
+      "title_ja": "既存リポジトリへのAIコーディングエージェント導入を成功させるための準備とアプローチ",
+      "points": [
+        "AIツール導入後にコードの品質低下やレビュー手戻りが増える課題に対し、既存リポジトリで安全にAIを活用するための優先アプローチが整理された。",
+        "DORAの2025年レポートが指摘するように、AIは開発体制の強みも課題も増幅させるため、テストや検証の自動化基盤を整える重要性が説かれている。",
+        "単なるコード生成速度ではなく、AIが安全かつ自律的に試行錯誤できる環境構築が開発スピード向上の鍵となる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "プロジェクトごとに、ルールが少しずつ違っていく。1つの標準を十数のプロジェクトに配るまで",
+      "url": "https://zenn.dev/intprime/articles/devstd-01-one-standard-many-repos",
+      "published": "Thu, 26 Nov 2026 14:52:58 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "プロジェクトごとにコピーしていた CLAUDE.md と設定が、いつの間にかばらばらになっていました。 共通部分を1つのリポジトリ（以下「標準リポジトリ」）にまとめ、各プロジェクトに配る形に統一した 2か月で120コミット、86本の PR。直すきっかけの多くは、標準を使う側の Claude Code からの指摘だった シリーズ「Claude Codeと育てる、頼れる開発標準」第1回（全7回）。シリーズの一覧は記事の最後にあります。 Claude Code で複数のリポジトリを並行して開発している人 プロジェクトごとに CLAUDE.md や .claude/settings.json を...",
+      "category": "開発・技術",
+      "title_ja": "複数プロジェクトで乱立する「CLAUDE.md」ルールを標準リポジトリへ集約・一元管理した事例",
+      "points": [
+        "プロジェクトごとにコピーしてバラバラになっていた「CLAUDE.md」や設定ファイルを、1つの標準リポジトリで一括配布する構造に一本化した。",
+        "2か月で120コミット・86本のPRを通じ、標準を使う側のClaude Code自身からの指摘に基づいてルール自体のブラッシュアップを重ねた。",
+        "複数リポジトリを並行開発する環境において、AIエージェントのルール設定をメンテナンスし続けるための実用的なノウハウとなる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIペネトレーション事件の教訓を自分のアプリで試したら、IDORの穴が見つかった話",
+      "url": "https://qiita.com/fukukei23/items/67f449e5bfecf49cb0c4",
+      "published": "2026-11-27T12:18:55+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "はじめに 2026年10月21日、Microsoft が衝撃的な公式報告を出しました。中国国家支援の攻撃グループ Storm-0940 が、AI駆動のペネトレーションOSS「ARTEX」を実戦で使用し・多段工程を自律連鎖させたという報告です。 「AIに攻撃をさせる」こと自...",
+      "category": "セキュリティ・倫理",
+      "title_ja": "自律型AIサイバー攻撃ツール「ARTEX」の脅威と、自社アプリで検出されたIDOR脆弱性の検証結果",
+      "points": [
+        "国家主導の攻撃グループがAIペネトレーションツール「ARTEX」を実戦投入した報告を受け、自社アプリで同様の攻撃アプローチを試用した事例が公開された。",
+        "検証の結果、自社アプリ内にIDOR（不正な直接オブジェクト参照）の脆弱性が存在することが実際に発見された。",
+        "AIによる多段攻撃の自律化・高速化が実用レベルに達した中、防衛側もAI技術を活用した積極的なセキュリティ診断が必須となる。"
+      ],
+      "importance": 4
+    }
+  ]
+}
