@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-28",
+  "updated_at": "2026-11-28T12:00:02.221977+09:00",
+  "total_count": 10,
+  "articles": [
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "published": "Thu, 26 Nov 2026 20:03:54 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "category": "海外トレンド・速報",
+      "title_ja": "NVIDIA、東南アジア向けAIチップの出荷を一時停止",
+      "points": [
+        "NVIDIAが製造パートナーに対し、マレーシア、シンガポール、タイ、インドネシアへのサーバー出荷停止を通知したことが判明した。",
+        "米国政府による中国への技術流出規制強化が背景にあり、迂回ルート防止に向けた圧力が高まっている。",
+        "東南アジアでのAIインフラ構築の遅延や、グローバルなAIサプライチェーンへの波及効果に注目が集まる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "published": "Thu, 26 Nov 2026 16:00:00 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "category": "海外トレンド・速報",
+      "title_ja": "『GTA VI』の歴史的ヒットが示す「効率化だけが正義ではない」理由",
+      "points": [
+        "AI企業Anthropicの株式公開と同日に、膨大な人の手によって作られたゲーム『GTA VI』がエンタメ史上屈指のヒットを記録した。",
+        "生成AIによる大量生産や自動化が進む中で、手作業による緻密なコンテンツ制作の価値が再評価されている。",
+        "AIによる自動化・効率化と、人間ならではの創造性の差別化や共存のあり方を考える契機となる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "published": "Wed, 25 Nov 2026 22:44:32 +0000",
+      "source": "TechCrunch AI",
+      "summary_raw": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "category": "海外トレンド・速報",
+      "title_ja": "S&P、ガバナンスおよび「特定人物依存」リスクでNVIDIAの格下げを検討",
+      "points": [
+        "大手格付会社S&Pが、NVIDIAの信用格付けを「AA-」へ引き下げる可能性を示唆した。",
+        "急拡大する事業規模に対するガバナンス体制の遅れや、経営陣などキーマンへの過度な依存が懸念材料とされている。",
+        "AI市場を牽引する巨大企業の信用格付け変化が、株式市場や今後のAIインフラ投資に与える影響が注視される。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "published": "2026-11-27T09:00:00-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
+      "category": "LLM・生成AI",
+      "title_ja": "Androidの自作AIウィジェット体験：感性によるコード生成（バイブコーディング）の魅力",
+      "points": [
+        "バスのリアルタイム運行情報を表示する専用のAndroidウィジェットをAIで手軽に自作した事例が公開された。",
+        "プログラミングの深い専門知識がなくても、自然言語による指示（バイブコーディング）で個人的な不便を解消できる。",
+        "個人ニーズに特化した「ミニアプリ」を一般ユーザーが日常的に自作する時代の到来を示唆している。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "published": "2026-11-26T04:54:40-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+      "category": "セキュリティ・倫理",
+      "title_ja": "米42州の司法長官がCharacter.AIによるユーザー対話データの売却阻止へ動く",
+      "points": [
+        "連邦破産法第11条を適用中のCharacter.AIが2,100万アカウント以上の対話履歴を売却しようとしているとして、米42州の司法長官が阻止に乗り出した。",
+        "破産手続きにおけるデジタル資産の売却と、ユーザーのプライバシー保護の競合が大きな問題となっている。",
+        "AIサービスにおける会話データの法的性質や、サービス終了・破産時のデータ保護基準に強い影響を与える可能性がある。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "published": "2026-11-25T16:51:26-05:00",
+      "source": "The Verge AI",
+      "summary_raw": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
+      "category": "海外トレンド・速報",
+      "title_ja": "GoogleのAI生成動画フィード特許が提示するエンタメの暗い未来",
+      "points": [
+        "ユーザーデータをもとに生成AIが動画や広告をパーソナライズ生成する「My Channel」システムの特許出願が判明した。",
+        "特許自体は一度拒絶されたものの、再申請等を通じて個別化されたAI動画フィードの実現を目指す動きが見られる。",
+        "過剰に最適化されたAIコンテンツが引き起こす中毒性や、従来のクリエイティブ産業への影響について議論を呼んでいる。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "AIエージェントの原型は3本の論文にあった：ReAct、SWE-bench、SWE-agentを読み解く",
+      "url": "https://zenn.dev/kentaro36/articles/ai-agent-foundation-papers",
+      "published": "Fri, 27 Nov 2026 23:07:24 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "Claude Code や Codex のようなコーディングエージェントを使っていると、不思議な既視感があります。 ファイルを探し、関係ありそうな箇所を読み、編集し、テストを回して、失敗したらログを見て直す。まるで人間の開発者の手順をなぞるような動きです。しかも、その合間に「次はこれを確認する」「このエラーは想定と違う」といった短い思考が挟まります。 この動きは、誰かが思いつきで決めたものではありません。2022年から2024年にかけて発表された3本の論文が、部品を1つずつ発明し、検証してきた結果です。 ・2022年 ReAct 思考と行動を交互に回す「ループ」の発明 ・2023年 SW...",
+      "category": "開発・技術",
+      "title_ja": "AIエージェントの原型は3本の論文にあった：ReAct、SWE-bench、SWE-agentを読み解く",
+      "points": [
+        "Claude Codeなどの開発用AIエージェントの基礎となった3本の重要論文（ReAct、SWE-bench、SWE-agent）の技術的系譜が解説された。",
+        "「思考と行動のループ構造」や実務環境でのベンチマークテストなど、エージェント自律化に必要な要素技術の進化が明かされている。",
+        "エージェントの内部メカニズムを深く理解することで、今後のより高度なAIツールの活用や開発に役立つ。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "Claude Code を複数ターミナル＋git worktree で並べて、ほぼ1人で4つの SaaSを作っている話",
+      "url": "https://zenn.dev/newsletterready/articles/4585354b62b688",
+      "published": "Fri, 27 Nov 2026 23:05:14 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "株式会社カーズリンクスの乾です。昔は OS の研究をしていて、『分散OS Machがわかる本』という本を書いたこともあります。 いま、Claude Code を使って、ほぼ1人で4つの Web サービスを作って運営しています。この記事では、規模の数字、1日の流れ、複数の Claude Code を同時に動かすときの衝突の防ぎ方、そして AI が書いたコードで実際に起きた見落としを、なるべく具体的に書きます。 先に正直に書いておくと、作る速さはかなり出ていますが、利用者はまだ少ないです。「AI で作れば売れる」という話ではなく、「1人でどこまで作れて、どこで人が要るか」の記録として読んでく...",
+      "category": "開発・技術",
+      "title_ja": "Claude Codeとgit worktreeの並列運用で1人4SaaS開発を実現する実践法",
+      "points": [
+        "Claude Codeを複数ターミナルとgit worktreeで並行稼働させ、ワンマンで4つのWebサービスを構築・運用する実践的ノウハウが公開された。",
+        "複数AIを同時並行で動かす際のコード衝突を防ぐ工夫や、AI生成コード特有の見落としなど現場のリアルな課題が共有されている。",
+        "少人数での超高速プロダクト開発が可能になる一方、マーケティングや顧客獲得など人間側の課題への注力がより重要になる。"
+      ],
+      "importance": 4
+    },
+    {
+      "title": "ChatGPTのカスタム指示で商品仕様とFAQを固定し出力ブレを防ぐ設定手順｜4ステップ",
+      "url": "https://zenn.dev/andyailab/articles/5b19e68f723333",
+      "published": "Fri, 27 Nov 2026 22:30:52 GMT",
+      "source": "Zenn (AIトピック)",
+      "summary_raw": "前置きは後にして、先にこの記事で手に入る実物を見てください。 この表をどう使うのか、どこでつまずきやすいのかを、ここから順に説明します。 昨日と今日で、AIが答える商品の値段が違っていた。 毎回プロンプトに前提条件を打ち直している。 そんな二度手間を解消したい方のための記事です。 ChatGPTのカスタム指示（Custom Instructions）に商品仕様とFAQデータを登録すれば、毎回前提を指示し直す手間がなくなります。 しかし、ただテキストを詰め込むだけでは、AIが情報を誤認したり、文字数制限で途切れて実務で使えなくなったりします。 ここから先は、AIのハルシネーション（嘘の回答...",
+      "category": "ビジネス・導入",
+      "title_ja": "ChatGPTのカスタム指示で商品仕様とFAQを固定し出力ブレを防ぐ設定手順",
+      "points": [
+        "ChatGPTの「カスタム指示」機能を使い、前提条件やFAQデータを固定してAIの回答の不確実性を防ぐ4ステップの手順が公開された。",
+        "文字数制限への対処やハルシネーション（嘘の回答）の抑制など、実務利用でつまずきやすいポイントを解消する。",
+        "ECサイトやカスタマーサポートにおける業務効率化と回答品質の標準化に即座に役立つ内容となっている。"
+      ],
+      "importance": 3
+    },
+    {
+      "title": "Ideogram 4.0徹底解説：誤字ゼロの2Kポスタータイポグラフィ設計・背景除去＆超解像パイプライン・クレジット経済性",
+      "url": "https://qiita.com/yoxi957/items/e2452d7fec39a9d72359",
+      "published": "2026-11-28T11:06:32+09:00",
+      "source": "Qiita (AIタグ)",
+      "summary_raw": "Lukas Vogel · Applied Research Editor · 公開日 2026-11-28 TLDR Ideogram 4 のグリフ精度タイポグラフィエンジン、内蔵2Kアップスケールおよび背景除去（Remove Background）ツール、そしてTur...",
+      "category": "LLM・生成AI",
+      "title_ja": "Ideogram 4.0徹底解説：2Kタイポグラフィ・背景除去・超解像パイプラインの進化",
+      "points": [
+        "画像生成AI「Ideogram 4.0」の文字描写精度向上、2K解像度のアップスケーラー、背景除去機能などの新技術が発表された。",
+        "高いグリフ精度により誤字のないタイポグラフィ生成が可能となり、画像編集パイプラインが一体化された。",
+        "商用グラフィックデザインや広告クリエイティブ制作の自動化・低コスト化が加速することが期待される。"
+      ],
+      "importance": 4
+    }
+  ]
+}
